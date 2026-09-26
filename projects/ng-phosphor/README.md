@@ -119,6 +119,9 @@ npm run build
 npm run build:demo
 ```
 
+The demo lists all 1,512 icons alphabetically, with name/import search, six weight choices, and preview sizes from 24 to 64 pixels.
+The complete catalog loads as a separate demo bundle. Consumer applications still import only the icons they need.
+
 Start the demo explicitly when you want it:
 
 ```sh
@@ -165,6 +168,13 @@ npm publish ./dist/ng-phosphor --access public
 ```
 
 Publishing is manual. CI does not hold npm credentials or publish packages automatically.
+
+## Thanks to Phosphor
+
+A heartfelt thank-you to the [Phosphor Icons](https://phosphoricons.com/) team and contributors for creating and sharing such a wonderful icon library.
+Their thoughtful artwork, consistent styles, and generous MIT license make this Angular library possible.
+
+Explore [Phosphor Icons](https://phosphoricons.com/) and visit the [upstream project](https://github.com/phosphor-icons/core) to support their work.
 
 ## License
 

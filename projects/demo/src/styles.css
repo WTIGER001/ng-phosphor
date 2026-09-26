@@ -1,6 +1,21 @@
+* { box-sizing: border-box; }
 body { margin: 0; color: #18304d; background: #f3f6f8; font: 16px/1.5 system-ui, sans-serif; }
-main { max-width: 960px; margin: auto; padding: 32px; }
-nav, section { display: flex; flex-wrap: wrap; gap: 16px; margin: 24px 0; }
-article { background: white; border: 1px solid #dce6ed; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; align-items: center; gap: 16px; min-width: 120px; }
+main { max-width: 1440px; margin: auto; padding: 32px; }
+h1 { margin-bottom: 4px; }
+header p { margin-top: 0; }
+.gallery-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; padding: 20px; background: white; border: 1px solid #dce6ed; border-radius: 12px; }
+label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; }
+.search-control { flex: 1; min-width: 240px; }
+input, select { padding: 10px 12px; border: 1px solid #b9cad8; border-radius: 6px; color: inherit; background: white; font: inherit; }
+nav { display: flex; flex-wrap: wrap; gap: 6px; }
 button { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: 1px solid #006666; border-radius: 6px; color: #006666; background: white; font: inherit; cursor: pointer; }
 button[aria-pressed="true"] { color: white; background: #006666; }
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid #006666; outline-offset: 3px; }
+.result-count { color: #526981; }
+.icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
+.icon-card { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 20px 12px; border: 1px solid #dce6ed; border-radius: 12px; background: white; text-align: center; overflow-wrap: anywhere; content-visibility: auto; contain-intrinsic-size: auto 180px; }
+.icon-preview { display: flex; align-items: center; justify-content: center; height: 72px; }
+code { font-size: 12px; color: #65778b; }
+.empty-state { grid-column: 1 / -1; }
+.usage-examples { margin-top: 32px; padding-top: 16px; border-top: 1px solid #dce6ed; }
+@media (max-width: 600px) { main { padding: 16px; } .gallery-controls { padding: 16px; } nav { width: 100%; } nav button { flex: 1; padding: 8px 10px; } }

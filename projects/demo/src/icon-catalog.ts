@@ -1,0 +1,3028 @@
+import { PhAcorn } from '../../ng-phosphor/src/lib/icons/acorn'
+import { PhAddressBook } from '../../ng-phosphor/src/lib/icons/address-book'
+import { PhAddressBookTabs } from '../../ng-phosphor/src/lib/icons/address-book-tabs'
+import { PhAirTrafficControl } from '../../ng-phosphor/src/lib/icons/air-traffic-control'
+import { PhAirplane } from '../../ng-phosphor/src/lib/icons/airplane'
+import { PhAirplaneInFlight } from '../../ng-phosphor/src/lib/icons/airplane-in-flight'
+import { PhAirplaneLanding } from '../../ng-phosphor/src/lib/icons/airplane-landing'
+import { PhAirplaneTakeoff } from '../../ng-phosphor/src/lib/icons/airplane-takeoff'
+import { PhAirplaneTaxiing } from '../../ng-phosphor/src/lib/icons/airplane-taxiing'
+import { PhAirplaneTilt } from '../../ng-phosphor/src/lib/icons/airplane-tilt'
+import { PhAirplay } from '../../ng-phosphor/src/lib/icons/airplay'
+import { PhAlarm } from '../../ng-phosphor/src/lib/icons/alarm'
+import { PhAlien } from '../../ng-phosphor/src/lib/icons/alien'
+import { PhAlignBottom } from '../../ng-phosphor/src/lib/icons/align-bottom'
+import { PhAlignBottomSimple } from '../../ng-phosphor/src/lib/icons/align-bottom-simple'
+import { PhAlignCenterHorizontal } from '../../ng-phosphor/src/lib/icons/align-center-horizontal'
+import { PhAlignCenterHorizontalSimple } from '../../ng-phosphor/src/lib/icons/align-center-horizontal-simple'
+import { PhAlignCenterVertical } from '../../ng-phosphor/src/lib/icons/align-center-vertical'
+import { PhAlignCenterVerticalSimple } from '../../ng-phosphor/src/lib/icons/align-center-vertical-simple'
+import { PhAlignLeft } from '../../ng-phosphor/src/lib/icons/align-left'
+import { PhAlignLeftSimple } from '../../ng-phosphor/src/lib/icons/align-left-simple'
+import { PhAlignRight } from '../../ng-phosphor/src/lib/icons/align-right'
+import { PhAlignRightSimple } from '../../ng-phosphor/src/lib/icons/align-right-simple'
+import { PhAlignTop } from '../../ng-phosphor/src/lib/icons/align-top'
+import { PhAlignTopSimple } from '../../ng-phosphor/src/lib/icons/align-top-simple'
+import { PhAmazonLogo } from '../../ng-phosphor/src/lib/icons/amazon-logo'
+import { PhAmbulance } from '../../ng-phosphor/src/lib/icons/ambulance'
+import { PhAnchor } from '../../ng-phosphor/src/lib/icons/anchor'
+import { PhAnchorSimple } from '../../ng-phosphor/src/lib/icons/anchor-simple'
+import { PhAndroidLogo } from '../../ng-phosphor/src/lib/icons/android-logo'
+import { PhAngle } from '../../ng-phosphor/src/lib/icons/angle'
+import { PhAngularLogo } from '../../ng-phosphor/src/lib/icons/angular-logo'
+import { PhAperture } from '../../ng-phosphor/src/lib/icons/aperture'
+import { PhAppStoreLogo } from '../../ng-phosphor/src/lib/icons/app-store-logo'
+import { PhAppWindow } from '../../ng-phosphor/src/lib/icons/app-window'
+import { PhAppleLogo } from '../../ng-phosphor/src/lib/icons/apple-logo'
+import { PhApplePodcastsLogo } from '../../ng-phosphor/src/lib/icons/apple-podcasts-logo'
+import { PhApproximateEquals } from '../../ng-phosphor/src/lib/icons/approximate-equals'
+import { PhArchive } from '../../ng-phosphor/src/lib/icons/archive'
+import { PhArmchair } from '../../ng-phosphor/src/lib/icons/armchair'
+import { PhArrowArcLeft } from '../../ng-phosphor/src/lib/icons/arrow-arc-left'
+import { PhArrowArcRight } from '../../ng-phosphor/src/lib/icons/arrow-arc-right'
+import { PhArrowBendDoubleUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-bend-double-up-left'
+import { PhArrowBendDoubleUpRight } from '../../ng-phosphor/src/lib/icons/arrow-bend-double-up-right'
+import { PhArrowBendDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-bend-down-left'
+import { PhArrowBendDownRight } from '../../ng-phosphor/src/lib/icons/arrow-bend-down-right'
+import { PhArrowBendLeftDown } from '../../ng-phosphor/src/lib/icons/arrow-bend-left-down'
+import { PhArrowBendLeftUp } from '../../ng-phosphor/src/lib/icons/arrow-bend-left-up'
+import { PhArrowBendRightDown } from '../../ng-phosphor/src/lib/icons/arrow-bend-right-down'
+import { PhArrowBendRightUp } from '../../ng-phosphor/src/lib/icons/arrow-bend-right-up'
+import { PhArrowBendUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-bend-up-left'
+import { PhArrowBendUpRight } from '../../ng-phosphor/src/lib/icons/arrow-bend-up-right'
+import { PhArrowCircleDown } from '../../ng-phosphor/src/lib/icons/arrow-circle-down'
+import { PhArrowCircleDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-circle-down-left'
+import { PhArrowCircleDownRight } from '../../ng-phosphor/src/lib/icons/arrow-circle-down-right'
+import { PhArrowCircleLeft } from '../../ng-phosphor/src/lib/icons/arrow-circle-left'
+import { PhArrowCircleRight } from '../../ng-phosphor/src/lib/icons/arrow-circle-right'
+import { PhArrowCircleUp } from '../../ng-phosphor/src/lib/icons/arrow-circle-up'
+import { PhArrowCircleUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-circle-up-left'
+import { PhArrowCircleUpRight } from '../../ng-phosphor/src/lib/icons/arrow-circle-up-right'
+import { PhArrowClockwise } from '../../ng-phosphor/src/lib/icons/arrow-clockwise'
+import { PhArrowCounterClockwise } from '../../ng-phosphor/src/lib/icons/arrow-counter-clockwise'
+import { PhArrowDown } from '../../ng-phosphor/src/lib/icons/arrow-down'
+import { PhArrowDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-down-left'
+import { PhArrowDownRight } from '../../ng-phosphor/src/lib/icons/arrow-down-right'
+import { PhArrowElbowDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-elbow-down-left'
+import { PhArrowElbowDownRight } from '../../ng-phosphor/src/lib/icons/arrow-elbow-down-right'
+import { PhArrowElbowLeft } from '../../ng-phosphor/src/lib/icons/arrow-elbow-left'
+import { PhArrowElbowLeftDown } from '../../ng-phosphor/src/lib/icons/arrow-elbow-left-down'
+import { PhArrowElbowLeftUp } from '../../ng-phosphor/src/lib/icons/arrow-elbow-left-up'
+import { PhArrowElbowRight } from '../../ng-phosphor/src/lib/icons/arrow-elbow-right'
+import { PhArrowElbowRightDown } from '../../ng-phosphor/src/lib/icons/arrow-elbow-right-down'
+import { PhArrowElbowRightUp } from '../../ng-phosphor/src/lib/icons/arrow-elbow-right-up'
+import { PhArrowElbowUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-elbow-up-left'
+import { PhArrowElbowUpRight } from '../../ng-phosphor/src/lib/icons/arrow-elbow-up-right'
+import { PhArrowFatDown } from '../../ng-phosphor/src/lib/icons/arrow-fat-down'
+import { PhArrowFatLeft } from '../../ng-phosphor/src/lib/icons/arrow-fat-left'
+import { PhArrowFatLineDown } from '../../ng-phosphor/src/lib/icons/arrow-fat-line-down'
+import { PhArrowFatLineLeft } from '../../ng-phosphor/src/lib/icons/arrow-fat-line-left'
+import { PhArrowFatLineRight } from '../../ng-phosphor/src/lib/icons/arrow-fat-line-right'
+import { PhArrowFatLineUp } from '../../ng-phosphor/src/lib/icons/arrow-fat-line-up'
+import { PhArrowFatLinesDown } from '../../ng-phosphor/src/lib/icons/arrow-fat-lines-down'
+import { PhArrowFatLinesLeft } from '../../ng-phosphor/src/lib/icons/arrow-fat-lines-left'
+import { PhArrowFatLinesRight } from '../../ng-phosphor/src/lib/icons/arrow-fat-lines-right'
+import { PhArrowFatLinesUp } from '../../ng-phosphor/src/lib/icons/arrow-fat-lines-up'
+import { PhArrowFatRight } from '../../ng-phosphor/src/lib/icons/arrow-fat-right'
+import { PhArrowFatUp } from '../../ng-phosphor/src/lib/icons/arrow-fat-up'
+import { PhArrowLeft } from '../../ng-phosphor/src/lib/icons/arrow-left'
+import { PhArrowLineDown } from '../../ng-phosphor/src/lib/icons/arrow-line-down'
+import { PhArrowLineDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-line-down-left'
+import { PhArrowLineDownRight } from '../../ng-phosphor/src/lib/icons/arrow-line-down-right'
+import { PhArrowLineLeft } from '../../ng-phosphor/src/lib/icons/arrow-line-left'
+import { PhArrowLineRight } from '../../ng-phosphor/src/lib/icons/arrow-line-right'
+import { PhArrowLineUp } from '../../ng-phosphor/src/lib/icons/arrow-line-up'
+import { PhArrowLineUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-line-up-left'
+import { PhArrowLineUpRight } from '../../ng-phosphor/src/lib/icons/arrow-line-up-right'
+import { PhArrowRight } from '../../ng-phosphor/src/lib/icons/arrow-right'
+import { PhArrowSquareDown } from '../../ng-phosphor/src/lib/icons/arrow-square-down'
+import { PhArrowSquareDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-square-down-left'
+import { PhArrowSquareDownRight } from '../../ng-phosphor/src/lib/icons/arrow-square-down-right'
+import { PhArrowSquareIn } from '../../ng-phosphor/src/lib/icons/arrow-square-in'
+import { PhArrowSquareLeft } from '../../ng-phosphor/src/lib/icons/arrow-square-left'
+import { PhArrowSquareOut } from '../../ng-phosphor/src/lib/icons/arrow-square-out'
+import { PhArrowSquareRight } from '../../ng-phosphor/src/lib/icons/arrow-square-right'
+import { PhArrowSquareUp } from '../../ng-phosphor/src/lib/icons/arrow-square-up'
+import { PhArrowSquareUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-square-up-left'
+import { PhArrowSquareUpRight } from '../../ng-phosphor/src/lib/icons/arrow-square-up-right'
+import { PhArrowUDownLeft } from '../../ng-phosphor/src/lib/icons/arrow-u-down-left'
+import { PhArrowUDownRight } from '../../ng-phosphor/src/lib/icons/arrow-u-down-right'
+import { PhArrowULeftDown } from '../../ng-phosphor/src/lib/icons/arrow-u-left-down'
+import { PhArrowULeftUp } from '../../ng-phosphor/src/lib/icons/arrow-u-left-up'
+import { PhArrowURightDown } from '../../ng-phosphor/src/lib/icons/arrow-u-right-down'
+import { PhArrowURightUp } from '../../ng-phosphor/src/lib/icons/arrow-u-right-up'
+import { PhArrowUUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-u-up-left'
+import { PhArrowUUpRight } from '../../ng-phosphor/src/lib/icons/arrow-u-up-right'
+import { PhArrowUp } from '../../ng-phosphor/src/lib/icons/arrow-up'
+import { PhArrowUpLeft } from '../../ng-phosphor/src/lib/icons/arrow-up-left'
+import { PhArrowUpRight } from '../../ng-phosphor/src/lib/icons/arrow-up-right'
+import { PhArrowsClockwise } from '../../ng-phosphor/src/lib/icons/arrows-clockwise'
+import { PhArrowsCounterClockwise } from '../../ng-phosphor/src/lib/icons/arrows-counter-clockwise'
+import { PhArrowsDownUp } from '../../ng-phosphor/src/lib/icons/arrows-down-up'
+import { PhArrowsHorizontal } from '../../ng-phosphor/src/lib/icons/arrows-horizontal'
+import { PhArrowsIn } from '../../ng-phosphor/src/lib/icons/arrows-in'
+import { PhArrowsInCardinal } from '../../ng-phosphor/src/lib/icons/arrows-in-cardinal'
+import { PhArrowsInLineHorizontal } from '../../ng-phosphor/src/lib/icons/arrows-in-line-horizontal'
+import { PhArrowsInLineVertical } from '../../ng-phosphor/src/lib/icons/arrows-in-line-vertical'
+import { PhArrowsInSimple } from '../../ng-phosphor/src/lib/icons/arrows-in-simple'
+import { PhArrowsLeftRight } from '../../ng-phosphor/src/lib/icons/arrows-left-right'
+import { PhArrowsMerge } from '../../ng-phosphor/src/lib/icons/arrows-merge'
+import { PhArrowsOut } from '../../ng-phosphor/src/lib/icons/arrows-out'
+import { PhArrowsOutCardinal } from '../../ng-phosphor/src/lib/icons/arrows-out-cardinal'
+import { PhArrowsOutLineHorizontal } from '../../ng-phosphor/src/lib/icons/arrows-out-line-horizontal'
+import { PhArrowsOutLineVertical } from '../../ng-phosphor/src/lib/icons/arrows-out-line-vertical'
+import { PhArrowsOutSimple } from '../../ng-phosphor/src/lib/icons/arrows-out-simple'
+import { PhArrowsSplit } from '../../ng-phosphor/src/lib/icons/arrows-split'
+import { PhArrowsVertical } from '../../ng-phosphor/src/lib/icons/arrows-vertical'
+import { PhArticle } from '../../ng-phosphor/src/lib/icons/article'
+import { PhArticleMedium } from '../../ng-phosphor/src/lib/icons/article-medium'
+import { PhArticleNyTimes } from '../../ng-phosphor/src/lib/icons/article-ny-times'
+import { PhAsclepius } from '../../ng-phosphor/src/lib/icons/asclepius'
+import { PhAsterisk } from '../../ng-phosphor/src/lib/icons/asterisk'
+import { PhAsteriskSimple } from '../../ng-phosphor/src/lib/icons/asterisk-simple'
+import { PhAt } from '../../ng-phosphor/src/lib/icons/at'
+import { PhAtom } from '../../ng-phosphor/src/lib/icons/atom'
+import { PhAvocado } from '../../ng-phosphor/src/lib/icons/avocado'
+import { PhAxe } from '../../ng-phosphor/src/lib/icons/axe'
+import { PhBaby } from '../../ng-phosphor/src/lib/icons/baby'
+import { PhBabyCarriage } from '../../ng-phosphor/src/lib/icons/baby-carriage'
+import { PhBackpack } from '../../ng-phosphor/src/lib/icons/backpack'
+import { PhBackspace } from '../../ng-phosphor/src/lib/icons/backspace'
+import { PhBag } from '../../ng-phosphor/src/lib/icons/bag'
+import { PhBagSimple } from '../../ng-phosphor/src/lib/icons/bag-simple'
+import { PhBalloon } from '../../ng-phosphor/src/lib/icons/balloon'
+import { PhBandaids } from '../../ng-phosphor/src/lib/icons/bandaids'
+import { PhBank } from '../../ng-phosphor/src/lib/icons/bank'
+import { PhBarbell } from '../../ng-phosphor/src/lib/icons/barbell'
+import { PhBarcode } from '../../ng-phosphor/src/lib/icons/barcode'
+import { PhBarn } from '../../ng-phosphor/src/lib/icons/barn'
+import { PhBarricade } from '../../ng-phosphor/src/lib/icons/barricade'
+import { PhBaseball } from '../../ng-phosphor/src/lib/icons/baseball'
+import { PhBaseballCap } from '../../ng-phosphor/src/lib/icons/baseball-cap'
+import { PhBaseballHelmet } from '../../ng-phosphor/src/lib/icons/baseball-helmet'
+import { PhBasket } from '../../ng-phosphor/src/lib/icons/basket'
+import { PhBasketball } from '../../ng-phosphor/src/lib/icons/basketball'
+import { PhBathtub } from '../../ng-phosphor/src/lib/icons/bathtub'
+import { PhBatteryCharging } from '../../ng-phosphor/src/lib/icons/battery-charging'
+import { PhBatteryChargingVertical } from '../../ng-phosphor/src/lib/icons/battery-charging-vertical'
+import { PhBatteryEmpty } from '../../ng-phosphor/src/lib/icons/battery-empty'
+import { PhBatteryFull } from '../../ng-phosphor/src/lib/icons/battery-full'
+import { PhBatteryHigh } from '../../ng-phosphor/src/lib/icons/battery-high'
+import { PhBatteryLow } from '../../ng-phosphor/src/lib/icons/battery-low'
+import { PhBatteryMedium } from '../../ng-phosphor/src/lib/icons/battery-medium'
+import { PhBatteryPlus } from '../../ng-phosphor/src/lib/icons/battery-plus'
+import { PhBatteryPlusVertical } from '../../ng-phosphor/src/lib/icons/battery-plus-vertical'
+import { PhBatteryVerticalEmpty } from '../../ng-phosphor/src/lib/icons/battery-vertical-empty'
+import { PhBatteryVerticalFull } from '../../ng-phosphor/src/lib/icons/battery-vertical-full'
+import { PhBatteryVerticalHigh } from '../../ng-phosphor/src/lib/icons/battery-vertical-high'
+import { PhBatteryVerticalLow } from '../../ng-phosphor/src/lib/icons/battery-vertical-low'
+import { PhBatteryVerticalMedium } from '../../ng-phosphor/src/lib/icons/battery-vertical-medium'
+import { PhBatteryWarning } from '../../ng-phosphor/src/lib/icons/battery-warning'
+import { PhBatteryWarningVertical } from '../../ng-phosphor/src/lib/icons/battery-warning-vertical'
+import { PhBeachBall } from '../../ng-phosphor/src/lib/icons/beach-ball'
+import { PhBeanie } from '../../ng-phosphor/src/lib/icons/beanie'
+import { PhBed } from '../../ng-phosphor/src/lib/icons/bed'
+import { PhBeerBottle } from '../../ng-phosphor/src/lib/icons/beer-bottle'
+import { PhBeerStein } from '../../ng-phosphor/src/lib/icons/beer-stein'
+import { PhBehanceLogo } from '../../ng-phosphor/src/lib/icons/behance-logo'
+import { PhBell } from '../../ng-phosphor/src/lib/icons/bell'
+import { PhBellRinging } from '../../ng-phosphor/src/lib/icons/bell-ringing'
+import { PhBellSimple } from '../../ng-phosphor/src/lib/icons/bell-simple'
+import { PhBellSimpleRinging } from '../../ng-phosphor/src/lib/icons/bell-simple-ringing'
+import { PhBellSimpleSlash } from '../../ng-phosphor/src/lib/icons/bell-simple-slash'
+import { PhBellSimpleZ } from '../../ng-phosphor/src/lib/icons/bell-simple-z'
+import { PhBellSlash } from '../../ng-phosphor/src/lib/icons/bell-slash'
+import { PhBellZ } from '../../ng-phosphor/src/lib/icons/bell-z'
+import { PhBelt } from '../../ng-phosphor/src/lib/icons/belt'
+import { PhBezierCurve } from '../../ng-phosphor/src/lib/icons/bezier-curve'
+import { PhBicycle } from '../../ng-phosphor/src/lib/icons/bicycle'
+import { PhBinary } from '../../ng-phosphor/src/lib/icons/binary'
+import { PhBinoculars } from '../../ng-phosphor/src/lib/icons/binoculars'
+import { PhBiohazard } from '../../ng-phosphor/src/lib/icons/biohazard'
+import { PhBird } from '../../ng-phosphor/src/lib/icons/bird'
+import { PhBlueprint } from '../../ng-phosphor/src/lib/icons/blueprint'
+import { PhBluetooth } from '../../ng-phosphor/src/lib/icons/bluetooth'
+import { PhBluetoothConnected } from '../../ng-phosphor/src/lib/icons/bluetooth-connected'
+import { PhBluetoothSlash } from '../../ng-phosphor/src/lib/icons/bluetooth-slash'
+import { PhBluetoothX } from '../../ng-phosphor/src/lib/icons/bluetooth-x'
+import { PhBoat } from '../../ng-phosphor/src/lib/icons/boat'
+import { PhBomb } from '../../ng-phosphor/src/lib/icons/bomb'
+import { PhBone } from '../../ng-phosphor/src/lib/icons/bone'
+import { PhBook } from '../../ng-phosphor/src/lib/icons/book'
+import { PhBookBookmark } from '../../ng-phosphor/src/lib/icons/book-bookmark'
+import { PhBookOpen } from '../../ng-phosphor/src/lib/icons/book-open'
+import { PhBookOpenText } from '../../ng-phosphor/src/lib/icons/book-open-text'
+import { PhBookOpenUser } from '../../ng-phosphor/src/lib/icons/book-open-user'
+import { PhBookmark } from '../../ng-phosphor/src/lib/icons/bookmark'
+import { PhBookmarkSimple } from '../../ng-phosphor/src/lib/icons/bookmark-simple'
+import { PhBookmarks } from '../../ng-phosphor/src/lib/icons/bookmarks'
+import { PhBookmarksSimple } from '../../ng-phosphor/src/lib/icons/bookmarks-simple'
+import { PhBooks } from '../../ng-phosphor/src/lib/icons/books'
+import { PhBoot } from '../../ng-phosphor/src/lib/icons/boot'
+import { PhBoules } from '../../ng-phosphor/src/lib/icons/boules'
+import { PhBoundingBox } from '../../ng-phosphor/src/lib/icons/bounding-box'
+import { PhBowlFood } from '../../ng-phosphor/src/lib/icons/bowl-food'
+import { PhBowlSteam } from '../../ng-phosphor/src/lib/icons/bowl-steam'
+import { PhBowlingBall } from '../../ng-phosphor/src/lib/icons/bowling-ball'
+import { PhBoxArrowDown } from '../../ng-phosphor/src/lib/icons/box-arrow-down'
+import { PhBoxArrowUp } from '../../ng-phosphor/src/lib/icons/box-arrow-up'
+import { PhBoxingGlove } from '../../ng-phosphor/src/lib/icons/boxing-glove'
+import { PhBracketsAngle } from '../../ng-phosphor/src/lib/icons/brackets-angle'
+import { PhBracketsCurly } from '../../ng-phosphor/src/lib/icons/brackets-curly'
+import { PhBracketsRound } from '../../ng-phosphor/src/lib/icons/brackets-round'
+import { PhBracketsSquare } from '../../ng-phosphor/src/lib/icons/brackets-square'
+import { PhBrain } from '../../ng-phosphor/src/lib/icons/brain'
+import { PhBrandy } from '../../ng-phosphor/src/lib/icons/brandy'
+import { PhBread } from '../../ng-phosphor/src/lib/icons/bread'
+import { PhBridge } from '../../ng-phosphor/src/lib/icons/bridge'
+import { PhBriefcase } from '../../ng-phosphor/src/lib/icons/briefcase'
+import { PhBriefcaseMetal } from '../../ng-phosphor/src/lib/icons/briefcase-metal'
+import { PhBroadcast } from '../../ng-phosphor/src/lib/icons/broadcast'
+import { PhBroom } from '../../ng-phosphor/src/lib/icons/broom'
+import { PhBrowser } from '../../ng-phosphor/src/lib/icons/browser'
+import { PhBrowsers } from '../../ng-phosphor/src/lib/icons/browsers'
+import { PhBug } from '../../ng-phosphor/src/lib/icons/bug'
+import { PhBugBeetle } from '../../ng-phosphor/src/lib/icons/bug-beetle'
+import { PhBugDroid } from '../../ng-phosphor/src/lib/icons/bug-droid'
+import { PhBuilding } from '../../ng-phosphor/src/lib/icons/building'
+import { PhBuildingApartment } from '../../ng-phosphor/src/lib/icons/building-apartment'
+import { PhBuildingOffice } from '../../ng-phosphor/src/lib/icons/building-office'
+import { PhBuildings } from '../../ng-phosphor/src/lib/icons/buildings'
+import { PhBulldozer } from '../../ng-phosphor/src/lib/icons/bulldozer'
+import { PhBus } from '../../ng-phosphor/src/lib/icons/bus'
+import { PhButterfly } from '../../ng-phosphor/src/lib/icons/butterfly'
+import { PhCableCar } from '../../ng-phosphor/src/lib/icons/cable-car'
+import { PhCactus } from '../../ng-phosphor/src/lib/icons/cactus'
+import { PhCake } from '../../ng-phosphor/src/lib/icons/cake'
+import { PhCalculator } from '../../ng-phosphor/src/lib/icons/calculator'
+import { PhCalendar } from '../../ng-phosphor/src/lib/icons/calendar'
+import { PhCalendarBlank } from '../../ng-phosphor/src/lib/icons/calendar-blank'
+import { PhCalendarCheck } from '../../ng-phosphor/src/lib/icons/calendar-check'
+import { PhCalendarDot } from '../../ng-phosphor/src/lib/icons/calendar-dot'
+import { PhCalendarDots } from '../../ng-phosphor/src/lib/icons/calendar-dots'
+import { PhCalendarHeart } from '../../ng-phosphor/src/lib/icons/calendar-heart'
+import { PhCalendarMinus } from '../../ng-phosphor/src/lib/icons/calendar-minus'
+import { PhCalendarPlus } from '../../ng-phosphor/src/lib/icons/calendar-plus'
+import { PhCalendarSlash } from '../../ng-phosphor/src/lib/icons/calendar-slash'
+import { PhCalendarStar } from '../../ng-phosphor/src/lib/icons/calendar-star'
+import { PhCalendarX } from '../../ng-phosphor/src/lib/icons/calendar-x'
+import { PhCallBell } from '../../ng-phosphor/src/lib/icons/call-bell'
+import { PhCamera } from '../../ng-phosphor/src/lib/icons/camera'
+import { PhCameraPlus } from '../../ng-phosphor/src/lib/icons/camera-plus'
+import { PhCameraRotate } from '../../ng-phosphor/src/lib/icons/camera-rotate'
+import { PhCameraSlash } from '../../ng-phosphor/src/lib/icons/camera-slash'
+import { PhCampfire } from '../../ng-phosphor/src/lib/icons/campfire'
+import { PhCar } from '../../ng-phosphor/src/lib/icons/car'
+import { PhCarBattery } from '../../ng-phosphor/src/lib/icons/car-battery'
+import { PhCarProfile } from '../../ng-phosphor/src/lib/icons/car-profile'
+import { PhCarSimple } from '../../ng-phosphor/src/lib/icons/car-simple'
+import { PhCardholder } from '../../ng-phosphor/src/lib/icons/cardholder'
+import { PhCards } from '../../ng-phosphor/src/lib/icons/cards'
+import { PhCardsThree } from '../../ng-phosphor/src/lib/icons/cards-three'
+import { PhCaretCircleDoubleDown } from '../../ng-phosphor/src/lib/icons/caret-circle-double-down'
+import { PhCaretCircleDoubleLeft } from '../../ng-phosphor/src/lib/icons/caret-circle-double-left'
+import { PhCaretCircleDoubleRight } from '../../ng-phosphor/src/lib/icons/caret-circle-double-right'
+import { PhCaretCircleDoubleUp } from '../../ng-phosphor/src/lib/icons/caret-circle-double-up'
+import { PhCaretCircleDown } from '../../ng-phosphor/src/lib/icons/caret-circle-down'
+import { PhCaretCircleLeft } from '../../ng-phosphor/src/lib/icons/caret-circle-left'
+import { PhCaretCircleRight } from '../../ng-phosphor/src/lib/icons/caret-circle-right'
+import { PhCaretCircleUp } from '../../ng-phosphor/src/lib/icons/caret-circle-up'
+import { PhCaretCircleUpDown } from '../../ng-phosphor/src/lib/icons/caret-circle-up-down'
+import { PhCaretDoubleDown } from '../../ng-phosphor/src/lib/icons/caret-double-down'
+import { PhCaretDoubleLeft } from '../../ng-phosphor/src/lib/icons/caret-double-left'
+import { PhCaretDoubleRight } from '../../ng-phosphor/src/lib/icons/caret-double-right'
+import { PhCaretDoubleUp } from '../../ng-phosphor/src/lib/icons/caret-double-up'
+import { PhCaretDown } from '../../ng-phosphor/src/lib/icons/caret-down'
+import { PhCaretLeft } from '../../ng-phosphor/src/lib/icons/caret-left'
+import { PhCaretLineDown } from '../../ng-phosphor/src/lib/icons/caret-line-down'
+import { PhCaretLineLeft } from '../../ng-phosphor/src/lib/icons/caret-line-left'
+import { PhCaretLineRight } from '../../ng-phosphor/src/lib/icons/caret-line-right'
+import { PhCaretLineUp } from '../../ng-phosphor/src/lib/icons/caret-line-up'
+import { PhCaretRight } from '../../ng-phosphor/src/lib/icons/caret-right'
+import { PhCaretUp } from '../../ng-phosphor/src/lib/icons/caret-up'
+import { PhCaretUpDown } from '../../ng-phosphor/src/lib/icons/caret-up-down'
+import { PhCarrot } from '../../ng-phosphor/src/lib/icons/carrot'
+import { PhCashRegister } from '../../ng-phosphor/src/lib/icons/cash-register'
+import { PhCassetteTape } from '../../ng-phosphor/src/lib/icons/cassette-tape'
+import { PhCastleTurret } from '../../ng-phosphor/src/lib/icons/castle-turret'
+import { PhCat } from '../../ng-phosphor/src/lib/icons/cat'
+import { PhCellSignalFull } from '../../ng-phosphor/src/lib/icons/cell-signal-full'
+import { PhCellSignalHigh } from '../../ng-phosphor/src/lib/icons/cell-signal-high'
+import { PhCellSignalLow } from '../../ng-phosphor/src/lib/icons/cell-signal-low'
+import { PhCellSignalMedium } from '../../ng-phosphor/src/lib/icons/cell-signal-medium'
+import { PhCellSignalNone } from '../../ng-phosphor/src/lib/icons/cell-signal-none'
+import { PhCellSignalSlash } from '../../ng-phosphor/src/lib/icons/cell-signal-slash'
+import { PhCellSignalX } from '../../ng-phosphor/src/lib/icons/cell-signal-x'
+import { PhCellTower } from '../../ng-phosphor/src/lib/icons/cell-tower'
+import { PhCertificate } from '../../ng-phosphor/src/lib/icons/certificate'
+import { PhChair } from '../../ng-phosphor/src/lib/icons/chair'
+import { PhChalkboard } from '../../ng-phosphor/src/lib/icons/chalkboard'
+import { PhChalkboardSimple } from '../../ng-phosphor/src/lib/icons/chalkboard-simple'
+import { PhChalkboardTeacher } from '../../ng-phosphor/src/lib/icons/chalkboard-teacher'
+import { PhChampagne } from '../../ng-phosphor/src/lib/icons/champagne'
+import { PhChargingStation } from '../../ng-phosphor/src/lib/icons/charging-station'
+import { PhChartBar } from '../../ng-phosphor/src/lib/icons/chart-bar'
+import { PhChartBarHorizontal } from '../../ng-phosphor/src/lib/icons/chart-bar-horizontal'
+import { PhChartDonut } from '../../ng-phosphor/src/lib/icons/chart-donut'
+import { PhChartLine } from '../../ng-phosphor/src/lib/icons/chart-line'
+import { PhChartLineDown } from '../../ng-phosphor/src/lib/icons/chart-line-down'
+import { PhChartLineUp } from '../../ng-phosphor/src/lib/icons/chart-line-up'
+import { PhChartPie } from '../../ng-phosphor/src/lib/icons/chart-pie'
+import { PhChartPieSlice } from '../../ng-phosphor/src/lib/icons/chart-pie-slice'
+import { PhChartPolar } from '../../ng-phosphor/src/lib/icons/chart-polar'
+import { PhChartScatter } from '../../ng-phosphor/src/lib/icons/chart-scatter'
+import { PhChat } from '../../ng-phosphor/src/lib/icons/chat'
+import { PhChatCentered } from '../../ng-phosphor/src/lib/icons/chat-centered'
+import { PhChatCenteredDots } from '../../ng-phosphor/src/lib/icons/chat-centered-dots'
+import { PhChatCenteredSlash } from '../../ng-phosphor/src/lib/icons/chat-centered-slash'
+import { PhChatCenteredText } from '../../ng-phosphor/src/lib/icons/chat-centered-text'
+import { PhChatCircle } from '../../ng-phosphor/src/lib/icons/chat-circle'
+import { PhChatCircleDots } from '../../ng-phosphor/src/lib/icons/chat-circle-dots'
+import { PhChatCircleSlash } from '../../ng-phosphor/src/lib/icons/chat-circle-slash'
+import { PhChatCircleText } from '../../ng-phosphor/src/lib/icons/chat-circle-text'
+import { PhChatDots } from '../../ng-phosphor/src/lib/icons/chat-dots'
+import { PhChatSlash } from '../../ng-phosphor/src/lib/icons/chat-slash'
+import { PhChatTeardrop } from '../../ng-phosphor/src/lib/icons/chat-teardrop'
+import { PhChatTeardropDots } from '../../ng-phosphor/src/lib/icons/chat-teardrop-dots'
+import { PhChatTeardropSlash } from '../../ng-phosphor/src/lib/icons/chat-teardrop-slash'
+import { PhChatTeardropText } from '../../ng-phosphor/src/lib/icons/chat-teardrop-text'
+import { PhChatText } from '../../ng-phosphor/src/lib/icons/chat-text'
+import { PhChats } from '../../ng-phosphor/src/lib/icons/chats'
+import { PhChatsCircle } from '../../ng-phosphor/src/lib/icons/chats-circle'
+import { PhChatsTeardrop } from '../../ng-phosphor/src/lib/icons/chats-teardrop'
+import { PhCheck } from '../../ng-phosphor/src/lib/icons/check'
+import { PhCheckCircle } from '../../ng-phosphor/src/lib/icons/check-circle'
+import { PhCheckFat } from '../../ng-phosphor/src/lib/icons/check-fat'
+import { PhCheckSquare } from '../../ng-phosphor/src/lib/icons/check-square'
+import { PhCheckSquareOffset } from '../../ng-phosphor/src/lib/icons/check-square-offset'
+import { PhCheckerboard } from '../../ng-phosphor/src/lib/icons/checkerboard'
+import { PhChecks } from '../../ng-phosphor/src/lib/icons/checks'
+import { PhCheers } from '../../ng-phosphor/src/lib/icons/cheers'
+import { PhCheese } from '../../ng-phosphor/src/lib/icons/cheese'
+import { PhChefHat } from '../../ng-phosphor/src/lib/icons/chef-hat'
+import { PhCherries } from '../../ng-phosphor/src/lib/icons/cherries'
+import { PhChurch } from '../../ng-phosphor/src/lib/icons/church'
+import { PhCigarette } from '../../ng-phosphor/src/lib/icons/cigarette'
+import { PhCigaretteSlash } from '../../ng-phosphor/src/lib/icons/cigarette-slash'
+import { PhCircle } from '../../ng-phosphor/src/lib/icons/circle'
+import { PhCircleDashed } from '../../ng-phosphor/src/lib/icons/circle-dashed'
+import { PhCircleHalf } from '../../ng-phosphor/src/lib/icons/circle-half'
+import { PhCircleHalfTilt } from '../../ng-phosphor/src/lib/icons/circle-half-tilt'
+import { PhCircleNotch } from '../../ng-phosphor/src/lib/icons/circle-notch'
+import { PhCirclesFour } from '../../ng-phosphor/src/lib/icons/circles-four'
+import { PhCirclesThree } from '../../ng-phosphor/src/lib/icons/circles-three'
+import { PhCirclesThreePlus } from '../../ng-phosphor/src/lib/icons/circles-three-plus'
+import { PhCircuitry } from '../../ng-phosphor/src/lib/icons/circuitry'
+import { PhCity } from '../../ng-phosphor/src/lib/icons/city'
+import { PhClipboard } from '../../ng-phosphor/src/lib/icons/clipboard'
+import { PhClipboardText } from '../../ng-phosphor/src/lib/icons/clipboard-text'
+import { PhClock } from '../../ng-phosphor/src/lib/icons/clock'
+import { PhClockAfternoon } from '../../ng-phosphor/src/lib/icons/clock-afternoon'
+import { PhClockClockwise } from '../../ng-phosphor/src/lib/icons/clock-clockwise'
+import { PhClockCountdown } from '../../ng-phosphor/src/lib/icons/clock-countdown'
+import { PhClockCounterClockwise } from '../../ng-phosphor/src/lib/icons/clock-counter-clockwise'
+import { PhClockUser } from '../../ng-phosphor/src/lib/icons/clock-user'
+import { PhClosedCaptioning } from '../../ng-phosphor/src/lib/icons/closed-captioning'
+import { PhCloud } from '../../ng-phosphor/src/lib/icons/cloud'
+import { PhCloudArrowDown } from '../../ng-phosphor/src/lib/icons/cloud-arrow-down'
+import { PhCloudArrowUp } from '../../ng-phosphor/src/lib/icons/cloud-arrow-up'
+import { PhCloudCheck } from '../../ng-phosphor/src/lib/icons/cloud-check'
+import { PhCloudFog } from '../../ng-phosphor/src/lib/icons/cloud-fog'
+import { PhCloudLightning } from '../../ng-phosphor/src/lib/icons/cloud-lightning'
+import { PhCloudMoon } from '../../ng-phosphor/src/lib/icons/cloud-moon'
+import { PhCloudRain } from '../../ng-phosphor/src/lib/icons/cloud-rain'
+import { PhCloudSlash } from '../../ng-phosphor/src/lib/icons/cloud-slash'
+import { PhCloudSnow } from '../../ng-phosphor/src/lib/icons/cloud-snow'
+import { PhCloudSun } from '../../ng-phosphor/src/lib/icons/cloud-sun'
+import { PhCloudWarning } from '../../ng-phosphor/src/lib/icons/cloud-warning'
+import { PhCloudX } from '../../ng-phosphor/src/lib/icons/cloud-x'
+import { PhClover } from '../../ng-phosphor/src/lib/icons/clover'
+import { PhClub } from '../../ng-phosphor/src/lib/icons/club'
+import { PhCoatHanger } from '../../ng-phosphor/src/lib/icons/coat-hanger'
+import { PhCodaLogo } from '../../ng-phosphor/src/lib/icons/coda-logo'
+import { PhCode } from '../../ng-phosphor/src/lib/icons/code'
+import { PhCodeBlock } from '../../ng-phosphor/src/lib/icons/code-block'
+import { PhCodeSimple } from '../../ng-phosphor/src/lib/icons/code-simple'
+import { PhCodepenLogo } from '../../ng-phosphor/src/lib/icons/codepen-logo'
+import { PhCodesandboxLogo } from '../../ng-phosphor/src/lib/icons/codesandbox-logo'
+import { PhCoffee } from '../../ng-phosphor/src/lib/icons/coffee'
+import { PhCoffeeBean } from '../../ng-phosphor/src/lib/icons/coffee-bean'
+import { PhCoin } from '../../ng-phosphor/src/lib/icons/coin'
+import { PhCoinVertical } from '../../ng-phosphor/src/lib/icons/coin-vertical'
+import { PhCoins } from '../../ng-phosphor/src/lib/icons/coins'
+import { PhColumns } from '../../ng-phosphor/src/lib/icons/columns'
+import { PhColumnsPlusLeft } from '../../ng-phosphor/src/lib/icons/columns-plus-left'
+import { PhColumnsPlusRight } from '../../ng-phosphor/src/lib/icons/columns-plus-right'
+import { PhCommand } from '../../ng-phosphor/src/lib/icons/command'
+import { PhCompass } from '../../ng-phosphor/src/lib/icons/compass'
+import { PhCompassRose } from '../../ng-phosphor/src/lib/icons/compass-rose'
+import { PhCompassTool } from '../../ng-phosphor/src/lib/icons/compass-tool'
+import { PhComputerTower } from '../../ng-phosphor/src/lib/icons/computer-tower'
+import { PhConfetti } from '../../ng-phosphor/src/lib/icons/confetti'
+import { PhContactlessPayment } from '../../ng-phosphor/src/lib/icons/contactless-payment'
+import { PhControl } from '../../ng-phosphor/src/lib/icons/control'
+import { PhCookie } from '../../ng-phosphor/src/lib/icons/cookie'
+import { PhCookingPot } from '../../ng-phosphor/src/lib/icons/cooking-pot'
+import { PhCopy } from '../../ng-phosphor/src/lib/icons/copy'
+import { PhCopySimple } from '../../ng-phosphor/src/lib/icons/copy-simple'
+import { PhCopyleft } from '../../ng-phosphor/src/lib/icons/copyleft'
+import { PhCopyright } from '../../ng-phosphor/src/lib/icons/copyright'
+import { PhCornersIn } from '../../ng-phosphor/src/lib/icons/corners-in'
+import { PhCornersOut } from '../../ng-phosphor/src/lib/icons/corners-out'
+import { PhCouch } from '../../ng-phosphor/src/lib/icons/couch'
+import { PhCourtBasketball } from '../../ng-phosphor/src/lib/icons/court-basketball'
+import { PhCow } from '../../ng-phosphor/src/lib/icons/cow'
+import { PhCowboyHat } from '../../ng-phosphor/src/lib/icons/cowboy-hat'
+import { PhCpu } from '../../ng-phosphor/src/lib/icons/cpu'
+import { PhCrane } from '../../ng-phosphor/src/lib/icons/crane'
+import { PhCraneTower } from '../../ng-phosphor/src/lib/icons/crane-tower'
+import { PhCreditCard } from '../../ng-phosphor/src/lib/icons/credit-card'
+import { PhCricket } from '../../ng-phosphor/src/lib/icons/cricket'
+import { PhCrop } from '../../ng-phosphor/src/lib/icons/crop'
+import { PhCross } from '../../ng-phosphor/src/lib/icons/cross'
+import { PhCrosshair } from '../../ng-phosphor/src/lib/icons/crosshair'
+import { PhCrosshairSimple } from '../../ng-phosphor/src/lib/icons/crosshair-simple'
+import { PhCrown } from '../../ng-phosphor/src/lib/icons/crown'
+import { PhCrownCross } from '../../ng-phosphor/src/lib/icons/crown-cross'
+import { PhCrownSimple } from '../../ng-phosphor/src/lib/icons/crown-simple'
+import { PhCube } from '../../ng-phosphor/src/lib/icons/cube'
+import { PhCubeFocus } from '../../ng-phosphor/src/lib/icons/cube-focus'
+import { PhCubeTransparent } from '../../ng-phosphor/src/lib/icons/cube-transparent'
+import { PhCurrencyBtc } from '../../ng-phosphor/src/lib/icons/currency-btc'
+import { PhCurrencyCircleDollar } from '../../ng-phosphor/src/lib/icons/currency-circle-dollar'
+import { PhCurrencyCny } from '../../ng-phosphor/src/lib/icons/currency-cny'
+import { PhCurrencyDollar } from '../../ng-phosphor/src/lib/icons/currency-dollar'
+import { PhCurrencyDollarSimple } from '../../ng-phosphor/src/lib/icons/currency-dollar-simple'
+import { PhCurrencyEth } from '../../ng-phosphor/src/lib/icons/currency-eth'
+import { PhCurrencyEur } from '../../ng-phosphor/src/lib/icons/currency-eur'
+import { PhCurrencyGbp } from '../../ng-phosphor/src/lib/icons/currency-gbp'
+import { PhCurrencyInr } from '../../ng-phosphor/src/lib/icons/currency-inr'
+import { PhCurrencyJpy } from '../../ng-phosphor/src/lib/icons/currency-jpy'
+import { PhCurrencyKrw } from '../../ng-phosphor/src/lib/icons/currency-krw'
+import { PhCurrencyKzt } from '../../ng-phosphor/src/lib/icons/currency-kzt'
+import { PhCurrencyNgn } from '../../ng-phosphor/src/lib/icons/currency-ngn'
+import { PhCurrencyRub } from '../../ng-phosphor/src/lib/icons/currency-rub'
+import { PhCursor } from '../../ng-phosphor/src/lib/icons/cursor'
+import { PhCursorClick } from '../../ng-phosphor/src/lib/icons/cursor-click'
+import { PhCursorText } from '../../ng-phosphor/src/lib/icons/cursor-text'
+import { PhCylinder } from '../../ng-phosphor/src/lib/icons/cylinder'
+import { PhDatabase } from '../../ng-phosphor/src/lib/icons/database'
+import { PhDesk } from '../../ng-phosphor/src/lib/icons/desk'
+import { PhDesktop } from '../../ng-phosphor/src/lib/icons/desktop'
+import { PhDesktopTower } from '../../ng-phosphor/src/lib/icons/desktop-tower'
+import { PhDetective } from '../../ng-phosphor/src/lib/icons/detective'
+import { PhDevToLogo } from '../../ng-phosphor/src/lib/icons/dev-to-logo'
+import { PhDeviceMobile } from '../../ng-phosphor/src/lib/icons/device-mobile'
+import { PhDeviceMobileCamera } from '../../ng-phosphor/src/lib/icons/device-mobile-camera'
+import { PhDeviceMobileSlash } from '../../ng-phosphor/src/lib/icons/device-mobile-slash'
+import { PhDeviceMobileSpeaker } from '../../ng-phosphor/src/lib/icons/device-mobile-speaker'
+import { PhDeviceRotate } from '../../ng-phosphor/src/lib/icons/device-rotate'
+import { PhDeviceTablet } from '../../ng-phosphor/src/lib/icons/device-tablet'
+import { PhDeviceTabletCamera } from '../../ng-phosphor/src/lib/icons/device-tablet-camera'
+import { PhDeviceTabletSpeaker } from '../../ng-phosphor/src/lib/icons/device-tablet-speaker'
+import { PhDevices } from '../../ng-phosphor/src/lib/icons/devices'
+import { PhDiamond } from '../../ng-phosphor/src/lib/icons/diamond'
+import { PhDiamondsFour } from '../../ng-phosphor/src/lib/icons/diamonds-four'
+import { PhDiceFive } from '../../ng-phosphor/src/lib/icons/dice-five'
+import { PhDiceFour } from '../../ng-phosphor/src/lib/icons/dice-four'
+import { PhDiceOne } from '../../ng-phosphor/src/lib/icons/dice-one'
+import { PhDiceSix } from '../../ng-phosphor/src/lib/icons/dice-six'
+import { PhDiceThree } from '../../ng-phosphor/src/lib/icons/dice-three'
+import { PhDiceTwo } from '../../ng-phosphor/src/lib/icons/dice-two'
+import { PhDisc } from '../../ng-phosphor/src/lib/icons/disc'
+import { PhDiscoBall } from '../../ng-phosphor/src/lib/icons/disco-ball'
+import { PhDiscordLogo } from '../../ng-phosphor/src/lib/icons/discord-logo'
+import { PhDivide } from '../../ng-phosphor/src/lib/icons/divide'
+import { PhDna } from '../../ng-phosphor/src/lib/icons/dna'
+import { PhDog } from '../../ng-phosphor/src/lib/icons/dog'
+import { PhDoor } from '../../ng-phosphor/src/lib/icons/door'
+import { PhDoorOpen } from '../../ng-phosphor/src/lib/icons/door-open'
+import { PhDot } from '../../ng-phosphor/src/lib/icons/dot'
+import { PhDotOutline } from '../../ng-phosphor/src/lib/icons/dot-outline'
+import { PhDotsNine } from '../../ng-phosphor/src/lib/icons/dots-nine'
+import { PhDotsSix } from '../../ng-phosphor/src/lib/icons/dots-six'
+import { PhDotsSixVertical } from '../../ng-phosphor/src/lib/icons/dots-six-vertical'
+import { PhDotsThree } from '../../ng-phosphor/src/lib/icons/dots-three'
+import { PhDotsThreeCircle } from '../../ng-phosphor/src/lib/icons/dots-three-circle'
+import { PhDotsThreeCircleVertical } from '../../ng-phosphor/src/lib/icons/dots-three-circle-vertical'
+import { PhDotsThreeOutline } from '../../ng-phosphor/src/lib/icons/dots-three-outline'
+import { PhDotsThreeOutlineVertical } from '../../ng-phosphor/src/lib/icons/dots-three-outline-vertical'
+import { PhDotsThreeVertical } from '../../ng-phosphor/src/lib/icons/dots-three-vertical'
+import { PhDownload } from '../../ng-phosphor/src/lib/icons/download'
+import { PhDownloadSimple } from '../../ng-phosphor/src/lib/icons/download-simple'
+import { PhDress } from '../../ng-phosphor/src/lib/icons/dress'
+import { PhDresser } from '../../ng-phosphor/src/lib/icons/dresser'
+import { PhDribbbleLogo } from '../../ng-phosphor/src/lib/icons/dribbble-logo'
+import { PhDrone } from '../../ng-phosphor/src/lib/icons/drone'
+import { PhDrop } from '../../ng-phosphor/src/lib/icons/drop'
+import { PhDropHalf } from '../../ng-phosphor/src/lib/icons/drop-half'
+import { PhDropHalfBottom } from '../../ng-phosphor/src/lib/icons/drop-half-bottom'
+import { PhDropSimple } from '../../ng-phosphor/src/lib/icons/drop-simple'
+import { PhDropSlash } from '../../ng-phosphor/src/lib/icons/drop-slash'
+import { PhDropboxLogo } from '../../ng-phosphor/src/lib/icons/dropbox-logo'
+import { PhEar } from '../../ng-phosphor/src/lib/icons/ear'
+import { PhEarSlash } from '../../ng-phosphor/src/lib/icons/ear-slash'
+import { PhEgg } from '../../ng-phosphor/src/lib/icons/egg'
+import { PhEggCrack } from '../../ng-phosphor/src/lib/icons/egg-crack'
+import { PhEject } from '../../ng-phosphor/src/lib/icons/eject'
+import { PhEjectSimple } from '../../ng-phosphor/src/lib/icons/eject-simple'
+import { PhElevator } from '../../ng-phosphor/src/lib/icons/elevator'
+import { PhEmpty } from '../../ng-phosphor/src/lib/icons/empty'
+import { PhEngine } from '../../ng-phosphor/src/lib/icons/engine'
+import { PhEnvelope } from '../../ng-phosphor/src/lib/icons/envelope'
+import { PhEnvelopeOpen } from '../../ng-phosphor/src/lib/icons/envelope-open'
+import { PhEnvelopeSimple } from '../../ng-phosphor/src/lib/icons/envelope-simple'
+import { PhEnvelopeSimpleOpen } from '../../ng-phosphor/src/lib/icons/envelope-simple-open'
+import { PhEqualizer } from '../../ng-phosphor/src/lib/icons/equalizer'
+import { PhEquals } from '../../ng-phosphor/src/lib/icons/equals'
+import { PhEraser } from '../../ng-phosphor/src/lib/icons/eraser'
+import { PhEscalatorDown } from '../../ng-phosphor/src/lib/icons/escalator-down'
+import { PhEscalatorUp } from '../../ng-phosphor/src/lib/icons/escalator-up'
+import { PhExam } from '../../ng-phosphor/src/lib/icons/exam'
+import { PhExclamationMark } from '../../ng-phosphor/src/lib/icons/exclamation-mark'
+import { PhExclude } from '../../ng-phosphor/src/lib/icons/exclude'
+import { PhExcludeSquare } from '../../ng-phosphor/src/lib/icons/exclude-square'
+import { PhExport } from '../../ng-phosphor/src/lib/icons/export'
+import { PhEye } from '../../ng-phosphor/src/lib/icons/eye'
+import { PhEyeClosed } from '../../ng-phosphor/src/lib/icons/eye-closed'
+import { PhEyeSlash } from '../../ng-phosphor/src/lib/icons/eye-slash'
+import { PhEyedropper } from '../../ng-phosphor/src/lib/icons/eyedropper'
+import { PhEyedropperSample } from '../../ng-phosphor/src/lib/icons/eyedropper-sample'
+import { PhEyeglasses } from '../../ng-phosphor/src/lib/icons/eyeglasses'
+import { PhEyes } from '../../ng-phosphor/src/lib/icons/eyes'
+import { PhFaceMask } from '../../ng-phosphor/src/lib/icons/face-mask'
+import { PhFacebookLogo } from '../../ng-phosphor/src/lib/icons/facebook-logo'
+import { PhFactory } from '../../ng-phosphor/src/lib/icons/factory'
+import { PhFaders } from '../../ng-phosphor/src/lib/icons/faders'
+import { PhFadersHorizontal } from '../../ng-phosphor/src/lib/icons/faders-horizontal'
+import { PhFalloutShelter } from '../../ng-phosphor/src/lib/icons/fallout-shelter'
+import { PhFan } from '../../ng-phosphor/src/lib/icons/fan'
+import { PhFarm } from '../../ng-phosphor/src/lib/icons/farm'
+import { PhFastForward } from '../../ng-phosphor/src/lib/icons/fast-forward'
+import { PhFastForwardCircle } from '../../ng-phosphor/src/lib/icons/fast-forward-circle'
+import { PhFeather } from '../../ng-phosphor/src/lib/icons/feather'
+import { PhFediverseLogo } from '../../ng-phosphor/src/lib/icons/fediverse-logo'
+import { PhFigmaLogo } from '../../ng-phosphor/src/lib/icons/figma-logo'
+import { PhFile } from '../../ng-phosphor/src/lib/icons/file'
+import { PhFileArchive } from '../../ng-phosphor/src/lib/icons/file-archive'
+import { PhFileArrowDown } from '../../ng-phosphor/src/lib/icons/file-arrow-down'
+import { PhFileArrowUp } from '../../ng-phosphor/src/lib/icons/file-arrow-up'
+import { PhFileAudio } from '../../ng-phosphor/src/lib/icons/file-audio'
+import { PhFileC } from '../../ng-phosphor/src/lib/icons/file-c'
+import { PhFileCSharp } from '../../ng-phosphor/src/lib/icons/file-c-sharp'
+import { PhFileCloud } from '../../ng-phosphor/src/lib/icons/file-cloud'
+import { PhFileCode } from '../../ng-phosphor/src/lib/icons/file-code'
+import { PhFileCpp } from '../../ng-phosphor/src/lib/icons/file-cpp'
+import { PhFileCss } from '../../ng-phosphor/src/lib/icons/file-css'
+import { PhFileCsv } from '../../ng-phosphor/src/lib/icons/file-csv'
+import { PhFileDashed } from '../../ng-phosphor/src/lib/icons/file-dashed'
+import { PhFileDoc } from '../../ng-phosphor/src/lib/icons/file-doc'
+import { PhFileHtml } from '../../ng-phosphor/src/lib/icons/file-html'
+import { PhFileImage } from '../../ng-phosphor/src/lib/icons/file-image'
+import { PhFileIni } from '../../ng-phosphor/src/lib/icons/file-ini'
+import { PhFileJpg } from '../../ng-phosphor/src/lib/icons/file-jpg'
+import { PhFileJs } from '../../ng-phosphor/src/lib/icons/file-js'
+import { PhFileJsx } from '../../ng-phosphor/src/lib/icons/file-jsx'
+import { PhFileLock } from '../../ng-phosphor/src/lib/icons/file-lock'
+import { PhFileMagnifyingGlass } from '../../ng-phosphor/src/lib/icons/file-magnifying-glass'
+import { PhFileMd } from '../../ng-phosphor/src/lib/icons/file-md'
+import { PhFileMinus } from '../../ng-phosphor/src/lib/icons/file-minus'
+import { PhFilePdf } from '../../ng-phosphor/src/lib/icons/file-pdf'
+import { PhFilePlus } from '../../ng-phosphor/src/lib/icons/file-plus'
+import { PhFilePng } from '../../ng-phosphor/src/lib/icons/file-png'
+import { PhFilePpt } from '../../ng-phosphor/src/lib/icons/file-ppt'
+import { PhFilePy } from '../../ng-phosphor/src/lib/icons/file-py'
+import { PhFileRs } from '../../ng-phosphor/src/lib/icons/file-rs'
+import { PhFileSql } from '../../ng-phosphor/src/lib/icons/file-sql'
+import { PhFileSvg } from '../../ng-phosphor/src/lib/icons/file-svg'
+import { PhFileText } from '../../ng-phosphor/src/lib/icons/file-text'
+import { PhFileTs } from '../../ng-phosphor/src/lib/icons/file-ts'
+import { PhFileTsx } from '../../ng-phosphor/src/lib/icons/file-tsx'
+import { PhFileTxt } from '../../ng-phosphor/src/lib/icons/file-txt'
+import { PhFileVideo } from '../../ng-phosphor/src/lib/icons/file-video'
+import { PhFileVue } from '../../ng-phosphor/src/lib/icons/file-vue'
+import { PhFileX } from '../../ng-phosphor/src/lib/icons/file-x'
+import { PhFileXls } from '../../ng-phosphor/src/lib/icons/file-xls'
+import { PhFileZip } from '../../ng-phosphor/src/lib/icons/file-zip'
+import { PhFiles } from '../../ng-phosphor/src/lib/icons/files'
+import { PhFilmReel } from '../../ng-phosphor/src/lib/icons/film-reel'
+import { PhFilmScript } from '../../ng-phosphor/src/lib/icons/film-script'
+import { PhFilmSlate } from '../../ng-phosphor/src/lib/icons/film-slate'
+import { PhFilmStrip } from '../../ng-phosphor/src/lib/icons/film-strip'
+import { PhFingerprint } from '../../ng-phosphor/src/lib/icons/fingerprint'
+import { PhFingerprintSimple } from '../../ng-phosphor/src/lib/icons/fingerprint-simple'
+import { PhFinnTheHuman } from '../../ng-phosphor/src/lib/icons/finn-the-human'
+import { PhFire } from '../../ng-phosphor/src/lib/icons/fire'
+import { PhFireExtinguisher } from '../../ng-phosphor/src/lib/icons/fire-extinguisher'
+import { PhFireSimple } from '../../ng-phosphor/src/lib/icons/fire-simple'
+import { PhFireTruck } from '../../ng-phosphor/src/lib/icons/fire-truck'
+import { PhFirstAid } from '../../ng-phosphor/src/lib/icons/first-aid'
+import { PhFirstAidKit } from '../../ng-phosphor/src/lib/icons/first-aid-kit'
+import { PhFish } from '../../ng-phosphor/src/lib/icons/fish'
+import { PhFishSimple } from '../../ng-phosphor/src/lib/icons/fish-simple'
+import { PhFlag } from '../../ng-phosphor/src/lib/icons/flag'
+import { PhFlagBanner } from '../../ng-phosphor/src/lib/icons/flag-banner'
+import { PhFlagBannerFold } from '../../ng-phosphor/src/lib/icons/flag-banner-fold'
+import { PhFlagCheckered } from '../../ng-phosphor/src/lib/icons/flag-checkered'
+import { PhFlagPennant } from '../../ng-phosphor/src/lib/icons/flag-pennant'
+import { PhFlame } from '../../ng-phosphor/src/lib/icons/flame'
+import { PhFlashlight } from '../../ng-phosphor/src/lib/icons/flashlight'
+import { PhFlask } from '../../ng-phosphor/src/lib/icons/flask'
+import { PhFlipHorizontal } from '../../ng-phosphor/src/lib/icons/flip-horizontal'
+import { PhFlipVertical } from '../../ng-phosphor/src/lib/icons/flip-vertical'
+import { PhFloppyDisk } from '../../ng-phosphor/src/lib/icons/floppy-disk'
+import { PhFloppyDiskBack } from '../../ng-phosphor/src/lib/icons/floppy-disk-back'
+import { PhFlowArrow } from '../../ng-phosphor/src/lib/icons/flow-arrow'
+import { PhFlower } from '../../ng-phosphor/src/lib/icons/flower'
+import { PhFlowerLotus } from '../../ng-phosphor/src/lib/icons/flower-lotus'
+import { PhFlowerTulip } from '../../ng-phosphor/src/lib/icons/flower-tulip'
+import { PhFlyingSaucer } from '../../ng-phosphor/src/lib/icons/flying-saucer'
+import { PhFolder } from '../../ng-phosphor/src/lib/icons/folder'
+import { PhFolderDashed } from '../../ng-phosphor/src/lib/icons/folder-dashed'
+import { PhFolderLock } from '../../ng-phosphor/src/lib/icons/folder-lock'
+import { PhFolderMinus } from '../../ng-phosphor/src/lib/icons/folder-minus'
+import { PhFolderOpen } from '../../ng-phosphor/src/lib/icons/folder-open'
+import { PhFolderPlus } from '../../ng-phosphor/src/lib/icons/folder-plus'
+import { PhFolderSimple } from '../../ng-phosphor/src/lib/icons/folder-simple'
+import { PhFolderSimpleDashed } from '../../ng-phosphor/src/lib/icons/folder-simple-dashed'
+import { PhFolderSimpleLock } from '../../ng-phosphor/src/lib/icons/folder-simple-lock'
+import { PhFolderSimpleMinus } from '../../ng-phosphor/src/lib/icons/folder-simple-minus'
+import { PhFolderSimplePlus } from '../../ng-phosphor/src/lib/icons/folder-simple-plus'
+import { PhFolderSimpleStar } from '../../ng-phosphor/src/lib/icons/folder-simple-star'
+import { PhFolderSimpleUser } from '../../ng-phosphor/src/lib/icons/folder-simple-user'
+import { PhFolderStar } from '../../ng-phosphor/src/lib/icons/folder-star'
+import { PhFolderUser } from '../../ng-phosphor/src/lib/icons/folder-user'
+import { PhFolders } from '../../ng-phosphor/src/lib/icons/folders'
+import { PhFootball } from '../../ng-phosphor/src/lib/icons/football'
+import { PhFootballHelmet } from '../../ng-phosphor/src/lib/icons/football-helmet'
+import { PhFootprints } from '../../ng-phosphor/src/lib/icons/footprints'
+import { PhForkKnife } from '../../ng-phosphor/src/lib/icons/fork-knife'
+import { PhFourK } from '../../ng-phosphor/src/lib/icons/four-k'
+import { PhFrameCorners } from '../../ng-phosphor/src/lib/icons/frame-corners'
+import { PhFramerLogo } from '../../ng-phosphor/src/lib/icons/framer-logo'
+import { PhFunction } from '../../ng-phosphor/src/lib/icons/function'
+import { PhFunnel } from '../../ng-phosphor/src/lib/icons/funnel'
+import { PhFunnelSimple } from '../../ng-phosphor/src/lib/icons/funnel-simple'
+import { PhFunnelSimpleX } from '../../ng-phosphor/src/lib/icons/funnel-simple-x'
+import { PhFunnelX } from '../../ng-phosphor/src/lib/icons/funnel-x'
+import { PhGameController } from '../../ng-phosphor/src/lib/icons/game-controller'
+import { PhGarage } from '../../ng-phosphor/src/lib/icons/garage'
+import { PhGasCan } from '../../ng-phosphor/src/lib/icons/gas-can'
+import { PhGasPump } from '../../ng-phosphor/src/lib/icons/gas-pump'
+import { PhGauge } from '../../ng-phosphor/src/lib/icons/gauge'
+import { PhGavel } from '../../ng-phosphor/src/lib/icons/gavel'
+import { PhGear } from '../../ng-phosphor/src/lib/icons/gear'
+import { PhGearFine } from '../../ng-phosphor/src/lib/icons/gear-fine'
+import { PhGearSix } from '../../ng-phosphor/src/lib/icons/gear-six'
+import { PhGenderFemale } from '../../ng-phosphor/src/lib/icons/gender-female'
+import { PhGenderIntersex } from '../../ng-phosphor/src/lib/icons/gender-intersex'
+import { PhGenderMale } from '../../ng-phosphor/src/lib/icons/gender-male'
+import { PhGenderNeuter } from '../../ng-phosphor/src/lib/icons/gender-neuter'
+import { PhGenderNonbinary } from '../../ng-phosphor/src/lib/icons/gender-nonbinary'
+import { PhGenderTransgender } from '../../ng-phosphor/src/lib/icons/gender-transgender'
+import { PhGhost } from '../../ng-phosphor/src/lib/icons/ghost'
+import { PhGif } from '../../ng-phosphor/src/lib/icons/gif'
+import { PhGift } from '../../ng-phosphor/src/lib/icons/gift'
+import { PhGitBranch } from '../../ng-phosphor/src/lib/icons/git-branch'
+import { PhGitCommit } from '../../ng-phosphor/src/lib/icons/git-commit'
+import { PhGitDiff } from '../../ng-phosphor/src/lib/icons/git-diff'
+import { PhGitFork } from '../../ng-phosphor/src/lib/icons/git-fork'
+import { PhGitMerge } from '../../ng-phosphor/src/lib/icons/git-merge'
+import { PhGitPullRequest } from '../../ng-phosphor/src/lib/icons/git-pull-request'
+import { PhGithubLogo } from '../../ng-phosphor/src/lib/icons/github-logo'
+import { PhGitlabLogo } from '../../ng-phosphor/src/lib/icons/gitlab-logo'
+import { PhGitlabLogoSimple } from '../../ng-phosphor/src/lib/icons/gitlab-logo-simple'
+import { PhGlobe } from '../../ng-phosphor/src/lib/icons/globe'
+import { PhGlobeHemisphereEast } from '../../ng-phosphor/src/lib/icons/globe-hemisphere-east'
+import { PhGlobeHemisphereWest } from '../../ng-phosphor/src/lib/icons/globe-hemisphere-west'
+import { PhGlobeSimple } from '../../ng-phosphor/src/lib/icons/globe-simple'
+import { PhGlobeSimpleX } from '../../ng-phosphor/src/lib/icons/globe-simple-x'
+import { PhGlobeStand } from '../../ng-phosphor/src/lib/icons/globe-stand'
+import { PhGlobeX } from '../../ng-phosphor/src/lib/icons/globe-x'
+import { PhGoggles } from '../../ng-phosphor/src/lib/icons/goggles'
+import { PhGolf } from '../../ng-phosphor/src/lib/icons/golf'
+import { PhGoodreadsLogo } from '../../ng-phosphor/src/lib/icons/goodreads-logo'
+import { PhGoogleCardboardLogo } from '../../ng-phosphor/src/lib/icons/google-cardboard-logo'
+import { PhGoogleChromeLogo } from '../../ng-phosphor/src/lib/icons/google-chrome-logo'
+import { PhGoogleDriveLogo } from '../../ng-phosphor/src/lib/icons/google-drive-logo'
+import { PhGoogleLogo } from '../../ng-phosphor/src/lib/icons/google-logo'
+import { PhGooglePhotosLogo } from '../../ng-phosphor/src/lib/icons/google-photos-logo'
+import { PhGooglePlayLogo } from '../../ng-phosphor/src/lib/icons/google-play-logo'
+import { PhGooglePodcastsLogo } from '../../ng-phosphor/src/lib/icons/google-podcasts-logo'
+import { PhGps } from '../../ng-phosphor/src/lib/icons/gps'
+import { PhGpsFix } from '../../ng-phosphor/src/lib/icons/gps-fix'
+import { PhGpsSlash } from '../../ng-phosphor/src/lib/icons/gps-slash'
+import { PhGradient } from '../../ng-phosphor/src/lib/icons/gradient'
+import { PhGraduationCap } from '../../ng-phosphor/src/lib/icons/graduation-cap'
+import { PhGrains } from '../../ng-phosphor/src/lib/icons/grains'
+import { PhGrainsSlash } from '../../ng-phosphor/src/lib/icons/grains-slash'
+import { PhGraph } from '../../ng-phosphor/src/lib/icons/graph'
+import { PhGraphicsCard } from '../../ng-phosphor/src/lib/icons/graphics-card'
+import { PhGreaterThan } from '../../ng-phosphor/src/lib/icons/greater-than'
+import { PhGreaterThanOrEqual } from '../../ng-phosphor/src/lib/icons/greater-than-or-equal'
+import { PhGridFour } from '../../ng-phosphor/src/lib/icons/grid-four'
+import { PhGridNine } from '../../ng-phosphor/src/lib/icons/grid-nine'
+import { PhGuitar } from '../../ng-phosphor/src/lib/icons/guitar'
+import { PhHairDryer } from '../../ng-phosphor/src/lib/icons/hair-dryer'
+import { PhHamburger } from '../../ng-phosphor/src/lib/icons/hamburger'
+import { PhHammer } from '../../ng-phosphor/src/lib/icons/hammer'
+import { PhHand } from '../../ng-phosphor/src/lib/icons/hand'
+import { PhHandArrowDown } from '../../ng-phosphor/src/lib/icons/hand-arrow-down'
+import { PhHandArrowUp } from '../../ng-phosphor/src/lib/icons/hand-arrow-up'
+import { PhHandCoins } from '../../ng-phosphor/src/lib/icons/hand-coins'
+import { PhHandDeposit } from '../../ng-phosphor/src/lib/icons/hand-deposit'
+import { PhHandEye } from '../../ng-phosphor/src/lib/icons/hand-eye'
+import { PhHandFist } from '../../ng-phosphor/src/lib/icons/hand-fist'
+import { PhHandGrabbing } from '../../ng-phosphor/src/lib/icons/hand-grabbing'
+import { PhHandHeart } from '../../ng-phosphor/src/lib/icons/hand-heart'
+import { PhHandPalm } from '../../ng-phosphor/src/lib/icons/hand-palm'
+import { PhHandPeace } from '../../ng-phosphor/src/lib/icons/hand-peace'
+import { PhHandPointing } from '../../ng-phosphor/src/lib/icons/hand-pointing'
+import { PhHandSoap } from '../../ng-phosphor/src/lib/icons/hand-soap'
+import { PhHandSwipeLeft } from '../../ng-phosphor/src/lib/icons/hand-swipe-left'
+import { PhHandSwipeRight } from '../../ng-phosphor/src/lib/icons/hand-swipe-right'
+import { PhHandTap } from '../../ng-phosphor/src/lib/icons/hand-tap'
+import { PhHandWaving } from '../../ng-phosphor/src/lib/icons/hand-waving'
+import { PhHandWithdraw } from '../../ng-phosphor/src/lib/icons/hand-withdraw'
+import { PhHandbag } from '../../ng-phosphor/src/lib/icons/handbag'
+import { PhHandbagSimple } from '../../ng-phosphor/src/lib/icons/handbag-simple'
+import { PhHandsClapping } from '../../ng-phosphor/src/lib/icons/hands-clapping'
+import { PhHandsPraying } from '../../ng-phosphor/src/lib/icons/hands-praying'
+import { PhHandshake } from '../../ng-phosphor/src/lib/icons/handshake'
+import { PhHardDrive } from '../../ng-phosphor/src/lib/icons/hard-drive'
+import { PhHardDrives } from '../../ng-phosphor/src/lib/icons/hard-drives'
+import { PhHardHat } from '../../ng-phosphor/src/lib/icons/hard-hat'
+import { PhHash } from '../../ng-phosphor/src/lib/icons/hash'
+import { PhHashStraight } from '../../ng-phosphor/src/lib/icons/hash-straight'
+import { PhHeadCircuit } from '../../ng-phosphor/src/lib/icons/head-circuit'
+import { PhHeadlights } from '../../ng-phosphor/src/lib/icons/headlights'
+import { PhHeadphones } from '../../ng-phosphor/src/lib/icons/headphones'
+import { PhHeadset } from '../../ng-phosphor/src/lib/icons/headset'
+import { PhHeart } from '../../ng-phosphor/src/lib/icons/heart'
+import { PhHeartBreak } from '../../ng-phosphor/src/lib/icons/heart-break'
+import { PhHeartHalf } from '../../ng-phosphor/src/lib/icons/heart-half'
+import { PhHeartStraight } from '../../ng-phosphor/src/lib/icons/heart-straight'
+import { PhHeartStraightBreak } from '../../ng-phosphor/src/lib/icons/heart-straight-break'
+import { PhHeartbeat } from '../../ng-phosphor/src/lib/icons/heartbeat'
+import { PhHexagon } from '../../ng-phosphor/src/lib/icons/hexagon'
+import { PhHighDefinition } from '../../ng-phosphor/src/lib/icons/high-definition'
+import { PhHighHeel } from '../../ng-phosphor/src/lib/icons/high-heel'
+import { PhHighlighter } from '../../ng-phosphor/src/lib/icons/highlighter'
+import { PhHighlighterCircle } from '../../ng-phosphor/src/lib/icons/highlighter-circle'
+import { PhHockey } from '../../ng-phosphor/src/lib/icons/hockey'
+import { PhHoodie } from '../../ng-phosphor/src/lib/icons/hoodie'
+import { PhHorse } from '../../ng-phosphor/src/lib/icons/horse'
+import { PhHospital } from '../../ng-phosphor/src/lib/icons/hospital'
+import { PhHourglass } from '../../ng-phosphor/src/lib/icons/hourglass'
+import { PhHourglassHigh } from '../../ng-phosphor/src/lib/icons/hourglass-high'
+import { PhHourglassLow } from '../../ng-phosphor/src/lib/icons/hourglass-low'
+import { PhHourglassMedium } from '../../ng-phosphor/src/lib/icons/hourglass-medium'
+import { PhHourglassSimple } from '../../ng-phosphor/src/lib/icons/hourglass-simple'
+import { PhHourglassSimpleHigh } from '../../ng-phosphor/src/lib/icons/hourglass-simple-high'
+import { PhHourglassSimpleLow } from '../../ng-phosphor/src/lib/icons/hourglass-simple-low'
+import { PhHourglassSimpleMedium } from '../../ng-phosphor/src/lib/icons/hourglass-simple-medium'
+import { PhHouse } from '../../ng-phosphor/src/lib/icons/house'
+import { PhHouseLine } from '../../ng-phosphor/src/lib/icons/house-line'
+import { PhHouseSimple } from '../../ng-phosphor/src/lib/icons/house-simple'
+import { PhHurricane } from '../../ng-phosphor/src/lib/icons/hurricane'
+import { PhIceCream } from '../../ng-phosphor/src/lib/icons/ice-cream'
+import { PhIdentificationBadge } from '../../ng-phosphor/src/lib/icons/identification-badge'
+import { PhIdentificationCard } from '../../ng-phosphor/src/lib/icons/identification-card'
+import { PhImage } from '../../ng-phosphor/src/lib/icons/image'
+import { PhImageBroken } from '../../ng-phosphor/src/lib/icons/image-broken'
+import { PhImageSquare } from '../../ng-phosphor/src/lib/icons/image-square'
+import { PhImages } from '../../ng-phosphor/src/lib/icons/images'
+import { PhImagesSquare } from '../../ng-phosphor/src/lib/icons/images-square'
+import { PhInfinity } from '../../ng-phosphor/src/lib/icons/infinity'
+import { PhInfo } from '../../ng-phosphor/src/lib/icons/info'
+import { PhInstagramLogo } from '../../ng-phosphor/src/lib/icons/instagram-logo'
+import { PhIntersect } from '../../ng-phosphor/src/lib/icons/intersect'
+import { PhIntersectSquare } from '../../ng-phosphor/src/lib/icons/intersect-square'
+import { PhIntersectThree } from '../../ng-phosphor/src/lib/icons/intersect-three'
+import { PhIntersection } from '../../ng-phosphor/src/lib/icons/intersection'
+import { PhInvoice } from '../../ng-phosphor/src/lib/icons/invoice'
+import { PhIsland } from '../../ng-phosphor/src/lib/icons/island'
+import { PhJar } from '../../ng-phosphor/src/lib/icons/jar'
+import { PhJarLabel } from '../../ng-phosphor/src/lib/icons/jar-label'
+import { PhJeep } from '../../ng-phosphor/src/lib/icons/jeep'
+import { PhJoystick } from '../../ng-phosphor/src/lib/icons/joystick'
+import { PhKanban } from '../../ng-phosphor/src/lib/icons/kanban'
+import { PhKey } from '../../ng-phosphor/src/lib/icons/key'
+import { PhKeyReturn } from '../../ng-phosphor/src/lib/icons/key-return'
+import { PhKeyboard } from '../../ng-phosphor/src/lib/icons/keyboard'
+import { PhKeyhole } from '../../ng-phosphor/src/lib/icons/keyhole'
+import { PhKnife } from '../../ng-phosphor/src/lib/icons/knife'
+import { PhLadder } from '../../ng-phosphor/src/lib/icons/ladder'
+import { PhLadderSimple } from '../../ng-phosphor/src/lib/icons/ladder-simple'
+import { PhLamp } from '../../ng-phosphor/src/lib/icons/lamp'
+import { PhLampPendant } from '../../ng-phosphor/src/lib/icons/lamp-pendant'
+import { PhLaptop } from '../../ng-phosphor/src/lib/icons/laptop'
+import { PhLasso } from '../../ng-phosphor/src/lib/icons/lasso'
+import { PhLastfmLogo } from '../../ng-phosphor/src/lib/icons/lastfm-logo'
+import { PhLayout } from '../../ng-phosphor/src/lib/icons/layout'
+import { PhLeaf } from '../../ng-phosphor/src/lib/icons/leaf'
+import { PhLectern } from '../../ng-phosphor/src/lib/icons/lectern'
+import { PhLego } from '../../ng-phosphor/src/lib/icons/lego'
+import { PhLegoSmiley } from '../../ng-phosphor/src/lib/icons/lego-smiley'
+import { PhLessThan } from '../../ng-phosphor/src/lib/icons/less-than'
+import { PhLessThanOrEqual } from '../../ng-phosphor/src/lib/icons/less-than-or-equal'
+import { PhLetterCircleH } from '../../ng-phosphor/src/lib/icons/letter-circle-h'
+import { PhLetterCircleP } from '../../ng-phosphor/src/lib/icons/letter-circle-p'
+import { PhLetterCircleV } from '../../ng-phosphor/src/lib/icons/letter-circle-v'
+import { PhLifebuoy } from '../../ng-phosphor/src/lib/icons/lifebuoy'
+import { PhLightbulb } from '../../ng-phosphor/src/lib/icons/lightbulb'
+import { PhLightbulbFilament } from '../../ng-phosphor/src/lib/icons/lightbulb-filament'
+import { PhLighthouse } from '../../ng-phosphor/src/lib/icons/lighthouse'
+import { PhLightning } from '../../ng-phosphor/src/lib/icons/lightning'
+import { PhLightningA } from '../../ng-phosphor/src/lib/icons/lightning-a'
+import { PhLightningSlash } from '../../ng-phosphor/src/lib/icons/lightning-slash'
+import { PhLineSegment } from '../../ng-phosphor/src/lib/icons/line-segment'
+import { PhLineSegments } from '../../ng-phosphor/src/lib/icons/line-segments'
+import { PhLineVertical } from '../../ng-phosphor/src/lib/icons/line-vertical'
+import { PhLink } from '../../ng-phosphor/src/lib/icons/link'
+import { PhLinkBreak } from '../../ng-phosphor/src/lib/icons/link-break'
+import { PhLinkSimple } from '../../ng-phosphor/src/lib/icons/link-simple'
+import { PhLinkSimpleBreak } from '../../ng-phosphor/src/lib/icons/link-simple-break'
+import { PhLinkSimpleHorizontal } from '../../ng-phosphor/src/lib/icons/link-simple-horizontal'
+import { PhLinkSimpleHorizontalBreak } from '../../ng-phosphor/src/lib/icons/link-simple-horizontal-break'
+import { PhLinkedinLogo } from '../../ng-phosphor/src/lib/icons/linkedin-logo'
+import { PhLinktreeLogo } from '../../ng-phosphor/src/lib/icons/linktree-logo'
+import { PhLinuxLogo } from '../../ng-phosphor/src/lib/icons/linux-logo'
+import { PhList } from '../../ng-phosphor/src/lib/icons/list'
+import { PhListBullets } from '../../ng-phosphor/src/lib/icons/list-bullets'
+import { PhListChecks } from '../../ng-phosphor/src/lib/icons/list-checks'
+import { PhListDashes } from '../../ng-phosphor/src/lib/icons/list-dashes'
+import { PhListHeart } from '../../ng-phosphor/src/lib/icons/list-heart'
+import { PhListMagnifyingGlass } from '../../ng-phosphor/src/lib/icons/list-magnifying-glass'
+import { PhListNumbers } from '../../ng-phosphor/src/lib/icons/list-numbers'
+import { PhListPlus } from '../../ng-phosphor/src/lib/icons/list-plus'
+import { PhListStar } from '../../ng-phosphor/src/lib/icons/list-star'
+import { PhLock } from '../../ng-phosphor/src/lib/icons/lock'
+import { PhLockKey } from '../../ng-phosphor/src/lib/icons/lock-key'
+import { PhLockKeyOpen } from '../../ng-phosphor/src/lib/icons/lock-key-open'
+import { PhLockLaminated } from '../../ng-phosphor/src/lib/icons/lock-laminated'
+import { PhLockLaminatedOpen } from '../../ng-phosphor/src/lib/icons/lock-laminated-open'
+import { PhLockOpen } from '../../ng-phosphor/src/lib/icons/lock-open'
+import { PhLockSimple } from '../../ng-phosphor/src/lib/icons/lock-simple'
+import { PhLockSimpleOpen } from '../../ng-phosphor/src/lib/icons/lock-simple-open'
+import { PhLockers } from '../../ng-phosphor/src/lib/icons/lockers'
+import { PhLog } from '../../ng-phosphor/src/lib/icons/log'
+import { PhMagicWand } from '../../ng-phosphor/src/lib/icons/magic-wand'
+import { PhMagnet } from '../../ng-phosphor/src/lib/icons/magnet'
+import { PhMagnetStraight } from '../../ng-phosphor/src/lib/icons/magnet-straight'
+import { PhMagnifyingGlass } from '../../ng-phosphor/src/lib/icons/magnifying-glass'
+import { PhMagnifyingGlassMinus } from '../../ng-phosphor/src/lib/icons/magnifying-glass-minus'
+import { PhMagnifyingGlassPlus } from '../../ng-phosphor/src/lib/icons/magnifying-glass-plus'
+import { PhMailbox } from '../../ng-phosphor/src/lib/icons/mailbox'
+import { PhMapPin } from '../../ng-phosphor/src/lib/icons/map-pin'
+import { PhMapPinArea } from '../../ng-phosphor/src/lib/icons/map-pin-area'
+import { PhMapPinLine } from '../../ng-phosphor/src/lib/icons/map-pin-line'
+import { PhMapPinPlus } from '../../ng-phosphor/src/lib/icons/map-pin-plus'
+import { PhMapPinSimple } from '../../ng-phosphor/src/lib/icons/map-pin-simple'
+import { PhMapPinSimpleArea } from '../../ng-phosphor/src/lib/icons/map-pin-simple-area'
+import { PhMapPinSimpleLine } from '../../ng-phosphor/src/lib/icons/map-pin-simple-line'
+import { PhMapTrifold } from '../../ng-phosphor/src/lib/icons/map-trifold'
+import { PhMarkdownLogo } from '../../ng-phosphor/src/lib/icons/markdown-logo'
+import { PhMarkerCircle } from '../../ng-phosphor/src/lib/icons/marker-circle'
+import { PhMartini } from '../../ng-phosphor/src/lib/icons/martini'
+import { PhMaskHappy } from '../../ng-phosphor/src/lib/icons/mask-happy'
+import { PhMaskSad } from '../../ng-phosphor/src/lib/icons/mask-sad'
+import { PhMastodonLogo } from '../../ng-phosphor/src/lib/icons/mastodon-logo'
+import { PhMathOperations } from '../../ng-phosphor/src/lib/icons/math-operations'
+import { PhMatrixLogo } from '../../ng-phosphor/src/lib/icons/matrix-logo'
+import { PhMedal } from '../../ng-phosphor/src/lib/icons/medal'
+import { PhMedalMilitary } from '../../ng-phosphor/src/lib/icons/medal-military'
+import { PhMediumLogo } from '../../ng-phosphor/src/lib/icons/medium-logo'
+import { PhMegaphone } from '../../ng-phosphor/src/lib/icons/megaphone'
+import { PhMegaphoneSimple } from '../../ng-phosphor/src/lib/icons/megaphone-simple'
+import { PhMemberOf } from '../../ng-phosphor/src/lib/icons/member-of'
+import { PhMemory } from '../../ng-phosphor/src/lib/icons/memory'
+import { PhMessengerLogo } from '../../ng-phosphor/src/lib/icons/messenger-logo'
+import { PhMetaLogo } from '../../ng-phosphor/src/lib/icons/meta-logo'
+import { PhMeteor } from '../../ng-phosphor/src/lib/icons/meteor'
+import { PhMetronome } from '../../ng-phosphor/src/lib/icons/metronome'
+import { PhMicrophone } from '../../ng-phosphor/src/lib/icons/microphone'
+import { PhMicrophoneSlash } from '../../ng-phosphor/src/lib/icons/microphone-slash'
+import { PhMicrophoneStage } from '../../ng-phosphor/src/lib/icons/microphone-stage'
+import { PhMicroscope } from '../../ng-phosphor/src/lib/icons/microscope'
+import { PhMicrosoftExcelLogo } from '../../ng-phosphor/src/lib/icons/microsoft-excel-logo'
+import { PhMicrosoftOutlookLogo } from '../../ng-phosphor/src/lib/icons/microsoft-outlook-logo'
+import { PhMicrosoftPowerpointLogo } from '../../ng-phosphor/src/lib/icons/microsoft-powerpoint-logo'
+import { PhMicrosoftTeamsLogo } from '../../ng-phosphor/src/lib/icons/microsoft-teams-logo'
+import { PhMicrosoftWordLogo } from '../../ng-phosphor/src/lib/icons/microsoft-word-logo'
+import { PhMinus } from '../../ng-phosphor/src/lib/icons/minus'
+import { PhMinusCircle } from '../../ng-phosphor/src/lib/icons/minus-circle'
+import { PhMinusSquare } from '../../ng-phosphor/src/lib/icons/minus-square'
+import { PhMoney } from '../../ng-phosphor/src/lib/icons/money'
+import { PhMoneyWavy } from '../../ng-phosphor/src/lib/icons/money-wavy'
+import { PhMonitor } from '../../ng-phosphor/src/lib/icons/monitor'
+import { PhMonitorArrowUp } from '../../ng-phosphor/src/lib/icons/monitor-arrow-up'
+import { PhMonitorPlay } from '../../ng-phosphor/src/lib/icons/monitor-play'
+import { PhMoon } from '../../ng-phosphor/src/lib/icons/moon'
+import { PhMoonStars } from '../../ng-phosphor/src/lib/icons/moon-stars'
+import { PhMoped } from '../../ng-phosphor/src/lib/icons/moped'
+import { PhMopedFront } from '../../ng-phosphor/src/lib/icons/moped-front'
+import { PhMosque } from '../../ng-phosphor/src/lib/icons/mosque'
+import { PhMotorcycle } from '../../ng-phosphor/src/lib/icons/motorcycle'
+import { PhMountains } from '../../ng-phosphor/src/lib/icons/mountains'
+import { PhMouse } from '../../ng-phosphor/src/lib/icons/mouse'
+import { PhMouseLeftClick } from '../../ng-phosphor/src/lib/icons/mouse-left-click'
+import { PhMouseMiddleClick } from '../../ng-phosphor/src/lib/icons/mouse-middle-click'
+import { PhMouseRightClick } from '../../ng-phosphor/src/lib/icons/mouse-right-click'
+import { PhMouseScroll } from '../../ng-phosphor/src/lib/icons/mouse-scroll'
+import { PhMouseSimple } from '../../ng-phosphor/src/lib/icons/mouse-simple'
+import { PhMusicNote } from '../../ng-phosphor/src/lib/icons/music-note'
+import { PhMusicNoteSimple } from '../../ng-phosphor/src/lib/icons/music-note-simple'
+import { PhMusicNotes } from '../../ng-phosphor/src/lib/icons/music-notes'
+import { PhMusicNotesMinus } from '../../ng-phosphor/src/lib/icons/music-notes-minus'
+import { PhMusicNotesPlus } from '../../ng-phosphor/src/lib/icons/music-notes-plus'
+import { PhMusicNotesSimple } from '../../ng-phosphor/src/lib/icons/music-notes-simple'
+import { PhNavigationArrow } from '../../ng-phosphor/src/lib/icons/navigation-arrow'
+import { PhNeedle } from '../../ng-phosphor/src/lib/icons/needle'
+import { PhNetwork } from '../../ng-phosphor/src/lib/icons/network'
+import { PhNetworkSlash } from '../../ng-phosphor/src/lib/icons/network-slash'
+import { PhNetworkX } from '../../ng-phosphor/src/lib/icons/network-x'
+import { PhNewspaper } from '../../ng-phosphor/src/lib/icons/newspaper'
+import { PhNewspaperClipping } from '../../ng-phosphor/src/lib/icons/newspaper-clipping'
+import { PhNotEquals } from '../../ng-phosphor/src/lib/icons/not-equals'
+import { PhNotMemberOf } from '../../ng-phosphor/src/lib/icons/not-member-of'
+import { PhNotSubsetOf } from '../../ng-phosphor/src/lib/icons/not-subset-of'
+import { PhNotSupersetOf } from '../../ng-phosphor/src/lib/icons/not-superset-of'
+import { PhNotches } from '../../ng-phosphor/src/lib/icons/notches'
+import { PhNote } from '../../ng-phosphor/src/lib/icons/note'
+import { PhNoteBlank } from '../../ng-phosphor/src/lib/icons/note-blank'
+import { PhNotePencil } from '../../ng-phosphor/src/lib/icons/note-pencil'
+import { PhNotebook } from '../../ng-phosphor/src/lib/icons/notebook'
+import { PhNotepad } from '../../ng-phosphor/src/lib/icons/notepad'
+import { PhNotification } from '../../ng-phosphor/src/lib/icons/notification'
+import { PhNotionLogo } from '../../ng-phosphor/src/lib/icons/notion-logo'
+import { PhNuclearPlant } from '../../ng-phosphor/src/lib/icons/nuclear-plant'
+import { PhNumberCircleEight } from '../../ng-phosphor/src/lib/icons/number-circle-eight'
+import { PhNumberCircleFive } from '../../ng-phosphor/src/lib/icons/number-circle-five'
+import { PhNumberCircleFour } from '../../ng-phosphor/src/lib/icons/number-circle-four'
+import { PhNumberCircleNine } from '../../ng-phosphor/src/lib/icons/number-circle-nine'
+import { PhNumberCircleOne } from '../../ng-phosphor/src/lib/icons/number-circle-one'
+import { PhNumberCircleSeven } from '../../ng-phosphor/src/lib/icons/number-circle-seven'
+import { PhNumberCircleSix } from '../../ng-phosphor/src/lib/icons/number-circle-six'
+import { PhNumberCircleThree } from '../../ng-phosphor/src/lib/icons/number-circle-three'
+import { PhNumberCircleTwo } from '../../ng-phosphor/src/lib/icons/number-circle-two'
+import { PhNumberCircleZero } from '../../ng-phosphor/src/lib/icons/number-circle-zero'
+import { PhNumberEight } from '../../ng-phosphor/src/lib/icons/number-eight'
+import { PhNumberFive } from '../../ng-phosphor/src/lib/icons/number-five'
+import { PhNumberFour } from '../../ng-phosphor/src/lib/icons/number-four'
+import { PhNumberNine } from '../../ng-phosphor/src/lib/icons/number-nine'
+import { PhNumberOne } from '../../ng-phosphor/src/lib/icons/number-one'
+import { PhNumberSeven } from '../../ng-phosphor/src/lib/icons/number-seven'
+import { PhNumberSix } from '../../ng-phosphor/src/lib/icons/number-six'
+import { PhNumberSquareEight } from '../../ng-phosphor/src/lib/icons/number-square-eight'
+import { PhNumberSquareFive } from '../../ng-phosphor/src/lib/icons/number-square-five'
+import { PhNumberSquareFour } from '../../ng-phosphor/src/lib/icons/number-square-four'
+import { PhNumberSquareNine } from '../../ng-phosphor/src/lib/icons/number-square-nine'
+import { PhNumberSquareOne } from '../../ng-phosphor/src/lib/icons/number-square-one'
+import { PhNumberSquareSeven } from '../../ng-phosphor/src/lib/icons/number-square-seven'
+import { PhNumberSquareSix } from '../../ng-phosphor/src/lib/icons/number-square-six'
+import { PhNumberSquareThree } from '../../ng-phosphor/src/lib/icons/number-square-three'
+import { PhNumberSquareTwo } from '../../ng-phosphor/src/lib/icons/number-square-two'
+import { PhNumberSquareZero } from '../../ng-phosphor/src/lib/icons/number-square-zero'
+import { PhNumberThree } from '../../ng-phosphor/src/lib/icons/number-three'
+import { PhNumberTwo } from '../../ng-phosphor/src/lib/icons/number-two'
+import { PhNumberZero } from '../../ng-phosphor/src/lib/icons/number-zero'
+import { PhNumpad } from '../../ng-phosphor/src/lib/icons/numpad'
+import { PhNut } from '../../ng-phosphor/src/lib/icons/nut'
+import { PhNyTimesLogo } from '../../ng-phosphor/src/lib/icons/ny-times-logo'
+import { PhOctagon } from '../../ng-phosphor/src/lib/icons/octagon'
+import { PhOfficeChair } from '../../ng-phosphor/src/lib/icons/office-chair'
+import { PhOnigiri } from '../../ng-phosphor/src/lib/icons/onigiri'
+import { PhOpenAiLogo } from '../../ng-phosphor/src/lib/icons/open-ai-logo'
+import { PhOption } from '../../ng-phosphor/src/lib/icons/option'
+import { PhOrange } from '../../ng-phosphor/src/lib/icons/orange'
+import { PhOrangeSlice } from '../../ng-phosphor/src/lib/icons/orange-slice'
+import { PhOven } from '../../ng-phosphor/src/lib/icons/oven'
+import { PhPackage } from '../../ng-phosphor/src/lib/icons/package'
+import { PhPaintBrush } from '../../ng-phosphor/src/lib/icons/paint-brush'
+import { PhPaintBrushBroad } from '../../ng-phosphor/src/lib/icons/paint-brush-broad'
+import { PhPaintBrushHousehold } from '../../ng-phosphor/src/lib/icons/paint-brush-household'
+import { PhPaintBucket } from '../../ng-phosphor/src/lib/icons/paint-bucket'
+import { PhPaintRoller } from '../../ng-phosphor/src/lib/icons/paint-roller'
+import { PhPalette } from '../../ng-phosphor/src/lib/icons/palette'
+import { PhPanorama } from '../../ng-phosphor/src/lib/icons/panorama'
+import { PhPants } from '../../ng-phosphor/src/lib/icons/pants'
+import { PhPaperPlane } from '../../ng-phosphor/src/lib/icons/paper-plane'
+import { PhPaperPlaneRight } from '../../ng-phosphor/src/lib/icons/paper-plane-right'
+import { PhPaperPlaneTilt } from '../../ng-phosphor/src/lib/icons/paper-plane-tilt'
+import { PhPaperclip } from '../../ng-phosphor/src/lib/icons/paperclip'
+import { PhPaperclipHorizontal } from '../../ng-phosphor/src/lib/icons/paperclip-horizontal'
+import { PhParachute } from '../../ng-phosphor/src/lib/icons/parachute'
+import { PhParagraph } from '../../ng-phosphor/src/lib/icons/paragraph'
+import { PhParallelogram } from '../../ng-phosphor/src/lib/icons/parallelogram'
+import { PhPark } from '../../ng-phosphor/src/lib/icons/park'
+import { PhPassword } from '../../ng-phosphor/src/lib/icons/password'
+import { PhPath } from '../../ng-phosphor/src/lib/icons/path'
+import { PhPatreonLogo } from '../../ng-phosphor/src/lib/icons/patreon-logo'
+import { PhPause } from '../../ng-phosphor/src/lib/icons/pause'
+import { PhPauseCircle } from '../../ng-phosphor/src/lib/icons/pause-circle'
+import { PhPawPrint } from '../../ng-phosphor/src/lib/icons/paw-print'
+import { PhPaypalLogo } from '../../ng-phosphor/src/lib/icons/paypal-logo'
+import { PhPeace } from '../../ng-phosphor/src/lib/icons/peace'
+import { PhPen } from '../../ng-phosphor/src/lib/icons/pen'
+import { PhPenNib } from '../../ng-phosphor/src/lib/icons/pen-nib'
+import { PhPenNibStraight } from '../../ng-phosphor/src/lib/icons/pen-nib-straight'
+import { PhPencil } from '../../ng-phosphor/src/lib/icons/pencil'
+import { PhPencilCircle } from '../../ng-phosphor/src/lib/icons/pencil-circle'
+import { PhPencilLine } from '../../ng-phosphor/src/lib/icons/pencil-line'
+import { PhPencilRuler } from '../../ng-phosphor/src/lib/icons/pencil-ruler'
+import { PhPencilSimple } from '../../ng-phosphor/src/lib/icons/pencil-simple'
+import { PhPencilSimpleLine } from '../../ng-phosphor/src/lib/icons/pencil-simple-line'
+import { PhPencilSimpleSlash } from '../../ng-phosphor/src/lib/icons/pencil-simple-slash'
+import { PhPencilSlash } from '../../ng-phosphor/src/lib/icons/pencil-slash'
+import { PhPentagon } from '../../ng-phosphor/src/lib/icons/pentagon'
+import { PhPentagram } from '../../ng-phosphor/src/lib/icons/pentagram'
+import { PhPepper } from '../../ng-phosphor/src/lib/icons/pepper'
+import { PhPercent } from '../../ng-phosphor/src/lib/icons/percent'
+import { PhPerson } from '../../ng-phosphor/src/lib/icons/person'
+import { PhPersonArmsSpread } from '../../ng-phosphor/src/lib/icons/person-arms-spread'
+import { PhPersonSimple } from '../../ng-phosphor/src/lib/icons/person-simple'
+import { PhPersonSimpleBike } from '../../ng-phosphor/src/lib/icons/person-simple-bike'
+import { PhPersonSimpleCircle } from '../../ng-phosphor/src/lib/icons/person-simple-circle'
+import { PhPersonSimpleHike } from '../../ng-phosphor/src/lib/icons/person-simple-hike'
+import { PhPersonSimpleRun } from '../../ng-phosphor/src/lib/icons/person-simple-run'
+import { PhPersonSimpleSki } from '../../ng-phosphor/src/lib/icons/person-simple-ski'
+import { PhPersonSimpleSnowboard } from '../../ng-phosphor/src/lib/icons/person-simple-snowboard'
+import { PhPersonSimpleSwim } from '../../ng-phosphor/src/lib/icons/person-simple-swim'
+import { PhPersonSimpleTaiChi } from '../../ng-phosphor/src/lib/icons/person-simple-tai-chi'
+import { PhPersonSimpleThrow } from '../../ng-phosphor/src/lib/icons/person-simple-throw'
+import { PhPersonSimpleWalk } from '../../ng-phosphor/src/lib/icons/person-simple-walk'
+import { PhPerspective } from '../../ng-phosphor/src/lib/icons/perspective'
+import { PhPhone } from '../../ng-phosphor/src/lib/icons/phone'
+import { PhPhoneCall } from '../../ng-phosphor/src/lib/icons/phone-call'
+import { PhPhoneDisconnect } from '../../ng-phosphor/src/lib/icons/phone-disconnect'
+import { PhPhoneIncoming } from '../../ng-phosphor/src/lib/icons/phone-incoming'
+import { PhPhoneList } from '../../ng-phosphor/src/lib/icons/phone-list'
+import { PhPhoneOutgoing } from '../../ng-phosphor/src/lib/icons/phone-outgoing'
+import { PhPhonePause } from '../../ng-phosphor/src/lib/icons/phone-pause'
+import { PhPhonePlus } from '../../ng-phosphor/src/lib/icons/phone-plus'
+import { PhPhoneSlash } from '../../ng-phosphor/src/lib/icons/phone-slash'
+import { PhPhoneTransfer } from '../../ng-phosphor/src/lib/icons/phone-transfer'
+import { PhPhoneX } from '../../ng-phosphor/src/lib/icons/phone-x'
+import { PhPhosphorLogo } from '../../ng-phosphor/src/lib/icons/phosphor-logo'
+import { PhPi } from '../../ng-phosphor/src/lib/icons/pi'
+import { PhPianoKeys } from '../../ng-phosphor/src/lib/icons/piano-keys'
+import { PhPicnicTable } from '../../ng-phosphor/src/lib/icons/picnic-table'
+import { PhPictureInPicture } from '../../ng-phosphor/src/lib/icons/picture-in-picture'
+import { PhPiggyBank } from '../../ng-phosphor/src/lib/icons/piggy-bank'
+import { PhPill } from '../../ng-phosphor/src/lib/icons/pill'
+import { PhPingPong } from '../../ng-phosphor/src/lib/icons/ping-pong'
+import { PhPintGlass } from '../../ng-phosphor/src/lib/icons/pint-glass'
+import { PhPinterestLogo } from '../../ng-phosphor/src/lib/icons/pinterest-logo'
+import { PhPinwheel } from '../../ng-phosphor/src/lib/icons/pinwheel'
+import { PhPipe } from '../../ng-phosphor/src/lib/icons/pipe'
+import { PhPipeWrench } from '../../ng-phosphor/src/lib/icons/pipe-wrench'
+import { PhPixLogo } from '../../ng-phosphor/src/lib/icons/pix-logo'
+import { PhPizza } from '../../ng-phosphor/src/lib/icons/pizza'
+import { PhPlaceholder } from '../../ng-phosphor/src/lib/icons/placeholder'
+import { PhPlanet } from '../../ng-phosphor/src/lib/icons/planet'
+import { PhPlant } from '../../ng-phosphor/src/lib/icons/plant'
+import { PhPlay } from '../../ng-phosphor/src/lib/icons/play'
+import { PhPlayCircle } from '../../ng-phosphor/src/lib/icons/play-circle'
+import { PhPlayPause } from '../../ng-phosphor/src/lib/icons/play-pause'
+import { PhPlaylist } from '../../ng-phosphor/src/lib/icons/playlist'
+import { PhPlug } from '../../ng-phosphor/src/lib/icons/plug'
+import { PhPlugCharging } from '../../ng-phosphor/src/lib/icons/plug-charging'
+import { PhPlugs } from '../../ng-phosphor/src/lib/icons/plugs'
+import { PhPlugsConnected } from '../../ng-phosphor/src/lib/icons/plugs-connected'
+import { PhPlus } from '../../ng-phosphor/src/lib/icons/plus'
+import { PhPlusCircle } from '../../ng-phosphor/src/lib/icons/plus-circle'
+import { PhPlusMinus } from '../../ng-phosphor/src/lib/icons/plus-minus'
+import { PhPlusSquare } from '../../ng-phosphor/src/lib/icons/plus-square'
+import { PhPokerChip } from '../../ng-phosphor/src/lib/icons/poker-chip'
+import { PhPoliceCar } from '../../ng-phosphor/src/lib/icons/police-car'
+import { PhPolygon } from '../../ng-phosphor/src/lib/icons/polygon'
+import { PhPopcorn } from '../../ng-phosphor/src/lib/icons/popcorn'
+import { PhPopsicle } from '../../ng-phosphor/src/lib/icons/popsicle'
+import { PhPottedPlant } from '../../ng-phosphor/src/lib/icons/potted-plant'
+import { PhPower } from '../../ng-phosphor/src/lib/icons/power'
+import { PhPrescription } from '../../ng-phosphor/src/lib/icons/prescription'
+import { PhPresentation } from '../../ng-phosphor/src/lib/icons/presentation'
+import { PhPresentationChart } from '../../ng-phosphor/src/lib/icons/presentation-chart'
+import { PhPrinter } from '../../ng-phosphor/src/lib/icons/printer'
+import { PhProhibit } from '../../ng-phosphor/src/lib/icons/prohibit'
+import { PhProhibitInset } from '../../ng-phosphor/src/lib/icons/prohibit-inset'
+import { PhProjectorScreen } from '../../ng-phosphor/src/lib/icons/projector-screen'
+import { PhProjectorScreenChart } from '../../ng-phosphor/src/lib/icons/projector-screen-chart'
+import { PhPulse } from '../../ng-phosphor/src/lib/icons/pulse'
+import { PhPushPin } from '../../ng-phosphor/src/lib/icons/push-pin'
+import { PhPushPinSimple } from '../../ng-phosphor/src/lib/icons/push-pin-simple'
+import { PhPushPinSimpleSlash } from '../../ng-phosphor/src/lib/icons/push-pin-simple-slash'
+import { PhPushPinSlash } from '../../ng-phosphor/src/lib/icons/push-pin-slash'
+import { PhPuzzlePiece } from '../../ng-phosphor/src/lib/icons/puzzle-piece'
+import { PhQrCode } from '../../ng-phosphor/src/lib/icons/qr-code'
+import { PhQuestion } from '../../ng-phosphor/src/lib/icons/question'
+import { PhQuestionMark } from '../../ng-phosphor/src/lib/icons/question-mark'
+import { PhQueue } from '../../ng-phosphor/src/lib/icons/queue'
+import { PhQuotes } from '../../ng-phosphor/src/lib/icons/quotes'
+import { PhRabbit } from '../../ng-phosphor/src/lib/icons/rabbit'
+import { PhRacquet } from '../../ng-phosphor/src/lib/icons/racquet'
+import { PhRadical } from '../../ng-phosphor/src/lib/icons/radical'
+import { PhRadio } from '../../ng-phosphor/src/lib/icons/radio'
+import { PhRadioButton } from '../../ng-phosphor/src/lib/icons/radio-button'
+import { PhRadioactive } from '../../ng-phosphor/src/lib/icons/radioactive'
+import { PhRainbow } from '../../ng-phosphor/src/lib/icons/rainbow'
+import { PhRainbowCloud } from '../../ng-phosphor/src/lib/icons/rainbow-cloud'
+import { PhRanking } from '../../ng-phosphor/src/lib/icons/ranking'
+import { PhReadCvLogo } from '../../ng-phosphor/src/lib/icons/read-cv-logo'
+import { PhReceipt } from '../../ng-phosphor/src/lib/icons/receipt'
+import { PhReceiptX } from '../../ng-phosphor/src/lib/icons/receipt-x'
+import { PhRecord } from '../../ng-phosphor/src/lib/icons/record'
+import { PhRectangle } from '../../ng-phosphor/src/lib/icons/rectangle'
+import { PhRectangleDashed } from '../../ng-phosphor/src/lib/icons/rectangle-dashed'
+import { PhRecycle } from '../../ng-phosphor/src/lib/icons/recycle'
+import { PhRedditLogo } from '../../ng-phosphor/src/lib/icons/reddit-logo'
+import { PhRepeat } from '../../ng-phosphor/src/lib/icons/repeat'
+import { PhRepeatOnce } from '../../ng-phosphor/src/lib/icons/repeat-once'
+import { PhReplitLogo } from '../../ng-phosphor/src/lib/icons/replit-logo'
+import { PhResize } from '../../ng-phosphor/src/lib/icons/resize'
+import { PhRewind } from '../../ng-phosphor/src/lib/icons/rewind'
+import { PhRewindCircle } from '../../ng-phosphor/src/lib/icons/rewind-circle'
+import { PhRoadHorizon } from '../../ng-phosphor/src/lib/icons/road-horizon'
+import { PhRobot } from '../../ng-phosphor/src/lib/icons/robot'
+import { PhRocket } from '../../ng-phosphor/src/lib/icons/rocket'
+import { PhRocketLaunch } from '../../ng-phosphor/src/lib/icons/rocket-launch'
+import { PhRows } from '../../ng-phosphor/src/lib/icons/rows'
+import { PhRowsPlusBottom } from '../../ng-phosphor/src/lib/icons/rows-plus-bottom'
+import { PhRowsPlusTop } from '../../ng-phosphor/src/lib/icons/rows-plus-top'
+import { PhRss } from '../../ng-phosphor/src/lib/icons/rss'
+import { PhRssSimple } from '../../ng-phosphor/src/lib/icons/rss-simple'
+import { PhRug } from '../../ng-phosphor/src/lib/icons/rug'
+import { PhRuler } from '../../ng-phosphor/src/lib/icons/ruler'
+import { PhSailboat } from '../../ng-phosphor/src/lib/icons/sailboat'
+import { PhScales } from '../../ng-phosphor/src/lib/icons/scales'
+import { PhScan } from '../../ng-phosphor/src/lib/icons/scan'
+import { PhScanSmiley } from '../../ng-phosphor/src/lib/icons/scan-smiley'
+import { PhScissors } from '../../ng-phosphor/src/lib/icons/scissors'
+import { PhScooter } from '../../ng-phosphor/src/lib/icons/scooter'
+import { PhScreencast } from '../../ng-phosphor/src/lib/icons/screencast'
+import { PhScrewdriver } from '../../ng-phosphor/src/lib/icons/screwdriver'
+import { PhScribble } from '../../ng-phosphor/src/lib/icons/scribble'
+import { PhScribbleLoop } from '../../ng-phosphor/src/lib/icons/scribble-loop'
+import { PhScroll } from '../../ng-phosphor/src/lib/icons/scroll'
+import { PhSeal } from '../../ng-phosphor/src/lib/icons/seal'
+import { PhSealCheck } from '../../ng-phosphor/src/lib/icons/seal-check'
+import { PhSealPercent } from '../../ng-phosphor/src/lib/icons/seal-percent'
+import { PhSealQuestion } from '../../ng-phosphor/src/lib/icons/seal-question'
+import { PhSealWarning } from '../../ng-phosphor/src/lib/icons/seal-warning'
+import { PhSeat } from '../../ng-phosphor/src/lib/icons/seat'
+import { PhSeatbelt } from '../../ng-phosphor/src/lib/icons/seatbelt'
+import { PhSecurityCamera } from '../../ng-phosphor/src/lib/icons/security-camera'
+import { PhSelection } from '../../ng-phosphor/src/lib/icons/selection'
+import { PhSelectionAll } from '../../ng-phosphor/src/lib/icons/selection-all'
+import { PhSelectionBackground } from '../../ng-phosphor/src/lib/icons/selection-background'
+import { PhSelectionForeground } from '../../ng-phosphor/src/lib/icons/selection-foreground'
+import { PhSelectionInverse } from '../../ng-phosphor/src/lib/icons/selection-inverse'
+import { PhSelectionPlus } from '../../ng-phosphor/src/lib/icons/selection-plus'
+import { PhSelectionSlash } from '../../ng-phosphor/src/lib/icons/selection-slash'
+import { PhShapes } from '../../ng-phosphor/src/lib/icons/shapes'
+import { PhShare } from '../../ng-phosphor/src/lib/icons/share'
+import { PhShareFat } from '../../ng-phosphor/src/lib/icons/share-fat'
+import { PhShareNetwork } from '../../ng-phosphor/src/lib/icons/share-network'
+import { PhShield } from '../../ng-phosphor/src/lib/icons/shield'
+import { PhShieldCheck } from '../../ng-phosphor/src/lib/icons/shield-check'
+import { PhShieldCheckered } from '../../ng-phosphor/src/lib/icons/shield-checkered'
+import { PhShieldChevron } from '../../ng-phosphor/src/lib/icons/shield-chevron'
+import { PhShieldPlus } from '../../ng-phosphor/src/lib/icons/shield-plus'
+import { PhShieldSlash } from '../../ng-phosphor/src/lib/icons/shield-slash'
+import { PhShieldStar } from '../../ng-phosphor/src/lib/icons/shield-star'
+import { PhShieldWarning } from '../../ng-phosphor/src/lib/icons/shield-warning'
+import { PhShippingContainer } from '../../ng-phosphor/src/lib/icons/shipping-container'
+import { PhShirtFolded } from '../../ng-phosphor/src/lib/icons/shirt-folded'
+import { PhShootingStar } from '../../ng-phosphor/src/lib/icons/shooting-star'
+import { PhShoppingBag } from '../../ng-phosphor/src/lib/icons/shopping-bag'
+import { PhShoppingBagOpen } from '../../ng-phosphor/src/lib/icons/shopping-bag-open'
+import { PhShoppingCart } from '../../ng-phosphor/src/lib/icons/shopping-cart'
+import { PhShoppingCartSimple } from '../../ng-phosphor/src/lib/icons/shopping-cart-simple'
+import { PhShovel } from '../../ng-phosphor/src/lib/icons/shovel'
+import { PhShower } from '../../ng-phosphor/src/lib/icons/shower'
+import { PhShrimp } from '../../ng-phosphor/src/lib/icons/shrimp'
+import { PhShuffle } from '../../ng-phosphor/src/lib/icons/shuffle'
+import { PhShuffleAngular } from '../../ng-phosphor/src/lib/icons/shuffle-angular'
+import { PhShuffleSimple } from '../../ng-phosphor/src/lib/icons/shuffle-simple'
+import { PhSidebar } from '../../ng-phosphor/src/lib/icons/sidebar'
+import { PhSidebarSimple } from '../../ng-phosphor/src/lib/icons/sidebar-simple'
+import { PhSigma } from '../../ng-phosphor/src/lib/icons/sigma'
+import { PhSignIn } from '../../ng-phosphor/src/lib/icons/sign-in'
+import { PhSignOut } from '../../ng-phosphor/src/lib/icons/sign-out'
+import { PhSignature } from '../../ng-phosphor/src/lib/icons/signature'
+import { PhSignpost } from '../../ng-phosphor/src/lib/icons/signpost'
+import { PhSimCard } from '../../ng-phosphor/src/lib/icons/sim-card'
+import { PhSiren } from '../../ng-phosphor/src/lib/icons/siren'
+import { PhSketchLogo } from '../../ng-phosphor/src/lib/icons/sketch-logo'
+import { PhSkipBack } from '../../ng-phosphor/src/lib/icons/skip-back'
+import { PhSkipBackCircle } from '../../ng-phosphor/src/lib/icons/skip-back-circle'
+import { PhSkipForward } from '../../ng-phosphor/src/lib/icons/skip-forward'
+import { PhSkipForwardCircle } from '../../ng-phosphor/src/lib/icons/skip-forward-circle'
+import { PhSkull } from '../../ng-phosphor/src/lib/icons/skull'
+import { PhSkypeLogo } from '../../ng-phosphor/src/lib/icons/skype-logo'
+import { PhSlackLogo } from '../../ng-phosphor/src/lib/icons/slack-logo'
+import { PhSliders } from '../../ng-phosphor/src/lib/icons/sliders'
+import { PhSlidersHorizontal } from '../../ng-phosphor/src/lib/icons/sliders-horizontal'
+import { PhSlideshow } from '../../ng-phosphor/src/lib/icons/slideshow'
+import { PhSmiley } from '../../ng-phosphor/src/lib/icons/smiley'
+import { PhSmileyAngry } from '../../ng-phosphor/src/lib/icons/smiley-angry'
+import { PhSmileyBlank } from '../../ng-phosphor/src/lib/icons/smiley-blank'
+import { PhSmileyMeh } from '../../ng-phosphor/src/lib/icons/smiley-meh'
+import { PhSmileyMelting } from '../../ng-phosphor/src/lib/icons/smiley-melting'
+import { PhSmileyNervous } from '../../ng-phosphor/src/lib/icons/smiley-nervous'
+import { PhSmileySad } from '../../ng-phosphor/src/lib/icons/smiley-sad'
+import { PhSmileySticker } from '../../ng-phosphor/src/lib/icons/smiley-sticker'
+import { PhSmileyWink } from '../../ng-phosphor/src/lib/icons/smiley-wink'
+import { PhSmileyXEyes } from '../../ng-phosphor/src/lib/icons/smiley-x-eyes'
+import { PhSnapchatLogo } from '../../ng-phosphor/src/lib/icons/snapchat-logo'
+import { PhSneaker } from '../../ng-phosphor/src/lib/icons/sneaker'
+import { PhSneakerMove } from '../../ng-phosphor/src/lib/icons/sneaker-move'
+import { PhSnowflake } from '../../ng-phosphor/src/lib/icons/snowflake'
+import { PhSoccerBall } from '../../ng-phosphor/src/lib/icons/soccer-ball'
+import { PhSock } from '../../ng-phosphor/src/lib/icons/sock'
+import { PhSolarPanel } from '../../ng-phosphor/src/lib/icons/solar-panel'
+import { PhSolarRoof } from '../../ng-phosphor/src/lib/icons/solar-roof'
+import { PhSortAscending } from '../../ng-phosphor/src/lib/icons/sort-ascending'
+import { PhSortDescending } from '../../ng-phosphor/src/lib/icons/sort-descending'
+import { PhSoundcloudLogo } from '../../ng-phosphor/src/lib/icons/soundcloud-logo'
+import { PhSpade } from '../../ng-phosphor/src/lib/icons/spade'
+import { PhSparkle } from '../../ng-phosphor/src/lib/icons/sparkle'
+import { PhSpeakerHifi } from '../../ng-phosphor/src/lib/icons/speaker-hifi'
+import { PhSpeakerHigh } from '../../ng-phosphor/src/lib/icons/speaker-high'
+import { PhSpeakerLow } from '../../ng-phosphor/src/lib/icons/speaker-low'
+import { PhSpeakerNone } from '../../ng-phosphor/src/lib/icons/speaker-none'
+import { PhSpeakerSimpleHigh } from '../../ng-phosphor/src/lib/icons/speaker-simple-high'
+import { PhSpeakerSimpleLow } from '../../ng-phosphor/src/lib/icons/speaker-simple-low'
+import { PhSpeakerSimpleNone } from '../../ng-phosphor/src/lib/icons/speaker-simple-none'
+import { PhSpeakerSimpleSlash } from '../../ng-phosphor/src/lib/icons/speaker-simple-slash'
+import { PhSpeakerSimpleX } from '../../ng-phosphor/src/lib/icons/speaker-simple-x'
+import { PhSpeakerSlash } from '../../ng-phosphor/src/lib/icons/speaker-slash'
+import { PhSpeakerX } from '../../ng-phosphor/src/lib/icons/speaker-x'
+import { PhSpeedometer } from '../../ng-phosphor/src/lib/icons/speedometer'
+import { PhSphere } from '../../ng-phosphor/src/lib/icons/sphere'
+import { PhSpinner } from '../../ng-phosphor/src/lib/icons/spinner'
+import { PhSpinnerBall } from '../../ng-phosphor/src/lib/icons/spinner-ball'
+import { PhSpinnerGap } from '../../ng-phosphor/src/lib/icons/spinner-gap'
+import { PhSpiral } from '../../ng-phosphor/src/lib/icons/spiral'
+import { PhSplitHorizontal } from '../../ng-phosphor/src/lib/icons/split-horizontal'
+import { PhSplitVertical } from '../../ng-phosphor/src/lib/icons/split-vertical'
+import { PhSpotifyLogo } from '../../ng-phosphor/src/lib/icons/spotify-logo'
+import { PhSprayBottle } from '../../ng-phosphor/src/lib/icons/spray-bottle'
+import { PhSquare } from '../../ng-phosphor/src/lib/icons/square'
+import { PhSquareHalf } from '../../ng-phosphor/src/lib/icons/square-half'
+import { PhSquareHalfBottom } from '../../ng-phosphor/src/lib/icons/square-half-bottom'
+import { PhSquareLogo } from '../../ng-phosphor/src/lib/icons/square-logo'
+import { PhSquareSplitHorizontal } from '../../ng-phosphor/src/lib/icons/square-split-horizontal'
+import { PhSquareSplitVertical } from '../../ng-phosphor/src/lib/icons/square-split-vertical'
+import { PhSquaresFour } from '../../ng-phosphor/src/lib/icons/squares-four'
+import { PhStack } from '../../ng-phosphor/src/lib/icons/stack'
+import { PhStackMinus } from '../../ng-phosphor/src/lib/icons/stack-minus'
+import { PhStackOverflowLogo } from '../../ng-phosphor/src/lib/icons/stack-overflow-logo'
+import { PhStackPlus } from '../../ng-phosphor/src/lib/icons/stack-plus'
+import { PhStackSimple } from '../../ng-phosphor/src/lib/icons/stack-simple'
+import { PhStairs } from '../../ng-phosphor/src/lib/icons/stairs'
+import { PhStamp } from '../../ng-phosphor/src/lib/icons/stamp'
+import { PhStandardDefinition } from '../../ng-phosphor/src/lib/icons/standard-definition'
+import { PhStar } from '../../ng-phosphor/src/lib/icons/star'
+import { PhStarAndCrescent } from '../../ng-phosphor/src/lib/icons/star-and-crescent'
+import { PhStarFour } from '../../ng-phosphor/src/lib/icons/star-four'
+import { PhStarHalf } from '../../ng-phosphor/src/lib/icons/star-half'
+import { PhStarOfDavid } from '../../ng-phosphor/src/lib/icons/star-of-david'
+import { PhSteamLogo } from '../../ng-phosphor/src/lib/icons/steam-logo'
+import { PhSteeringWheel } from '../../ng-phosphor/src/lib/icons/steering-wheel'
+import { PhSteps } from '../../ng-phosphor/src/lib/icons/steps'
+import { PhStethoscope } from '../../ng-phosphor/src/lib/icons/stethoscope'
+import { PhSticker } from '../../ng-phosphor/src/lib/icons/sticker'
+import { PhStool } from '../../ng-phosphor/src/lib/icons/stool'
+import { PhStop } from '../../ng-phosphor/src/lib/icons/stop'
+import { PhStopCircle } from '../../ng-phosphor/src/lib/icons/stop-circle'
+import { PhStorefront } from '../../ng-phosphor/src/lib/icons/storefront'
+import { PhStrategy } from '../../ng-phosphor/src/lib/icons/strategy'
+import { PhStripeLogo } from '../../ng-phosphor/src/lib/icons/stripe-logo'
+import { PhStudent } from '../../ng-phosphor/src/lib/icons/student'
+import { PhSubsetOf } from '../../ng-phosphor/src/lib/icons/subset-of'
+import { PhSubsetProperOf } from '../../ng-phosphor/src/lib/icons/subset-proper-of'
+import { PhSubtitles } from '../../ng-phosphor/src/lib/icons/subtitles'
+import { PhSubtitlesSlash } from '../../ng-phosphor/src/lib/icons/subtitles-slash'
+import { PhSubtract } from '../../ng-phosphor/src/lib/icons/subtract'
+import { PhSubtractSquare } from '../../ng-phosphor/src/lib/icons/subtract-square'
+import { PhSubway } from '../../ng-phosphor/src/lib/icons/subway'
+import { PhSuitcase } from '../../ng-phosphor/src/lib/icons/suitcase'
+import { PhSuitcaseRolling } from '../../ng-phosphor/src/lib/icons/suitcase-rolling'
+import { PhSuitcaseSimple } from '../../ng-phosphor/src/lib/icons/suitcase-simple'
+import { PhSun } from '../../ng-phosphor/src/lib/icons/sun'
+import { PhSunDim } from '../../ng-phosphor/src/lib/icons/sun-dim'
+import { PhSunHorizon } from '../../ng-phosphor/src/lib/icons/sun-horizon'
+import { PhSunglasses } from '../../ng-phosphor/src/lib/icons/sunglasses'
+import { PhSupersetOf } from '../../ng-phosphor/src/lib/icons/superset-of'
+import { PhSupersetProperOf } from '../../ng-phosphor/src/lib/icons/superset-proper-of'
+import { PhSwap } from '../../ng-phosphor/src/lib/icons/swap'
+import { PhSwatches } from '../../ng-phosphor/src/lib/icons/swatches'
+import { PhSwimmingPool } from '../../ng-phosphor/src/lib/icons/swimming-pool'
+import { PhSword } from '../../ng-phosphor/src/lib/icons/sword'
+import { PhSynagogue } from '../../ng-phosphor/src/lib/icons/synagogue'
+import { PhSyringe } from '../../ng-phosphor/src/lib/icons/syringe'
+import { PhTShirt } from '../../ng-phosphor/src/lib/icons/t-shirt'
+import { PhTable } from '../../ng-phosphor/src/lib/icons/table'
+import { PhTabs } from '../../ng-phosphor/src/lib/icons/tabs'
+import { PhTag } from '../../ng-phosphor/src/lib/icons/tag'
+import { PhTagChevron } from '../../ng-phosphor/src/lib/icons/tag-chevron'
+import { PhTagSimple } from '../../ng-phosphor/src/lib/icons/tag-simple'
+import { PhTarget } from '../../ng-phosphor/src/lib/icons/target'
+import { PhTaxi } from '../../ng-phosphor/src/lib/icons/taxi'
+import { PhTeaBag } from '../../ng-phosphor/src/lib/icons/tea-bag'
+import { PhTelegramLogo } from '../../ng-phosphor/src/lib/icons/telegram-logo'
+import { PhTelevision } from '../../ng-phosphor/src/lib/icons/television'
+import { PhTelevisionSimple } from '../../ng-phosphor/src/lib/icons/television-simple'
+import { PhTennisBall } from '../../ng-phosphor/src/lib/icons/tennis-ball'
+import { PhTent } from '../../ng-phosphor/src/lib/icons/tent'
+import { PhTerminal } from '../../ng-phosphor/src/lib/icons/terminal'
+import { PhTerminalWindow } from '../../ng-phosphor/src/lib/icons/terminal-window'
+import { PhTestTube } from '../../ng-phosphor/src/lib/icons/test-tube'
+import { PhTextAUnderline } from '../../ng-phosphor/src/lib/icons/text-a-underline'
+import { PhTextAa } from '../../ng-phosphor/src/lib/icons/text-aa'
+import { PhTextAlignCenter } from '../../ng-phosphor/src/lib/icons/text-align-center'
+import { PhTextAlignJustify } from '../../ng-phosphor/src/lib/icons/text-align-justify'
+import { PhTextAlignLeft } from '../../ng-phosphor/src/lib/icons/text-align-left'
+import { PhTextAlignRight } from '../../ng-phosphor/src/lib/icons/text-align-right'
+import { PhTextB } from '../../ng-phosphor/src/lib/icons/text-b'
+import { PhTextColumns } from '../../ng-phosphor/src/lib/icons/text-columns'
+import { PhTextH } from '../../ng-phosphor/src/lib/icons/text-h'
+import { PhTextHFive } from '../../ng-phosphor/src/lib/icons/text-h-five'
+import { PhTextHFour } from '../../ng-phosphor/src/lib/icons/text-h-four'
+import { PhTextHOne } from '../../ng-phosphor/src/lib/icons/text-h-one'
+import { PhTextHSix } from '../../ng-phosphor/src/lib/icons/text-h-six'
+import { PhTextHThree } from '../../ng-phosphor/src/lib/icons/text-h-three'
+import { PhTextHTwo } from '../../ng-phosphor/src/lib/icons/text-h-two'
+import { PhTextIndent } from '../../ng-phosphor/src/lib/icons/text-indent'
+import { PhTextItalic } from '../../ng-phosphor/src/lib/icons/text-italic'
+import { PhTextOutdent } from '../../ng-phosphor/src/lib/icons/text-outdent'
+import { PhTextStrikethrough } from '../../ng-phosphor/src/lib/icons/text-strikethrough'
+import { PhTextSubscript } from '../../ng-phosphor/src/lib/icons/text-subscript'
+import { PhTextSuperscript } from '../../ng-phosphor/src/lib/icons/text-superscript'
+import { PhTextT } from '../../ng-phosphor/src/lib/icons/text-t'
+import { PhTextTSlash } from '../../ng-phosphor/src/lib/icons/text-t-slash'
+import { PhTextUnderline } from '../../ng-phosphor/src/lib/icons/text-underline'
+import { PhTextbox } from '../../ng-phosphor/src/lib/icons/textbox'
+import { PhThermometer } from '../../ng-phosphor/src/lib/icons/thermometer'
+import { PhThermometerCold } from '../../ng-phosphor/src/lib/icons/thermometer-cold'
+import { PhThermometerHot } from '../../ng-phosphor/src/lib/icons/thermometer-hot'
+import { PhThermometerSimple } from '../../ng-phosphor/src/lib/icons/thermometer-simple'
+import { PhThreadsLogo } from '../../ng-phosphor/src/lib/icons/threads-logo'
+import { PhThreeD } from '../../ng-phosphor/src/lib/icons/three-d'
+import { PhThumbsDown } from '../../ng-phosphor/src/lib/icons/thumbs-down'
+import { PhThumbsUp } from '../../ng-phosphor/src/lib/icons/thumbs-up'
+import { PhTicket } from '../../ng-phosphor/src/lib/icons/ticket'
+import { PhTidalLogo } from '../../ng-phosphor/src/lib/icons/tidal-logo'
+import { PhTiktokLogo } from '../../ng-phosphor/src/lib/icons/tiktok-logo'
+import { PhTilde } from '../../ng-phosphor/src/lib/icons/tilde'
+import { PhTimer } from '../../ng-phosphor/src/lib/icons/timer'
+import { PhTipJar } from '../../ng-phosphor/src/lib/icons/tip-jar'
+import { PhTipi } from '../../ng-phosphor/src/lib/icons/tipi'
+import { PhTire } from '../../ng-phosphor/src/lib/icons/tire'
+import { PhToggleLeft } from '../../ng-phosphor/src/lib/icons/toggle-left'
+import { PhToggleRight } from '../../ng-phosphor/src/lib/icons/toggle-right'
+import { PhToilet } from '../../ng-phosphor/src/lib/icons/toilet'
+import { PhToiletPaper } from '../../ng-phosphor/src/lib/icons/toilet-paper'
+import { PhToolbox } from '../../ng-phosphor/src/lib/icons/toolbox'
+import { PhTooth } from '../../ng-phosphor/src/lib/icons/tooth'
+import { PhTornado } from '../../ng-phosphor/src/lib/icons/tornado'
+import { PhTote } from '../../ng-phosphor/src/lib/icons/tote'
+import { PhToteSimple } from '../../ng-phosphor/src/lib/icons/tote-simple'
+import { PhTowel } from '../../ng-phosphor/src/lib/icons/towel'
+import { PhTractor } from '../../ng-phosphor/src/lib/icons/tractor'
+import { PhTrademark } from '../../ng-phosphor/src/lib/icons/trademark'
+import { PhTrademarkRegistered } from '../../ng-phosphor/src/lib/icons/trademark-registered'
+import { PhTrafficCone } from '../../ng-phosphor/src/lib/icons/traffic-cone'
+import { PhTrafficSign } from '../../ng-phosphor/src/lib/icons/traffic-sign'
+import { PhTrafficSignal } from '../../ng-phosphor/src/lib/icons/traffic-signal'
+import { PhTrain } from '../../ng-phosphor/src/lib/icons/train'
+import { PhTrainRegional } from '../../ng-phosphor/src/lib/icons/train-regional'
+import { PhTrainSimple } from '../../ng-phosphor/src/lib/icons/train-simple'
+import { PhTram } from '../../ng-phosphor/src/lib/icons/tram'
+import { PhTranslate } from '../../ng-phosphor/src/lib/icons/translate'
+import { PhTrash } from '../../ng-phosphor/src/lib/icons/trash'
+import { PhTrashSimple } from '../../ng-phosphor/src/lib/icons/trash-simple'
+import { PhTray } from '../../ng-phosphor/src/lib/icons/tray'
+import { PhTrayArrowDown } from '../../ng-phosphor/src/lib/icons/tray-arrow-down'
+import { PhTrayArrowUp } from '../../ng-phosphor/src/lib/icons/tray-arrow-up'
+import { PhTreasureChest } from '../../ng-phosphor/src/lib/icons/treasure-chest'
+import { PhTree } from '../../ng-phosphor/src/lib/icons/tree'
+import { PhTreeEvergreen } from '../../ng-phosphor/src/lib/icons/tree-evergreen'
+import { PhTreePalm } from '../../ng-phosphor/src/lib/icons/tree-palm'
+import { PhTreeStructure } from '../../ng-phosphor/src/lib/icons/tree-structure'
+import { PhTreeView } from '../../ng-phosphor/src/lib/icons/tree-view'
+import { PhTrendDown } from '../../ng-phosphor/src/lib/icons/trend-down'
+import { PhTrendUp } from '../../ng-phosphor/src/lib/icons/trend-up'
+import { PhTriangle } from '../../ng-phosphor/src/lib/icons/triangle'
+import { PhTriangleDashed } from '../../ng-phosphor/src/lib/icons/triangle-dashed'
+import { PhTrolley } from '../../ng-phosphor/src/lib/icons/trolley'
+import { PhTrolleySuitcase } from '../../ng-phosphor/src/lib/icons/trolley-suitcase'
+import { PhTrophy } from '../../ng-phosphor/src/lib/icons/trophy'
+import { PhTruck } from '../../ng-phosphor/src/lib/icons/truck'
+import { PhTruckTrailer } from '../../ng-phosphor/src/lib/icons/truck-trailer'
+import { PhTumblrLogo } from '../../ng-phosphor/src/lib/icons/tumblr-logo'
+import { PhTwitchLogo } from '../../ng-phosphor/src/lib/icons/twitch-logo'
+import { PhTwitterLogo } from '../../ng-phosphor/src/lib/icons/twitter-logo'
+import { PhUmbrella } from '../../ng-phosphor/src/lib/icons/umbrella'
+import { PhUmbrellaSimple } from '../../ng-phosphor/src/lib/icons/umbrella-simple'
+import { PhUnion } from '../../ng-phosphor/src/lib/icons/union'
+import { PhUnite } from '../../ng-phosphor/src/lib/icons/unite'
+import { PhUniteSquare } from '../../ng-phosphor/src/lib/icons/unite-square'
+import { PhUpload } from '../../ng-phosphor/src/lib/icons/upload'
+import { PhUploadSimple } from '../../ng-phosphor/src/lib/icons/upload-simple'
+import { PhUsb } from '../../ng-phosphor/src/lib/icons/usb'
+import { PhUser } from '../../ng-phosphor/src/lib/icons/user'
+import { PhUserCheck } from '../../ng-phosphor/src/lib/icons/user-check'
+import { PhUserCircle } from '../../ng-phosphor/src/lib/icons/user-circle'
+import { PhUserCircleCheck } from '../../ng-phosphor/src/lib/icons/user-circle-check'
+import { PhUserCircleDashed } from '../../ng-phosphor/src/lib/icons/user-circle-dashed'
+import { PhUserCircleGear } from '../../ng-phosphor/src/lib/icons/user-circle-gear'
+import { PhUserCircleMinus } from '../../ng-phosphor/src/lib/icons/user-circle-minus'
+import { PhUserCirclePlus } from '../../ng-phosphor/src/lib/icons/user-circle-plus'
+import { PhUserFocus } from '../../ng-phosphor/src/lib/icons/user-focus'
+import { PhUserGear } from '../../ng-phosphor/src/lib/icons/user-gear'
+import { PhUserList } from '../../ng-phosphor/src/lib/icons/user-list'
+import { PhUserMinus } from '../../ng-phosphor/src/lib/icons/user-minus'
+import { PhUserPlus } from '../../ng-phosphor/src/lib/icons/user-plus'
+import { PhUserRectangle } from '../../ng-phosphor/src/lib/icons/user-rectangle'
+import { PhUserSound } from '../../ng-phosphor/src/lib/icons/user-sound'
+import { PhUserSquare } from '../../ng-phosphor/src/lib/icons/user-square'
+import { PhUserSwitch } from '../../ng-phosphor/src/lib/icons/user-switch'
+import { PhUsers } from '../../ng-phosphor/src/lib/icons/users'
+import { PhUsersFour } from '../../ng-phosphor/src/lib/icons/users-four'
+import { PhUsersThree } from '../../ng-phosphor/src/lib/icons/users-three'
+import { PhVan } from '../../ng-phosphor/src/lib/icons/van'
+import { PhVault } from '../../ng-phosphor/src/lib/icons/vault'
+import { PhVectorThree } from '../../ng-phosphor/src/lib/icons/vector-three'
+import { PhVectorTwo } from '../../ng-phosphor/src/lib/icons/vector-two'
+import { PhVibrate } from '../../ng-phosphor/src/lib/icons/vibrate'
+import { PhVideo } from '../../ng-phosphor/src/lib/icons/video'
+import { PhVideoCamera } from '../../ng-phosphor/src/lib/icons/video-camera'
+import { PhVideoCameraSlash } from '../../ng-phosphor/src/lib/icons/video-camera-slash'
+import { PhVideoConference } from '../../ng-phosphor/src/lib/icons/video-conference'
+import { PhVignette } from '../../ng-phosphor/src/lib/icons/vignette'
+import { PhVinylRecord } from '../../ng-phosphor/src/lib/icons/vinyl-record'
+import { PhVirtualReality } from '../../ng-phosphor/src/lib/icons/virtual-reality'
+import { PhVirus } from '../../ng-phosphor/src/lib/icons/virus'
+import { PhVisor } from '../../ng-phosphor/src/lib/icons/visor'
+import { PhVoicemail } from '../../ng-phosphor/src/lib/icons/voicemail'
+import { PhVolleyball } from '../../ng-phosphor/src/lib/icons/volleyball'
+import { PhWall } from '../../ng-phosphor/src/lib/icons/wall'
+import { PhWallet } from '../../ng-phosphor/src/lib/icons/wallet'
+import { PhWarehouse } from '../../ng-phosphor/src/lib/icons/warehouse'
+import { PhWarning } from '../../ng-phosphor/src/lib/icons/warning'
+import { PhWarningCircle } from '../../ng-phosphor/src/lib/icons/warning-circle'
+import { PhWarningDiamond } from '../../ng-phosphor/src/lib/icons/warning-diamond'
+import { PhWarningOctagon } from '../../ng-phosphor/src/lib/icons/warning-octagon'
+import { PhWashingMachine } from '../../ng-phosphor/src/lib/icons/washing-machine'
+import { PhWatch } from '../../ng-phosphor/src/lib/icons/watch'
+import { PhWaveSawtooth } from '../../ng-phosphor/src/lib/icons/wave-sawtooth'
+import { PhWaveSine } from '../../ng-phosphor/src/lib/icons/wave-sine'
+import { PhWaveSquare } from '../../ng-phosphor/src/lib/icons/wave-square'
+import { PhWaveTriangle } from '../../ng-phosphor/src/lib/icons/wave-triangle'
+import { PhWaveform } from '../../ng-phosphor/src/lib/icons/waveform'
+import { PhWaveformSlash } from '../../ng-phosphor/src/lib/icons/waveform-slash'
+import { PhWaves } from '../../ng-phosphor/src/lib/icons/waves'
+import { PhWebcam } from '../../ng-phosphor/src/lib/icons/webcam'
+import { PhWebcamSlash } from '../../ng-phosphor/src/lib/icons/webcam-slash'
+import { PhWebhooksLogo } from '../../ng-phosphor/src/lib/icons/webhooks-logo'
+import { PhWechatLogo } from '../../ng-phosphor/src/lib/icons/wechat-logo'
+import { PhWhatsappLogo } from '../../ng-phosphor/src/lib/icons/whatsapp-logo'
+import { PhWheelchair } from '../../ng-phosphor/src/lib/icons/wheelchair'
+import { PhWheelchairMotion } from '../../ng-phosphor/src/lib/icons/wheelchair-motion'
+import { PhWifiHigh } from '../../ng-phosphor/src/lib/icons/wifi-high'
+import { PhWifiLow } from '../../ng-phosphor/src/lib/icons/wifi-low'
+import { PhWifiMedium } from '../../ng-phosphor/src/lib/icons/wifi-medium'
+import { PhWifiNone } from '../../ng-phosphor/src/lib/icons/wifi-none'
+import { PhWifiSlash } from '../../ng-phosphor/src/lib/icons/wifi-slash'
+import { PhWifiX } from '../../ng-phosphor/src/lib/icons/wifi-x'
+import { PhWind } from '../../ng-phosphor/src/lib/icons/wind'
+import { PhWindmill } from '../../ng-phosphor/src/lib/icons/windmill'
+import { PhWindowsLogo } from '../../ng-phosphor/src/lib/icons/windows-logo'
+import { PhWine } from '../../ng-phosphor/src/lib/icons/wine'
+import { PhWrench } from '../../ng-phosphor/src/lib/icons/wrench'
+import { PhX } from '../../ng-phosphor/src/lib/icons/x'
+import { PhXCircle } from '../../ng-phosphor/src/lib/icons/x-circle'
+import { PhXLogo } from '../../ng-phosphor/src/lib/icons/x-logo'
+import { PhXSquare } from '../../ng-phosphor/src/lib/icons/x-square'
+import { PhYarn } from '../../ng-phosphor/src/lib/icons/yarn'
+import { PhYinYang } from '../../ng-phosphor/src/lib/icons/yin-yang'
+import { PhYoutubeLogo } from '../../ng-phosphor/src/lib/icons/youtube-logo'
+import type { GalleryIcon } from './gallery-icon'
+
+export const iconCatalog: readonly GalleryIcon[] = [
+  { symbol: 'PhAcorn', icon: PhAcorn },
+  { symbol: 'PhAddressBook', icon: PhAddressBook },
+  { symbol: 'PhAddressBookTabs', icon: PhAddressBookTabs },
+  { symbol: 'PhAirTrafficControl', icon: PhAirTrafficControl },
+  { symbol: 'PhAirplane', icon: PhAirplane },
+  { symbol: 'PhAirplaneInFlight', icon: PhAirplaneInFlight },
+  { symbol: 'PhAirplaneLanding', icon: PhAirplaneLanding },
+  { symbol: 'PhAirplaneTakeoff', icon: PhAirplaneTakeoff },
+  { symbol: 'PhAirplaneTaxiing', icon: PhAirplaneTaxiing },
+  { symbol: 'PhAirplaneTilt', icon: PhAirplaneTilt },
+  { symbol: 'PhAirplay', icon: PhAirplay },
+  { symbol: 'PhAlarm', icon: PhAlarm },
+  { symbol: 'PhAlien', icon: PhAlien },
+  { symbol: 'PhAlignBottom', icon: PhAlignBottom },
+  { symbol: 'PhAlignBottomSimple', icon: PhAlignBottomSimple },
+  { symbol: 'PhAlignCenterHorizontal', icon: PhAlignCenterHorizontal },
+  { symbol: 'PhAlignCenterHorizontalSimple', icon: PhAlignCenterHorizontalSimple },
+  { symbol: 'PhAlignCenterVertical', icon: PhAlignCenterVertical },
+  { symbol: 'PhAlignCenterVerticalSimple', icon: PhAlignCenterVerticalSimple },
+  { symbol: 'PhAlignLeft', icon: PhAlignLeft },
+  { symbol: 'PhAlignLeftSimple', icon: PhAlignLeftSimple },
+  { symbol: 'PhAlignRight', icon: PhAlignRight },
+  { symbol: 'PhAlignRightSimple', icon: PhAlignRightSimple },
+  { symbol: 'PhAlignTop', icon: PhAlignTop },
+  { symbol: 'PhAlignTopSimple', icon: PhAlignTopSimple },
+  { symbol: 'PhAmazonLogo', icon: PhAmazonLogo },
+  { symbol: 'PhAmbulance', icon: PhAmbulance },
+  { symbol: 'PhAnchor', icon: PhAnchor },
+  { symbol: 'PhAnchorSimple', icon: PhAnchorSimple },
+  { symbol: 'PhAndroidLogo', icon: PhAndroidLogo },
+  { symbol: 'PhAngle', icon: PhAngle },
+  { symbol: 'PhAngularLogo', icon: PhAngularLogo },
+  { symbol: 'PhAperture', icon: PhAperture },
+  { symbol: 'PhAppStoreLogo', icon: PhAppStoreLogo },
+  { symbol: 'PhAppWindow', icon: PhAppWindow },
+  { symbol: 'PhAppleLogo', icon: PhAppleLogo },
+  { symbol: 'PhApplePodcastsLogo', icon: PhApplePodcastsLogo },
+  { symbol: 'PhApproximateEquals', icon: PhApproximateEquals },
+  { symbol: 'PhArchive', icon: PhArchive },
+  { symbol: 'PhArmchair', icon: PhArmchair },
+  { symbol: 'PhArrowArcLeft', icon: PhArrowArcLeft },
+  { symbol: 'PhArrowArcRight', icon: PhArrowArcRight },
+  { symbol: 'PhArrowBendDoubleUpLeft', icon: PhArrowBendDoubleUpLeft },
+  { symbol: 'PhArrowBendDoubleUpRight', icon: PhArrowBendDoubleUpRight },
+  { symbol: 'PhArrowBendDownLeft', icon: PhArrowBendDownLeft },
+  { symbol: 'PhArrowBendDownRight', icon: PhArrowBendDownRight },
+  { symbol: 'PhArrowBendLeftDown', icon: PhArrowBendLeftDown },
+  { symbol: 'PhArrowBendLeftUp', icon: PhArrowBendLeftUp },
+  { symbol: 'PhArrowBendRightDown', icon: PhArrowBendRightDown },
+  { symbol: 'PhArrowBendRightUp', icon: PhArrowBendRightUp },
+  { symbol: 'PhArrowBendUpLeft', icon: PhArrowBendUpLeft },
+  { symbol: 'PhArrowBendUpRight', icon: PhArrowBendUpRight },
+  { symbol: 'PhArrowCircleDown', icon: PhArrowCircleDown },
+  { symbol: 'PhArrowCircleDownLeft', icon: PhArrowCircleDownLeft },
+  { symbol: 'PhArrowCircleDownRight', icon: PhArrowCircleDownRight },
+  { symbol: 'PhArrowCircleLeft', icon: PhArrowCircleLeft },
+  { symbol: 'PhArrowCircleRight', icon: PhArrowCircleRight },
+  { symbol: 'PhArrowCircleUp', icon: PhArrowCircleUp },
+  { symbol: 'PhArrowCircleUpLeft', icon: PhArrowCircleUpLeft },
+  { symbol: 'PhArrowCircleUpRight', icon: PhArrowCircleUpRight },
+  { symbol: 'PhArrowClockwise', icon: PhArrowClockwise },
+  { symbol: 'PhArrowCounterClockwise', icon: PhArrowCounterClockwise },
+  { symbol: 'PhArrowDown', icon: PhArrowDown },
+  { symbol: 'PhArrowDownLeft', icon: PhArrowDownLeft },
+  { symbol: 'PhArrowDownRight', icon: PhArrowDownRight },
+  { symbol: 'PhArrowElbowDownLeft', icon: PhArrowElbowDownLeft },
+  { symbol: 'PhArrowElbowDownRight', icon: PhArrowElbowDownRight },
+  { symbol: 'PhArrowElbowLeft', icon: PhArrowElbowLeft },
+  { symbol: 'PhArrowElbowLeftDown', icon: PhArrowElbowLeftDown },
+  { symbol: 'PhArrowElbowLeftUp', icon: PhArrowElbowLeftUp },
+  { symbol: 'PhArrowElbowRight', icon: PhArrowElbowRight },
+  { symbol: 'PhArrowElbowRightDown', icon: PhArrowElbowRightDown },
+  { symbol: 'PhArrowElbowRightUp', icon: PhArrowElbowRightUp },
+  { symbol: 'PhArrowElbowUpLeft', icon: PhArrowElbowUpLeft },
+  { symbol: 'PhArrowElbowUpRight', icon: PhArrowElbowUpRight },
+  { symbol: 'PhArrowFatDown', icon: PhArrowFatDown },
+  { symbol: 'PhArrowFatLeft', icon: PhArrowFatLeft },
+  { symbol: 'PhArrowFatLineDown', icon: PhArrowFatLineDown },
+  { symbol: 'PhArrowFatLineLeft', icon: PhArrowFatLineLeft },
+  { symbol: 'PhArrowFatLineRight', icon: PhArrowFatLineRight },
+  { symbol: 'PhArrowFatLineUp', icon: PhArrowFatLineUp },
+  { symbol: 'PhArrowFatLinesDown', icon: PhArrowFatLinesDown },
+  { symbol: 'PhArrowFatLinesLeft', icon: PhArrowFatLinesLeft },
+  { symbol: 'PhArrowFatLinesRight', icon: PhArrowFatLinesRight },
+  { symbol: 'PhArrowFatLinesUp', icon: PhArrowFatLinesUp },
+  { symbol: 'PhArrowFatRight', icon: PhArrowFatRight },
+  { symbol: 'PhArrowFatUp', icon: PhArrowFatUp },
+  { symbol: 'PhArrowLeft', icon: PhArrowLeft },
+  { symbol: 'PhArrowLineDown', icon: PhArrowLineDown },
+  { symbol: 'PhArrowLineDownLeft', icon: PhArrowLineDownLeft },
+  { symbol: 'PhArrowLineDownRight', icon: PhArrowLineDownRight },
+  { symbol: 'PhArrowLineLeft', icon: PhArrowLineLeft },
+  { symbol: 'PhArrowLineRight', icon: PhArrowLineRight },
+  { symbol: 'PhArrowLineUp', icon: PhArrowLineUp },
+  { symbol: 'PhArrowLineUpLeft', icon: PhArrowLineUpLeft },
+  { symbol: 'PhArrowLineUpRight', icon: PhArrowLineUpRight },
+  { symbol: 'PhArrowRight', icon: PhArrowRight },
+  { symbol: 'PhArrowSquareDown', icon: PhArrowSquareDown },
+  { symbol: 'PhArrowSquareDownLeft', icon: PhArrowSquareDownLeft },
+  { symbol: 'PhArrowSquareDownRight', icon: PhArrowSquareDownRight },
+  { symbol: 'PhArrowSquareIn', icon: PhArrowSquareIn },
+  { symbol: 'PhArrowSquareLeft', icon: PhArrowSquareLeft },
+  { symbol: 'PhArrowSquareOut', icon: PhArrowSquareOut },
+  { symbol: 'PhArrowSquareRight', icon: PhArrowSquareRight },
+  { symbol: 'PhArrowSquareUp', icon: PhArrowSquareUp },
+  { symbol: 'PhArrowSquareUpLeft', icon: PhArrowSquareUpLeft },
+  { symbol: 'PhArrowSquareUpRight', icon: PhArrowSquareUpRight },
+  { symbol: 'PhArrowUDownLeft', icon: PhArrowUDownLeft },
+  { symbol: 'PhArrowUDownRight', icon: PhArrowUDownRight },
+  { symbol: 'PhArrowULeftDown', icon: PhArrowULeftDown },
+  { symbol: 'PhArrowULeftUp', icon: PhArrowULeftUp },
+  { symbol: 'PhArrowURightDown', icon: PhArrowURightDown },
+  { symbol: 'PhArrowURightUp', icon: PhArrowURightUp },
+  { symbol: 'PhArrowUUpLeft', icon: PhArrowUUpLeft },
+  { symbol: 'PhArrowUUpRight', icon: PhArrowUUpRight },
+  { symbol: 'PhArrowUp', icon: PhArrowUp },
+  { symbol: 'PhArrowUpLeft', icon: PhArrowUpLeft },
+  { symbol: 'PhArrowUpRight', icon: PhArrowUpRight },
+  { symbol: 'PhArrowsClockwise', icon: PhArrowsClockwise },
+  { symbol: 'PhArrowsCounterClockwise', icon: PhArrowsCounterClockwise },
+  { symbol: 'PhArrowsDownUp', icon: PhArrowsDownUp },
+  { symbol: 'PhArrowsHorizontal', icon: PhArrowsHorizontal },
+  { symbol: 'PhArrowsIn', icon: PhArrowsIn },
+  { symbol: 'PhArrowsInCardinal', icon: PhArrowsInCardinal },
+  { symbol: 'PhArrowsInLineHorizontal', icon: PhArrowsInLineHorizontal },
+  { symbol: 'PhArrowsInLineVertical', icon: PhArrowsInLineVertical },
+  { symbol: 'PhArrowsInSimple', icon: PhArrowsInSimple },
+  { symbol: 'PhArrowsLeftRight', icon: PhArrowsLeftRight },
+  { symbol: 'PhArrowsMerge', icon: PhArrowsMerge },
+  { symbol: 'PhArrowsOut', icon: PhArrowsOut },
+  { symbol: 'PhArrowsOutCardinal', icon: PhArrowsOutCardinal },
+  { symbol: 'PhArrowsOutLineHorizontal', icon: PhArrowsOutLineHorizontal },
+  { symbol: 'PhArrowsOutLineVertical', icon: PhArrowsOutLineVertical },
+  { symbol: 'PhArrowsOutSimple', icon: PhArrowsOutSimple },
+  { symbol: 'PhArrowsSplit', icon: PhArrowsSplit },
+  { symbol: 'PhArrowsVertical', icon: PhArrowsVertical },
+  { symbol: 'PhArticle', icon: PhArticle },
+  { symbol: 'PhArticleMedium', icon: PhArticleMedium },
+  { symbol: 'PhArticleNyTimes', icon: PhArticleNyTimes },
+  { symbol: 'PhAsclepius', icon: PhAsclepius },
+  { symbol: 'PhAsterisk', icon: PhAsterisk },
+  { symbol: 'PhAsteriskSimple', icon: PhAsteriskSimple },
+  { symbol: 'PhAt', icon: PhAt },
+  { symbol: 'PhAtom', icon: PhAtom },
+  { symbol: 'PhAvocado', icon: PhAvocado },
+  { symbol: 'PhAxe', icon: PhAxe },
+  { symbol: 'PhBaby', icon: PhBaby },
+  { symbol: 'PhBabyCarriage', icon: PhBabyCarriage },
+  { symbol: 'PhBackpack', icon: PhBackpack },
+  { symbol: 'PhBackspace', icon: PhBackspace },
+  { symbol: 'PhBag', icon: PhBag },
+  { symbol: 'PhBagSimple', icon: PhBagSimple },
+  { symbol: 'PhBalloon', icon: PhBalloon },
+  { symbol: 'PhBandaids', icon: PhBandaids },
+  { symbol: 'PhBank', icon: PhBank },
+  { symbol: 'PhBarbell', icon: PhBarbell },
+  { symbol: 'PhBarcode', icon: PhBarcode },
+  { symbol: 'PhBarn', icon: PhBarn },
+  { symbol: 'PhBarricade', icon: PhBarricade },
+  { symbol: 'PhBaseball', icon: PhBaseball },
+  { symbol: 'PhBaseballCap', icon: PhBaseballCap },
+  { symbol: 'PhBaseballHelmet', icon: PhBaseballHelmet },
+  { symbol: 'PhBasket', icon: PhBasket },
+  { symbol: 'PhBasketball', icon: PhBasketball },
+  { symbol: 'PhBathtub', icon: PhBathtub },
+  { symbol: 'PhBatteryCharging', icon: PhBatteryCharging },
+  { symbol: 'PhBatteryChargingVertical', icon: PhBatteryChargingVertical },
+  { symbol: 'PhBatteryEmpty', icon: PhBatteryEmpty },
+  { symbol: 'PhBatteryFull', icon: PhBatteryFull },
+  { symbol: 'PhBatteryHigh', icon: PhBatteryHigh },
+  { symbol: 'PhBatteryLow', icon: PhBatteryLow },
+  { symbol: 'PhBatteryMedium', icon: PhBatteryMedium },
+  { symbol: 'PhBatteryPlus', icon: PhBatteryPlus },
+  { symbol: 'PhBatteryPlusVertical', icon: PhBatteryPlusVertical },
+  { symbol: 'PhBatteryVerticalEmpty', icon: PhBatteryVerticalEmpty },
+  { symbol: 'PhBatteryVerticalFull', icon: PhBatteryVerticalFull },
+  { symbol: 'PhBatteryVerticalHigh', icon: PhBatteryVerticalHigh },
+  { symbol: 'PhBatteryVerticalLow', icon: PhBatteryVerticalLow },
+  { symbol: 'PhBatteryVerticalMedium', icon: PhBatteryVerticalMedium },
+  { symbol: 'PhBatteryWarning', icon: PhBatteryWarning },
+  { symbol: 'PhBatteryWarningVertical', icon: PhBatteryWarningVertical },
+  { symbol: 'PhBeachBall', icon: PhBeachBall },
+  { symbol: 'PhBeanie', icon: PhBeanie },
+  { symbol: 'PhBed', icon: PhBed },
+  { symbol: 'PhBeerBottle', icon: PhBeerBottle },
+  { symbol: 'PhBeerStein', icon: PhBeerStein },
+  { symbol: 'PhBehanceLogo', icon: PhBehanceLogo },
+  { symbol: 'PhBell', icon: PhBell },
+  { symbol: 'PhBellRinging', icon: PhBellRinging },
+  { symbol: 'PhBellSimple', icon: PhBellSimple },
+  { symbol: 'PhBellSimpleRinging', icon: PhBellSimpleRinging },
+  { symbol: 'PhBellSimpleSlash', icon: PhBellSimpleSlash },
+  { symbol: 'PhBellSimpleZ', icon: PhBellSimpleZ },
+  { symbol: 'PhBellSlash', icon: PhBellSlash },
+  { symbol: 'PhBellZ', icon: PhBellZ },
+  { symbol: 'PhBelt', icon: PhBelt },
+  { symbol: 'PhBezierCurve', icon: PhBezierCurve },
+  { symbol: 'PhBicycle', icon: PhBicycle },
+  { symbol: 'PhBinary', icon: PhBinary },
+  { symbol: 'PhBinoculars', icon: PhBinoculars },
+  { symbol: 'PhBiohazard', icon: PhBiohazard },
+  { symbol: 'PhBird', icon: PhBird },
+  { symbol: 'PhBlueprint', icon: PhBlueprint },
+  { symbol: 'PhBluetooth', icon: PhBluetooth },
+  { symbol: 'PhBluetoothConnected', icon: PhBluetoothConnected },
+  { symbol: 'PhBluetoothSlash', icon: PhBluetoothSlash },
+  { symbol: 'PhBluetoothX', icon: PhBluetoothX },
+  { symbol: 'PhBoat', icon: PhBoat },
+  { symbol: 'PhBomb', icon: PhBomb },
+  { symbol: 'PhBone', icon: PhBone },
+  { symbol: 'PhBook', icon: PhBook },
+  { symbol: 'PhBookBookmark', icon: PhBookBookmark },
+  { symbol: 'PhBookOpen', icon: PhBookOpen },
+  { symbol: 'PhBookOpenText', icon: PhBookOpenText },
+  { symbol: 'PhBookOpenUser', icon: PhBookOpenUser },
+  { symbol: 'PhBookmark', icon: PhBookmark },
+  { symbol: 'PhBookmarkSimple', icon: PhBookmarkSimple },
+  { symbol: 'PhBookmarks', icon: PhBookmarks },
+  { symbol: 'PhBookmarksSimple', icon: PhBookmarksSimple },
+  { symbol: 'PhBooks', icon: PhBooks },
+  { symbol: 'PhBoot', icon: PhBoot },
+  { symbol: 'PhBoules', icon: PhBoules },
+  { symbol: 'PhBoundingBox', icon: PhBoundingBox },
+  { symbol: 'PhBowlFood', icon: PhBowlFood },
+  { symbol: 'PhBowlSteam', icon: PhBowlSteam },
+  { symbol: 'PhBowlingBall', icon: PhBowlingBall },
+  { symbol: 'PhBoxArrowDown', icon: PhBoxArrowDown },
+  { symbol: 'PhBoxArrowUp', icon: PhBoxArrowUp },
+  { symbol: 'PhBoxingGlove', icon: PhBoxingGlove },
+  { symbol: 'PhBracketsAngle', icon: PhBracketsAngle },
+  { symbol: 'PhBracketsCurly', icon: PhBracketsCurly },
+  { symbol: 'PhBracketsRound', icon: PhBracketsRound },
+  { symbol: 'PhBracketsSquare', icon: PhBracketsSquare },
+  { symbol: 'PhBrain', icon: PhBrain },
+  { symbol: 'PhBrandy', icon: PhBrandy },
+  { symbol: 'PhBread', icon: PhBread },
+  { symbol: 'PhBridge', icon: PhBridge },
+  { symbol: 'PhBriefcase', icon: PhBriefcase },
+  { symbol: 'PhBriefcaseMetal', icon: PhBriefcaseMetal },
+  { symbol: 'PhBroadcast', icon: PhBroadcast },
+  { symbol: 'PhBroom', icon: PhBroom },
+  { symbol: 'PhBrowser', icon: PhBrowser },
+  { symbol: 'PhBrowsers', icon: PhBrowsers },
+  { symbol: 'PhBug', icon: PhBug },
+  { symbol: 'PhBugBeetle', icon: PhBugBeetle },
+  { symbol: 'PhBugDroid', icon: PhBugDroid },
+  { symbol: 'PhBuilding', icon: PhBuilding },
+  { symbol: 'PhBuildingApartment', icon: PhBuildingApartment },
+  { symbol: 'PhBuildingOffice', icon: PhBuildingOffice },
+  { symbol: 'PhBuildings', icon: PhBuildings },
+  { symbol: 'PhBulldozer', icon: PhBulldozer },
+  { symbol: 'PhBus', icon: PhBus },
+  { symbol: 'PhButterfly', icon: PhButterfly },
+  { symbol: 'PhCableCar', icon: PhCableCar },
+  { symbol: 'PhCactus', icon: PhCactus },
+  { symbol: 'PhCake', icon: PhCake },
+  { symbol: 'PhCalculator', icon: PhCalculator },
+  { symbol: 'PhCalendar', icon: PhCalendar },
+  { symbol: 'PhCalendarBlank', icon: PhCalendarBlank },
+  { symbol: 'PhCalendarCheck', icon: PhCalendarCheck },
+  { symbol: 'PhCalendarDot', icon: PhCalendarDot },
+  { symbol: 'PhCalendarDots', icon: PhCalendarDots },
+  { symbol: 'PhCalendarHeart', icon: PhCalendarHeart },
+  { symbol: 'PhCalendarMinus', icon: PhCalendarMinus },
+  { symbol: 'PhCalendarPlus', icon: PhCalendarPlus },
+  { symbol: 'PhCalendarSlash', icon: PhCalendarSlash },
+  { symbol: 'PhCalendarStar', icon: PhCalendarStar },
+  { symbol: 'PhCalendarX', icon: PhCalendarX },
+  { symbol: 'PhCallBell', icon: PhCallBell },
+  { symbol: 'PhCamera', icon: PhCamera },
+  { symbol: 'PhCameraPlus', icon: PhCameraPlus },
+  { symbol: 'PhCameraRotate', icon: PhCameraRotate },
+  { symbol: 'PhCameraSlash', icon: PhCameraSlash },
+  { symbol: 'PhCampfire', icon: PhCampfire },
+  { symbol: 'PhCar', icon: PhCar },
+  { symbol: 'PhCarBattery', icon: PhCarBattery },
+  { symbol: 'PhCarProfile', icon: PhCarProfile },
+  { symbol: 'PhCarSimple', icon: PhCarSimple },
+  { symbol: 'PhCardholder', icon: PhCardholder },
+  { symbol: 'PhCards', icon: PhCards },
+  { symbol: 'PhCardsThree', icon: PhCardsThree },
+  { symbol: 'PhCaretCircleDoubleDown', icon: PhCaretCircleDoubleDown },
+  { symbol: 'PhCaretCircleDoubleLeft', icon: PhCaretCircleDoubleLeft },
+  { symbol: 'PhCaretCircleDoubleRight', icon: PhCaretCircleDoubleRight },
+  { symbol: 'PhCaretCircleDoubleUp', icon: PhCaretCircleDoubleUp },
+  { symbol: 'PhCaretCircleDown', icon: PhCaretCircleDown },
+  { symbol: 'PhCaretCircleLeft', icon: PhCaretCircleLeft },
+  { symbol: 'PhCaretCircleRight', icon: PhCaretCircleRight },
+  { symbol: 'PhCaretCircleUp', icon: PhCaretCircleUp },
+  { symbol: 'PhCaretCircleUpDown', icon: PhCaretCircleUpDown },
+  { symbol: 'PhCaretDoubleDown', icon: PhCaretDoubleDown },
+  { symbol: 'PhCaretDoubleLeft', icon: PhCaretDoubleLeft },
+  { symbol: 'PhCaretDoubleRight', icon: PhCaretDoubleRight },
+  { symbol: 'PhCaretDoubleUp', icon: PhCaretDoubleUp },
+  { symbol: 'PhCaretDown', icon: PhCaretDown },
+  { symbol: 'PhCaretLeft', icon: PhCaretLeft },
+  { symbol: 'PhCaretLineDown', icon: PhCaretLineDown },
+  { symbol: 'PhCaretLineLeft', icon: PhCaretLineLeft },
+  { symbol: 'PhCaretLineRight', icon: PhCaretLineRight },
+  { symbol: 'PhCaretLineUp', icon: PhCaretLineUp },
+  { symbol: 'PhCaretRight', icon: PhCaretRight },
+  { symbol: 'PhCaretUp', icon: PhCaretUp },
+  { symbol: 'PhCaretUpDown', icon: PhCaretUpDown },
+  { symbol: 'PhCarrot', icon: PhCarrot },
+  { symbol: 'PhCashRegister', icon: PhCashRegister },
+  { symbol: 'PhCassetteTape', icon: PhCassetteTape },
+  { symbol: 'PhCastleTurret', icon: PhCastleTurret },
+  { symbol: 'PhCat', icon: PhCat },
+  { symbol: 'PhCellSignalFull', icon: PhCellSignalFull },
+  { symbol: 'PhCellSignalHigh', icon: PhCellSignalHigh },
+  { symbol: 'PhCellSignalLow', icon: PhCellSignalLow },
+  { symbol: 'PhCellSignalMedium', icon: PhCellSignalMedium },
+  { symbol: 'PhCellSignalNone', icon: PhCellSignalNone },
+  { symbol: 'PhCellSignalSlash', icon: PhCellSignalSlash },
+  { symbol: 'PhCellSignalX', icon: PhCellSignalX },
+  { symbol: 'PhCellTower', icon: PhCellTower },
+  { symbol: 'PhCertificate', icon: PhCertificate },
+  { symbol: 'PhChair', icon: PhChair },
+  { symbol: 'PhChalkboard', icon: PhChalkboard },
+  { symbol: 'PhChalkboardSimple', icon: PhChalkboardSimple },
+  { symbol: 'PhChalkboardTeacher', icon: PhChalkboardTeacher },
+  { symbol: 'PhChampagne', icon: PhChampagne },
+  { symbol: 'PhChargingStation', icon: PhChargingStation },
+  { symbol: 'PhChartBar', icon: PhChartBar },
+  { symbol: 'PhChartBarHorizontal', icon: PhChartBarHorizontal },
+  { symbol: 'PhChartDonut', icon: PhChartDonut },
+  { symbol: 'PhChartLine', icon: PhChartLine },
+  { symbol: 'PhChartLineDown', icon: PhChartLineDown },
+  { symbol: 'PhChartLineUp', icon: PhChartLineUp },
+  { symbol: 'PhChartPie', icon: PhChartPie },
+  { symbol: 'PhChartPieSlice', icon: PhChartPieSlice },
+  { symbol: 'PhChartPolar', icon: PhChartPolar },
+  { symbol: 'PhChartScatter', icon: PhChartScatter },
+  { symbol: 'PhChat', icon: PhChat },
+  { symbol: 'PhChatCentered', icon: PhChatCentered },
+  { symbol: 'PhChatCenteredDots', icon: PhChatCenteredDots },
+  { symbol: 'PhChatCenteredSlash', icon: PhChatCenteredSlash },
+  { symbol: 'PhChatCenteredText', icon: PhChatCenteredText },
+  { symbol: 'PhChatCircle', icon: PhChatCircle },
+  { symbol: 'PhChatCircleDots', icon: PhChatCircleDots },
+  { symbol: 'PhChatCircleSlash', icon: PhChatCircleSlash },
+  { symbol: 'PhChatCircleText', icon: PhChatCircleText },
+  { symbol: 'PhChatDots', icon: PhChatDots },
+  { symbol: 'PhChatSlash', icon: PhChatSlash },
+  { symbol: 'PhChatTeardrop', icon: PhChatTeardrop },
+  { symbol: 'PhChatTeardropDots', icon: PhChatTeardropDots },
+  { symbol: 'PhChatTeardropSlash', icon: PhChatTeardropSlash },
+  { symbol: 'PhChatTeardropText', icon: PhChatTeardropText },
+  { symbol: 'PhChatText', icon: PhChatText },
+  { symbol: 'PhChats', icon: PhChats },
+  { symbol: 'PhChatsCircle', icon: PhChatsCircle },
+  { symbol: 'PhChatsTeardrop', icon: PhChatsTeardrop },
+  { symbol: 'PhCheck', icon: PhCheck },
+  { symbol: 'PhCheckCircle', icon: PhCheckCircle },
+  { symbol: 'PhCheckFat', icon: PhCheckFat },
+  { symbol: 'PhCheckSquare', icon: PhCheckSquare },
+  { symbol: 'PhCheckSquareOffset', icon: PhCheckSquareOffset },
+  { symbol: 'PhCheckerboard', icon: PhCheckerboard },
+  { symbol: 'PhChecks', icon: PhChecks },
+  { symbol: 'PhCheers', icon: PhCheers },
+  { symbol: 'PhCheese', icon: PhCheese },
+  { symbol: 'PhChefHat', icon: PhChefHat },
+  { symbol: 'PhCherries', icon: PhCherries },
+  { symbol: 'PhChurch', icon: PhChurch },
+  { symbol: 'PhCigarette', icon: PhCigarette },
+  { symbol: 'PhCigaretteSlash', icon: PhCigaretteSlash },
+  { symbol: 'PhCircle', icon: PhCircle },
+  { symbol: 'PhCircleDashed', icon: PhCircleDashed },
+  { symbol: 'PhCircleHalf', icon: PhCircleHalf },
+  { symbol: 'PhCircleHalfTilt', icon: PhCircleHalfTilt },
+  { symbol: 'PhCircleNotch', icon: PhCircleNotch },
+  { symbol: 'PhCirclesFour', icon: PhCirclesFour },
+  { symbol: 'PhCirclesThree', icon: PhCirclesThree },
+  { symbol: 'PhCirclesThreePlus', icon: PhCirclesThreePlus },
+  { symbol: 'PhCircuitry', icon: PhCircuitry },
+  { symbol: 'PhCity', icon: PhCity },
+  { symbol: 'PhClipboard', icon: PhClipboard },
+  { symbol: 'PhClipboardText', icon: PhClipboardText },
+  { symbol: 'PhClock', icon: PhClock },
+  { symbol: 'PhClockAfternoon', icon: PhClockAfternoon },
+  { symbol: 'PhClockClockwise', icon: PhClockClockwise },
+  { symbol: 'PhClockCountdown', icon: PhClockCountdown },
+  { symbol: 'PhClockCounterClockwise', icon: PhClockCounterClockwise },
+  { symbol: 'PhClockUser', icon: PhClockUser },
+  { symbol: 'PhClosedCaptioning', icon: PhClosedCaptioning },
+  { symbol: 'PhCloud', icon: PhCloud },
+  { symbol: 'PhCloudArrowDown', icon: PhCloudArrowDown },
+  { symbol: 'PhCloudArrowUp', icon: PhCloudArrowUp },
+  { symbol: 'PhCloudCheck', icon: PhCloudCheck },
+  { symbol: 'PhCloudFog', icon: PhCloudFog },
+  { symbol: 'PhCloudLightning', icon: PhCloudLightning },
+  { symbol: 'PhCloudMoon', icon: PhCloudMoon },
+  { symbol: 'PhCloudRain', icon: PhCloudRain },
+  { symbol: 'PhCloudSlash', icon: PhCloudSlash },
+  { symbol: 'PhCloudSnow', icon: PhCloudSnow },
+  { symbol: 'PhCloudSun', icon: PhCloudSun },
+  { symbol: 'PhCloudWarning', icon: PhCloudWarning },
+  { symbol: 'PhCloudX', icon: PhCloudX },
+  { symbol: 'PhClover', icon: PhClover },
+  { symbol: 'PhClub', icon: PhClub },
+  { symbol: 'PhCoatHanger', icon: PhCoatHanger },
+  { symbol: 'PhCodaLogo', icon: PhCodaLogo },
+  { symbol: 'PhCode', icon: PhCode },
+  { symbol: 'PhCodeBlock', icon: PhCodeBlock },
+  { symbol: 'PhCodeSimple', icon: PhCodeSimple },
+  { symbol: 'PhCodepenLogo', icon: PhCodepenLogo },
+  { symbol: 'PhCodesandboxLogo', icon: PhCodesandboxLogo },
+  { symbol: 'PhCoffee', icon: PhCoffee },
+  { symbol: 'PhCoffeeBean', icon: PhCoffeeBean },
+  { symbol: 'PhCoin', icon: PhCoin },
+  { symbol: 'PhCoinVertical', icon: PhCoinVertical },
+  { symbol: 'PhCoins', icon: PhCoins },
+  { symbol: 'PhColumns', icon: PhColumns },
+  { symbol: 'PhColumnsPlusLeft', icon: PhColumnsPlusLeft },
+  { symbol: 'PhColumnsPlusRight', icon: PhColumnsPlusRight },
+  { symbol: 'PhCommand', icon: PhCommand },
+  { symbol: 'PhCompass', icon: PhCompass },
+  { symbol: 'PhCompassRose', icon: PhCompassRose },
+  { symbol: 'PhCompassTool', icon: PhCompassTool },
+  { symbol: 'PhComputerTower', icon: PhComputerTower },
+  { symbol: 'PhConfetti', icon: PhConfetti },
+  { symbol: 'PhContactlessPayment', icon: PhContactlessPayment },
+  { symbol: 'PhControl', icon: PhControl },
+  { symbol: 'PhCookie', icon: PhCookie },
+  { symbol: 'PhCookingPot', icon: PhCookingPot },
+  { symbol: 'PhCopy', icon: PhCopy },
+  { symbol: 'PhCopySimple', icon: PhCopySimple },
+  { symbol: 'PhCopyleft', icon: PhCopyleft },
+  { symbol: 'PhCopyright', icon: PhCopyright },
+  { symbol: 'PhCornersIn', icon: PhCornersIn },
+  { symbol: 'PhCornersOut', icon: PhCornersOut },
+  { symbol: 'PhCouch', icon: PhCouch },
+  { symbol: 'PhCourtBasketball', icon: PhCourtBasketball },
+  { symbol: 'PhCow', icon: PhCow },
+  { symbol: 'PhCowboyHat', icon: PhCowboyHat },
+  { symbol: 'PhCpu', icon: PhCpu },
+  { symbol: 'PhCrane', icon: PhCrane },
+  { symbol: 'PhCraneTower', icon: PhCraneTower },
+  { symbol: 'PhCreditCard', icon: PhCreditCard },
+  { symbol: 'PhCricket', icon: PhCricket },
+  { symbol: 'PhCrop', icon: PhCrop },
+  { symbol: 'PhCross', icon: PhCross },
+  { symbol: 'PhCrosshair', icon: PhCrosshair },
+  { symbol: 'PhCrosshairSimple', icon: PhCrosshairSimple },
+  { symbol: 'PhCrown', icon: PhCrown },
+  { symbol: 'PhCrownCross', icon: PhCrownCross },
+  { symbol: 'PhCrownSimple', icon: PhCrownSimple },
+  { symbol: 'PhCube', icon: PhCube },
+  { symbol: 'PhCubeFocus', icon: PhCubeFocus },
+  { symbol: 'PhCubeTransparent', icon: PhCubeTransparent },
+  { symbol: 'PhCurrencyBtc', icon: PhCurrencyBtc },
+  { symbol: 'PhCurrencyCircleDollar', icon: PhCurrencyCircleDollar },
+  { symbol: 'PhCurrencyCny', icon: PhCurrencyCny },
+  { symbol: 'PhCurrencyDollar', icon: PhCurrencyDollar },
+  { symbol: 'PhCurrencyDollarSimple', icon: PhCurrencyDollarSimple },
+  { symbol: 'PhCurrencyEth', icon: PhCurrencyEth },
+  { symbol: 'PhCurrencyEur', icon: PhCurrencyEur },
+  { symbol: 'PhCurrencyGbp', icon: PhCurrencyGbp },
+  { symbol: 'PhCurrencyInr', icon: PhCurrencyInr },
+  { symbol: 'PhCurrencyJpy', icon: PhCurrencyJpy },
+  { symbol: 'PhCurrencyKrw', icon: PhCurrencyKrw },
+  { symbol: 'PhCurrencyKzt', icon: PhCurrencyKzt },
+  { symbol: 'PhCurrencyNgn', icon: PhCurrencyNgn },
+  { symbol: 'PhCurrencyRub', icon: PhCurrencyRub },
+  { symbol: 'PhCursor', icon: PhCursor },
+  { symbol: 'PhCursorClick', icon: PhCursorClick },
+  { symbol: 'PhCursorText', icon: PhCursorText },
+  { symbol: 'PhCylinder', icon: PhCylinder },
+  { symbol: 'PhDatabase', icon: PhDatabase },
+  { symbol: 'PhDesk', icon: PhDesk },
+  { symbol: 'PhDesktop', icon: PhDesktop },
+  { symbol: 'PhDesktopTower', icon: PhDesktopTower },
+  { symbol: 'PhDetective', icon: PhDetective },
+  { symbol: 'PhDevToLogo', icon: PhDevToLogo },
+  { symbol: 'PhDeviceMobile', icon: PhDeviceMobile },
+  { symbol: 'PhDeviceMobileCamera', icon: PhDeviceMobileCamera },
+  { symbol: 'PhDeviceMobileSlash', icon: PhDeviceMobileSlash },
+  { symbol: 'PhDeviceMobileSpeaker', icon: PhDeviceMobileSpeaker },
+  { symbol: 'PhDeviceRotate', icon: PhDeviceRotate },
+  { symbol: 'PhDeviceTablet', icon: PhDeviceTablet },
+  { symbol: 'PhDeviceTabletCamera', icon: PhDeviceTabletCamera },
+  { symbol: 'PhDeviceTabletSpeaker', icon: PhDeviceTabletSpeaker },
+  { symbol: 'PhDevices', icon: PhDevices },
+  { symbol: 'PhDiamond', icon: PhDiamond },
+  { symbol: 'PhDiamondsFour', icon: PhDiamondsFour },
+  { symbol: 'PhDiceFive', icon: PhDiceFive },
+  { symbol: 'PhDiceFour', icon: PhDiceFour },
+  { symbol: 'PhDiceOne', icon: PhDiceOne },
+  { symbol: 'PhDiceSix', icon: PhDiceSix },
+  { symbol: 'PhDiceThree', icon: PhDiceThree },
+  { symbol: 'PhDiceTwo', icon: PhDiceTwo },
+  { symbol: 'PhDisc', icon: PhDisc },
+  { symbol: 'PhDiscoBall', icon: PhDiscoBall },
+  { symbol: 'PhDiscordLogo', icon: PhDiscordLogo },
+  { symbol: 'PhDivide', icon: PhDivide },
+  { symbol: 'PhDna', icon: PhDna },
+  { symbol: 'PhDog', icon: PhDog },
+  { symbol: 'PhDoor', icon: PhDoor },
+  { symbol: 'PhDoorOpen', icon: PhDoorOpen },
+  { symbol: 'PhDot', icon: PhDot },
+  { symbol: 'PhDotOutline', icon: PhDotOutline },
+  { symbol: 'PhDotsNine', icon: PhDotsNine },
+  { symbol: 'PhDotsSix', icon: PhDotsSix },
+  { symbol: 'PhDotsSixVertical', icon: PhDotsSixVertical },
+  { symbol: 'PhDotsThree', icon: PhDotsThree },
+  { symbol: 'PhDotsThreeCircle', icon: PhDotsThreeCircle },
+  { symbol: 'PhDotsThreeCircleVertical', icon: PhDotsThreeCircleVertical },
+  { symbol: 'PhDotsThreeOutline', icon: PhDotsThreeOutline },
+  { symbol: 'PhDotsThreeOutlineVertical', icon: PhDotsThreeOutlineVertical },
+  { symbol: 'PhDotsThreeVertical', icon: PhDotsThreeVertical },
+  { symbol: 'PhDownload', icon: PhDownload },
+  { symbol: 'PhDownloadSimple', icon: PhDownloadSimple },
+  { symbol: 'PhDress', icon: PhDress },
+  { symbol: 'PhDresser', icon: PhDresser },
+  { symbol: 'PhDribbbleLogo', icon: PhDribbbleLogo },
+  { symbol: 'PhDrone', icon: PhDrone },
+  { symbol: 'PhDrop', icon: PhDrop },
+  { symbol: 'PhDropHalf', icon: PhDropHalf },
+  { symbol: 'PhDropHalfBottom', icon: PhDropHalfBottom },
+  { symbol: 'PhDropSimple', icon: PhDropSimple },
+  { symbol: 'PhDropSlash', icon: PhDropSlash },
+  { symbol: 'PhDropboxLogo', icon: PhDropboxLogo },
+  { symbol: 'PhEar', icon: PhEar },
+  { symbol: 'PhEarSlash', icon: PhEarSlash },
+  { symbol: 'PhEgg', icon: PhEgg },
+  { symbol: 'PhEggCrack', icon: PhEggCrack },
+  { symbol: 'PhEject', icon: PhEject },
+  { symbol: 'PhEjectSimple', icon: PhEjectSimple },
+  { symbol: 'PhElevator', icon: PhElevator },
+  { symbol: 'PhEmpty', icon: PhEmpty },
+  { symbol: 'PhEngine', icon: PhEngine },
+  { symbol: 'PhEnvelope', icon: PhEnvelope },
+  { symbol: 'PhEnvelopeOpen', icon: PhEnvelopeOpen },
+  { symbol: 'PhEnvelopeSimple', icon: PhEnvelopeSimple },
+  { symbol: 'PhEnvelopeSimpleOpen', icon: PhEnvelopeSimpleOpen },
+  { symbol: 'PhEqualizer', icon: PhEqualizer },
+  { symbol: 'PhEquals', icon: PhEquals },
+  { symbol: 'PhEraser', icon: PhEraser },
+  { symbol: 'PhEscalatorDown', icon: PhEscalatorDown },
+  { symbol: 'PhEscalatorUp', icon: PhEscalatorUp },
+  { symbol: 'PhExam', icon: PhExam },
+  { symbol: 'PhExclamationMark', icon: PhExclamationMark },
+  { symbol: 'PhExclude', icon: PhExclude },
+  { symbol: 'PhExcludeSquare', icon: PhExcludeSquare },
+  { symbol: 'PhExport', icon: PhExport },
+  { symbol: 'PhEye', icon: PhEye },
+  { symbol: 'PhEyeClosed', icon: PhEyeClosed },
+  { symbol: 'PhEyeSlash', icon: PhEyeSlash },
+  { symbol: 'PhEyedropper', icon: PhEyedropper },
+  { symbol: 'PhEyedropperSample', icon: PhEyedropperSample },
+  { symbol: 'PhEyeglasses', icon: PhEyeglasses },
+  { symbol: 'PhEyes', icon: PhEyes },
+  { symbol: 'PhFaceMask', icon: PhFaceMask },
+  { symbol: 'PhFacebookLogo', icon: PhFacebookLogo },
+  { symbol: 'PhFactory', icon: PhFactory },
+  { symbol: 'PhFaders', icon: PhFaders },
+  { symbol: 'PhFadersHorizontal', icon: PhFadersHorizontal },
+  { symbol: 'PhFalloutShelter', icon: PhFalloutShelter },
+  { symbol: 'PhFan', icon: PhFan },
+  { symbol: 'PhFarm', icon: PhFarm },
+  { symbol: 'PhFastForward', icon: PhFastForward },
+  { symbol: 'PhFastForwardCircle', icon: PhFastForwardCircle },
+  { symbol: 'PhFeather', icon: PhFeather },
+  { symbol: 'PhFediverseLogo', icon: PhFediverseLogo },
+  { symbol: 'PhFigmaLogo', icon: PhFigmaLogo },
+  { symbol: 'PhFile', icon: PhFile },
+  { symbol: 'PhFileArchive', icon: PhFileArchive },
+  { symbol: 'PhFileArrowDown', icon: PhFileArrowDown },
+  { symbol: 'PhFileArrowUp', icon: PhFileArrowUp },
+  { symbol: 'PhFileAudio', icon: PhFileAudio },
+  { symbol: 'PhFileC', icon: PhFileC },
+  { symbol: 'PhFileCSharp', icon: PhFileCSharp },
+  { symbol: 'PhFileCloud', icon: PhFileCloud },
+  { symbol: 'PhFileCode', icon: PhFileCode },
+  { symbol: 'PhFileCpp', icon: PhFileCpp },
+  { symbol: 'PhFileCss', icon: PhFileCss },
+  { symbol: 'PhFileCsv', icon: PhFileCsv },
+  { symbol: 'PhFileDashed', icon: PhFileDashed },
+  { symbol: 'PhFileDoc', icon: PhFileDoc },
+  { symbol: 'PhFileHtml', icon: PhFileHtml },
+  { symbol: 'PhFileImage', icon: PhFileImage },
+  { symbol: 'PhFileIni', icon: PhFileIni },
+  { symbol: 'PhFileJpg', icon: PhFileJpg },
+  { symbol: 'PhFileJs', icon: PhFileJs },
+  { symbol: 'PhFileJsx', icon: PhFileJsx },
+  { symbol: 'PhFileLock', icon: PhFileLock },
+  { symbol: 'PhFileMagnifyingGlass', icon: PhFileMagnifyingGlass },
+  { symbol: 'PhFileMd', icon: PhFileMd },
+  { symbol: 'PhFileMinus', icon: PhFileMinus },
+  { symbol: 'PhFilePdf', icon: PhFilePdf },
+  { symbol: 'PhFilePlus', icon: PhFilePlus },
+  { symbol: 'PhFilePng', icon: PhFilePng },
+  { symbol: 'PhFilePpt', icon: PhFilePpt },
+  { symbol: 'PhFilePy', icon: PhFilePy },
+  { symbol: 'PhFileRs', icon: PhFileRs },
+  { symbol: 'PhFileSql', icon: PhFileSql },
+  { symbol: 'PhFileSvg', icon: PhFileSvg },
+  { symbol: 'PhFileText', icon: PhFileText },
+  { symbol: 'PhFileTs', icon: PhFileTs },
+  { symbol: 'PhFileTsx', icon: PhFileTsx },
+  { symbol: 'PhFileTxt', icon: PhFileTxt },
+  { symbol: 'PhFileVideo', icon: PhFileVideo },
+  { symbol: 'PhFileVue', icon: PhFileVue },
+  { symbol: 'PhFileX', icon: PhFileX },
+  { symbol: 'PhFileXls', icon: PhFileXls },
+  { symbol: 'PhFileZip', icon: PhFileZip },
+  { symbol: 'PhFiles', icon: PhFiles },
+  { symbol: 'PhFilmReel', icon: PhFilmReel },
+  { symbol: 'PhFilmScript', icon: PhFilmScript },
+  { symbol: 'PhFilmSlate', icon: PhFilmSlate },
+  { symbol: 'PhFilmStrip', icon: PhFilmStrip },
+  { symbol: 'PhFingerprint', icon: PhFingerprint },
+  { symbol: 'PhFingerprintSimple', icon: PhFingerprintSimple },
+  { symbol: 'PhFinnTheHuman', icon: PhFinnTheHuman },
+  { symbol: 'PhFire', icon: PhFire },
+  { symbol: 'PhFireExtinguisher', icon: PhFireExtinguisher },
+  { symbol: 'PhFireSimple', icon: PhFireSimple },
+  { symbol: 'PhFireTruck', icon: PhFireTruck },
+  { symbol: 'PhFirstAid', icon: PhFirstAid },
+  { symbol: 'PhFirstAidKit', icon: PhFirstAidKit },
+  { symbol: 'PhFish', icon: PhFish },
+  { symbol: 'PhFishSimple', icon: PhFishSimple },
+  { symbol: 'PhFlag', icon: PhFlag },
+  { symbol: 'PhFlagBanner', icon: PhFlagBanner },
+  { symbol: 'PhFlagBannerFold', icon: PhFlagBannerFold },
+  { symbol: 'PhFlagCheckered', icon: PhFlagCheckered },
+  { symbol: 'PhFlagPennant', icon: PhFlagPennant },
+  { symbol: 'PhFlame', icon: PhFlame },
+  { symbol: 'PhFlashlight', icon: PhFlashlight },
+  { symbol: 'PhFlask', icon: PhFlask },
+  { symbol: 'PhFlipHorizontal', icon: PhFlipHorizontal },
+  { symbol: 'PhFlipVertical', icon: PhFlipVertical },
+  { symbol: 'PhFloppyDisk', icon: PhFloppyDisk },
+  { symbol: 'PhFloppyDiskBack', icon: PhFloppyDiskBack },
+  { symbol: 'PhFlowArrow', icon: PhFlowArrow },
+  { symbol: 'PhFlower', icon: PhFlower },
+  { symbol: 'PhFlowerLotus', icon: PhFlowerLotus },
+  { symbol: 'PhFlowerTulip', icon: PhFlowerTulip },
+  { symbol: 'PhFlyingSaucer', icon: PhFlyingSaucer },
+  { symbol: 'PhFolder', icon: PhFolder },
+  { symbol: 'PhFolderDashed', icon: PhFolderDashed },
+  { symbol: 'PhFolderLock', icon: PhFolderLock },
+  { symbol: 'PhFolderMinus', icon: PhFolderMinus },
+  { symbol: 'PhFolderOpen', icon: PhFolderOpen },
+  { symbol: 'PhFolderPlus', icon: PhFolderPlus },
+  { symbol: 'PhFolderSimple', icon: PhFolderSimple },
+  { symbol: 'PhFolderSimpleDashed', icon: PhFolderSimpleDashed },
+  { symbol: 'PhFolderSimpleLock', icon: PhFolderSimpleLock },
+  { symbol: 'PhFolderSimpleMinus', icon: PhFolderSimpleMinus },
+  { symbol: 'PhFolderSimplePlus', icon: PhFolderSimplePlus },
+  { symbol: 'PhFolderSimpleStar', icon: PhFolderSimpleStar },
+  { symbol: 'PhFolderSimpleUser', icon: PhFolderSimpleUser },
+  { symbol: 'PhFolderStar', icon: PhFolderStar },
+  { symbol: 'PhFolderUser', icon: PhFolderUser },
+  { symbol: 'PhFolders', icon: PhFolders },
+  { symbol: 'PhFootball', icon: PhFootball },
+  { symbol: 'PhFootballHelmet', icon: PhFootballHelmet },
+  { symbol: 'PhFootprints', icon: PhFootprints },
+  { symbol: 'PhForkKnife', icon: PhForkKnife },
+  { symbol: 'PhFourK', icon: PhFourK },
+  { symbol: 'PhFrameCorners', icon: PhFrameCorners },
+  { symbol: 'PhFramerLogo', icon: PhFramerLogo },
+  { symbol: 'PhFunction', icon: PhFunction },
+  { symbol: 'PhFunnel', icon: PhFunnel },
+  { symbol: 'PhFunnelSimple', icon: PhFunnelSimple },
+  { symbol: 'PhFunnelSimpleX', icon: PhFunnelSimpleX },
+  { symbol: 'PhFunnelX', icon: PhFunnelX },
+  { symbol: 'PhGameController', icon: PhGameController },
+  { symbol: 'PhGarage', icon: PhGarage },
+  { symbol: 'PhGasCan', icon: PhGasCan },
+  { symbol: 'PhGasPump', icon: PhGasPump },
+  { symbol: 'PhGauge', icon: PhGauge },
+  { symbol: 'PhGavel', icon: PhGavel },
+  { symbol: 'PhGear', icon: PhGear },
+  { symbol: 'PhGearFine', icon: PhGearFine },
+  { symbol: 'PhGearSix', icon: PhGearSix },
+  { symbol: 'PhGenderFemale', icon: PhGenderFemale },
+  { symbol: 'PhGenderIntersex', icon: PhGenderIntersex },
+  { symbol: 'PhGenderMale', icon: PhGenderMale },
+  { symbol: 'PhGenderNeuter', icon: PhGenderNeuter },
+  { symbol: 'PhGenderNonbinary', icon: PhGenderNonbinary },
+  { symbol: 'PhGenderTransgender', icon: PhGenderTransgender },
+  { symbol: 'PhGhost', icon: PhGhost },
+  { symbol: 'PhGif', icon: PhGif },
+  { symbol: 'PhGift', icon: PhGift },
+  { symbol: 'PhGitBranch', icon: PhGitBranch },
+  { symbol: 'PhGitCommit', icon: PhGitCommit },
+  { symbol: 'PhGitDiff', icon: PhGitDiff },
+  { symbol: 'PhGitFork', icon: PhGitFork },
+  { symbol: 'PhGitMerge', icon: PhGitMerge },
+  { symbol: 'PhGitPullRequest', icon: PhGitPullRequest },
+  { symbol: 'PhGithubLogo', icon: PhGithubLogo },
+  { symbol: 'PhGitlabLogo', icon: PhGitlabLogo },
+  { symbol: 'PhGitlabLogoSimple', icon: PhGitlabLogoSimple },
+  { symbol: 'PhGlobe', icon: PhGlobe },
+  { symbol: 'PhGlobeHemisphereEast', icon: PhGlobeHemisphereEast },
+  { symbol: 'PhGlobeHemisphereWest', icon: PhGlobeHemisphereWest },
+  { symbol: 'PhGlobeSimple', icon: PhGlobeSimple },
+  { symbol: 'PhGlobeSimpleX', icon: PhGlobeSimpleX },
+  { symbol: 'PhGlobeStand', icon: PhGlobeStand },
+  { symbol: 'PhGlobeX', icon: PhGlobeX },
+  { symbol: 'PhGoggles', icon: PhGoggles },
+  { symbol: 'PhGolf', icon: PhGolf },
+  { symbol: 'PhGoodreadsLogo', icon: PhGoodreadsLogo },
+  { symbol: 'PhGoogleCardboardLogo', icon: PhGoogleCardboardLogo },
+  { symbol: 'PhGoogleChromeLogo', icon: PhGoogleChromeLogo },
+  { symbol: 'PhGoogleDriveLogo', icon: PhGoogleDriveLogo },
+  { symbol: 'PhGoogleLogo', icon: PhGoogleLogo },
+  { symbol: 'PhGooglePhotosLogo', icon: PhGooglePhotosLogo },
+  { symbol: 'PhGooglePlayLogo', icon: PhGooglePlayLogo },
+  { symbol: 'PhGooglePodcastsLogo', icon: PhGooglePodcastsLogo },
+  { symbol: 'PhGps', icon: PhGps },
+  { symbol: 'PhGpsFix', icon: PhGpsFix },
+  { symbol: 'PhGpsSlash', icon: PhGpsSlash },
+  { symbol: 'PhGradient', icon: PhGradient },
+  { symbol: 'PhGraduationCap', icon: PhGraduationCap },
+  { symbol: 'PhGrains', icon: PhGrains },
+  { symbol: 'PhGrainsSlash', icon: PhGrainsSlash },
+  { symbol: 'PhGraph', icon: PhGraph },
+  { symbol: 'PhGraphicsCard', icon: PhGraphicsCard },
+  { symbol: 'PhGreaterThan', icon: PhGreaterThan },
+  { symbol: 'PhGreaterThanOrEqual', icon: PhGreaterThanOrEqual },
+  { symbol: 'PhGridFour', icon: PhGridFour },
+  { symbol: 'PhGridNine', icon: PhGridNine },
+  { symbol: 'PhGuitar', icon: PhGuitar },
+  { symbol: 'PhHairDryer', icon: PhHairDryer },
+  { symbol: 'PhHamburger', icon: PhHamburger },
+  { symbol: 'PhHammer', icon: PhHammer },
+  { symbol: 'PhHand', icon: PhHand },
+  { symbol: 'PhHandArrowDown', icon: PhHandArrowDown },
+  { symbol: 'PhHandArrowUp', icon: PhHandArrowUp },
+  { symbol: 'PhHandCoins', icon: PhHandCoins },
+  { symbol: 'PhHandDeposit', icon: PhHandDeposit },
+  { symbol: 'PhHandEye', icon: PhHandEye },
+  { symbol: 'PhHandFist', icon: PhHandFist },
+  { symbol: 'PhHandGrabbing', icon: PhHandGrabbing },
+  { symbol: 'PhHandHeart', icon: PhHandHeart },
+  { symbol: 'PhHandPalm', icon: PhHandPalm },
+  { symbol: 'PhHandPeace', icon: PhHandPeace },
+  { symbol: 'PhHandPointing', icon: PhHandPointing },
+  { symbol: 'PhHandSoap', icon: PhHandSoap },
+  { symbol: 'PhHandSwipeLeft', icon: PhHandSwipeLeft },
+  { symbol: 'PhHandSwipeRight', icon: PhHandSwipeRight },
+  { symbol: 'PhHandTap', icon: PhHandTap },
+  { symbol: 'PhHandWaving', icon: PhHandWaving },
+  { symbol: 'PhHandWithdraw', icon: PhHandWithdraw },
+  { symbol: 'PhHandbag', icon: PhHandbag },
+  { symbol: 'PhHandbagSimple', icon: PhHandbagSimple },
+  { symbol: 'PhHandsClapping', icon: PhHandsClapping },
+  { symbol: 'PhHandsPraying', icon: PhHandsPraying },
+  { symbol: 'PhHandshake', icon: PhHandshake },
+  { symbol: 'PhHardDrive', icon: PhHardDrive },
+  { symbol: 'PhHardDrives', icon: PhHardDrives },
+  { symbol: 'PhHardHat', icon: PhHardHat },
+  { symbol: 'PhHash', icon: PhHash },
+  { symbol: 'PhHashStraight', icon: PhHashStraight },
+  { symbol: 'PhHeadCircuit', icon: PhHeadCircuit },
+  { symbol: 'PhHeadlights', icon: PhHeadlights },
+  { symbol: 'PhHeadphones', icon: PhHeadphones },
+  { symbol: 'PhHeadset', icon: PhHeadset },
+  { symbol: 'PhHeart', icon: PhHeart },
+  { symbol: 'PhHeartBreak', icon: PhHeartBreak },
+  { symbol: 'PhHeartHalf', icon: PhHeartHalf },
+  { symbol: 'PhHeartStraight', icon: PhHeartStraight },
+  { symbol: 'PhHeartStraightBreak', icon: PhHeartStraightBreak },
+  { symbol: 'PhHeartbeat', icon: PhHeartbeat },
+  { symbol: 'PhHexagon', icon: PhHexagon },
+  { symbol: 'PhHighDefinition', icon: PhHighDefinition },
+  { symbol: 'PhHighHeel', icon: PhHighHeel },
+  { symbol: 'PhHighlighter', icon: PhHighlighter },
+  { symbol: 'PhHighlighterCircle', icon: PhHighlighterCircle },
+  { symbol: 'PhHockey', icon: PhHockey },
+  { symbol: 'PhHoodie', icon: PhHoodie },
+  { symbol: 'PhHorse', icon: PhHorse },
+  { symbol: 'PhHospital', icon: PhHospital },
+  { symbol: 'PhHourglass', icon: PhHourglass },
+  { symbol: 'PhHourglassHigh', icon: PhHourglassHigh },
+  { symbol: 'PhHourglassLow', icon: PhHourglassLow },
+  { symbol: 'PhHourglassMedium', icon: PhHourglassMedium },
+  { symbol: 'PhHourglassSimple', icon: PhHourglassSimple },
+  { symbol: 'PhHourglassSimpleHigh', icon: PhHourglassSimpleHigh },
+  { symbol: 'PhHourglassSimpleLow', icon: PhHourglassSimpleLow },
+  { symbol: 'PhHourglassSimpleMedium', icon: PhHourglassSimpleMedium },
+  { symbol: 'PhHouse', icon: PhHouse },
+  { symbol: 'PhHouseLine', icon: PhHouseLine },
+  { symbol: 'PhHouseSimple', icon: PhHouseSimple },
+  { symbol: 'PhHurricane', icon: PhHurricane },
+  { symbol: 'PhIceCream', icon: PhIceCream },
+  { symbol: 'PhIdentificationBadge', icon: PhIdentificationBadge },
+  { symbol: 'PhIdentificationCard', icon: PhIdentificationCard },
+  { symbol: 'PhImage', icon: PhImage },
+  { symbol: 'PhImageBroken', icon: PhImageBroken },
+  { symbol: 'PhImageSquare', icon: PhImageSquare },
+  { symbol: 'PhImages', icon: PhImages },
+  { symbol: 'PhImagesSquare', icon: PhImagesSquare },
+  { symbol: 'PhInfinity', icon: PhInfinity },
+  { symbol: 'PhInfo', icon: PhInfo },
+  { symbol: 'PhInstagramLogo', icon: PhInstagramLogo },
+  { symbol: 'PhIntersect', icon: PhIntersect },
+  { symbol: 'PhIntersectSquare', icon: PhIntersectSquare },
+  { symbol: 'PhIntersectThree', icon: PhIntersectThree },
+  { symbol: 'PhIntersection', icon: PhIntersection },
+  { symbol: 'PhInvoice', icon: PhInvoice },
+  { symbol: 'PhIsland', icon: PhIsland },
+  { symbol: 'PhJar', icon: PhJar },
+  { symbol: 'PhJarLabel', icon: PhJarLabel },
+  { symbol: 'PhJeep', icon: PhJeep },
+  { symbol: 'PhJoystick', icon: PhJoystick },
+  { symbol: 'PhKanban', icon: PhKanban },
+  { symbol: 'PhKey', icon: PhKey },
+  { symbol: 'PhKeyReturn', icon: PhKeyReturn },
+  { symbol: 'PhKeyboard', icon: PhKeyboard },
+  { symbol: 'PhKeyhole', icon: PhKeyhole },
+  { symbol: 'PhKnife', icon: PhKnife },
+  { symbol: 'PhLadder', icon: PhLadder },
+  { symbol: 'PhLadderSimple', icon: PhLadderSimple },
+  { symbol: 'PhLamp', icon: PhLamp },
+  { symbol: 'PhLampPendant', icon: PhLampPendant },
+  { symbol: 'PhLaptop', icon: PhLaptop },
+  { symbol: 'PhLasso', icon: PhLasso },
+  { symbol: 'PhLastfmLogo', icon: PhLastfmLogo },
+  { symbol: 'PhLayout', icon: PhLayout },
+  { symbol: 'PhLeaf', icon: PhLeaf },
+  { symbol: 'PhLectern', icon: PhLectern },
+  { symbol: 'PhLego', icon: PhLego },
+  { symbol: 'PhLegoSmiley', icon: PhLegoSmiley },
+  { symbol: 'PhLessThan', icon: PhLessThan },
+  { symbol: 'PhLessThanOrEqual', icon: PhLessThanOrEqual },
+  { symbol: 'PhLetterCircleH', icon: PhLetterCircleH },
+  { symbol: 'PhLetterCircleP', icon: PhLetterCircleP },
+  { symbol: 'PhLetterCircleV', icon: PhLetterCircleV },
+  { symbol: 'PhLifebuoy', icon: PhLifebuoy },
+  { symbol: 'PhLightbulb', icon: PhLightbulb },
+  { symbol: 'PhLightbulbFilament', icon: PhLightbulbFilament },
+  { symbol: 'PhLighthouse', icon: PhLighthouse },
+  { symbol: 'PhLightning', icon: PhLightning },
+  { symbol: 'PhLightningA', icon: PhLightningA },
+  { symbol: 'PhLightningSlash', icon: PhLightningSlash },
+  { symbol: 'PhLineSegment', icon: PhLineSegment },
+  { symbol: 'PhLineSegments', icon: PhLineSegments },
+  { symbol: 'PhLineVertical', icon: PhLineVertical },
+  { symbol: 'PhLink', icon: PhLink },
+  { symbol: 'PhLinkBreak', icon: PhLinkBreak },
+  { symbol: 'PhLinkSimple', icon: PhLinkSimple },
+  { symbol: 'PhLinkSimpleBreak', icon: PhLinkSimpleBreak },
+  { symbol: 'PhLinkSimpleHorizontal', icon: PhLinkSimpleHorizontal },
+  { symbol: 'PhLinkSimpleHorizontalBreak', icon: PhLinkSimpleHorizontalBreak },
+  { symbol: 'PhLinkedinLogo', icon: PhLinkedinLogo },
+  { symbol: 'PhLinktreeLogo', icon: PhLinktreeLogo },
+  { symbol: 'PhLinuxLogo', icon: PhLinuxLogo },
+  { symbol: 'PhList', icon: PhList },
+  { symbol: 'PhListBullets', icon: PhListBullets },
+  { symbol: 'PhListChecks', icon: PhListChecks },
+  { symbol: 'PhListDashes', icon: PhListDashes },
+  { symbol: 'PhListHeart', icon: PhListHeart },
+  { symbol: 'PhListMagnifyingGlass', icon: PhListMagnifyingGlass },
+  { symbol: 'PhListNumbers', icon: PhListNumbers },
+  { symbol: 'PhListPlus', icon: PhListPlus },
+  { symbol: 'PhListStar', icon: PhListStar },
+  { symbol: 'PhLock', icon: PhLock },
+  { symbol: 'PhLockKey', icon: PhLockKey },
+  { symbol: 'PhLockKeyOpen', icon: PhLockKeyOpen },
+  { symbol: 'PhLockLaminated', icon: PhLockLaminated },
+  { symbol: 'PhLockLaminatedOpen', icon: PhLockLaminatedOpen },
+  { symbol: 'PhLockOpen', icon: PhLockOpen },
+  { symbol: 'PhLockSimple', icon: PhLockSimple },
+  { symbol: 'PhLockSimpleOpen', icon: PhLockSimpleOpen },
+  { symbol: 'PhLockers', icon: PhLockers },
+  { symbol: 'PhLog', icon: PhLog },
+  { symbol: 'PhMagicWand', icon: PhMagicWand },
+  { symbol: 'PhMagnet', icon: PhMagnet },
+  { symbol: 'PhMagnetStraight', icon: PhMagnetStraight },
+  { symbol: 'PhMagnifyingGlass', icon: PhMagnifyingGlass },
+  { symbol: 'PhMagnifyingGlassMinus', icon: PhMagnifyingGlassMinus },
+  { symbol: 'PhMagnifyingGlassPlus', icon: PhMagnifyingGlassPlus },
+  { symbol: 'PhMailbox', icon: PhMailbox },
+  { symbol: 'PhMapPin', icon: PhMapPin },
+  { symbol: 'PhMapPinArea', icon: PhMapPinArea },
+  { symbol: 'PhMapPinLine', icon: PhMapPinLine },
+  { symbol: 'PhMapPinPlus', icon: PhMapPinPlus },
+  { symbol: 'PhMapPinSimple', icon: PhMapPinSimple },
+  { symbol: 'PhMapPinSimpleArea', icon: PhMapPinSimpleArea },
+  { symbol: 'PhMapPinSimpleLine', icon: PhMapPinSimpleLine },
+  { symbol: 'PhMapTrifold', icon: PhMapTrifold },
+  { symbol: 'PhMarkdownLogo', icon: PhMarkdownLogo },
+  { symbol: 'PhMarkerCircle', icon: PhMarkerCircle },
+  { symbol: 'PhMartini', icon: PhMartini },
+  { symbol: 'PhMaskHappy', icon: PhMaskHappy },
+  { symbol: 'PhMaskSad', icon: PhMaskSad },
+  { symbol: 'PhMastodonLogo', icon: PhMastodonLogo },
+  { symbol: 'PhMathOperations', icon: PhMathOperations },
+  { symbol: 'PhMatrixLogo', icon: PhMatrixLogo },
+  { symbol: 'PhMedal', icon: PhMedal },
+  { symbol: 'PhMedalMilitary', icon: PhMedalMilitary },
+  { symbol: 'PhMediumLogo', icon: PhMediumLogo },
+  { symbol: 'PhMegaphone', icon: PhMegaphone },
+  { symbol: 'PhMegaphoneSimple', icon: PhMegaphoneSimple },
+  { symbol: 'PhMemberOf', icon: PhMemberOf },
+  { symbol: 'PhMemory', icon: PhMemory },
+  { symbol: 'PhMessengerLogo', icon: PhMessengerLogo },
+  { symbol: 'PhMetaLogo', icon: PhMetaLogo },
+  { symbol: 'PhMeteor', icon: PhMeteor },
+  { symbol: 'PhMetronome', icon: PhMetronome },
+  { symbol: 'PhMicrophone', icon: PhMicrophone },
+  { symbol: 'PhMicrophoneSlash', icon: PhMicrophoneSlash },
+  { symbol: 'PhMicrophoneStage', icon: PhMicrophoneStage },
+  { symbol: 'PhMicroscope', icon: PhMicroscope },
+  { symbol: 'PhMicrosoftExcelLogo', icon: PhMicrosoftExcelLogo },
+  { symbol: 'PhMicrosoftOutlookLogo', icon: PhMicrosoftOutlookLogo },
+  { symbol: 'PhMicrosoftPowerpointLogo', icon: PhMicrosoftPowerpointLogo },
+  { symbol: 'PhMicrosoftTeamsLogo', icon: PhMicrosoftTeamsLogo },
+  { symbol: 'PhMicrosoftWordLogo', icon: PhMicrosoftWordLogo },
+  { symbol: 'PhMinus', icon: PhMinus },
+  { symbol: 'PhMinusCircle', icon: PhMinusCircle },
+  { symbol: 'PhMinusSquare', icon: PhMinusSquare },
+  { symbol: 'PhMoney', icon: PhMoney },
+  { symbol: 'PhMoneyWavy', icon: PhMoneyWavy },
+  { symbol: 'PhMonitor', icon: PhMonitor },
+  { symbol: 'PhMonitorArrowUp', icon: PhMonitorArrowUp },
+  { symbol: 'PhMonitorPlay', icon: PhMonitorPlay },
+  { symbol: 'PhMoon', icon: PhMoon },
+  { symbol: 'PhMoonStars', icon: PhMoonStars },
+  { symbol: 'PhMoped', icon: PhMoped },
+  { symbol: 'PhMopedFront', icon: PhMopedFront },
+  { symbol: 'PhMosque', icon: PhMosque },
+  { symbol: 'PhMotorcycle', icon: PhMotorcycle },
+  { symbol: 'PhMountains', icon: PhMountains },
+  { symbol: 'PhMouse', icon: PhMouse },
+  { symbol: 'PhMouseLeftClick', icon: PhMouseLeftClick },
+  { symbol: 'PhMouseMiddleClick', icon: PhMouseMiddleClick },
+  { symbol: 'PhMouseRightClick', icon: PhMouseRightClick },
+  { symbol: 'PhMouseScroll', icon: PhMouseScroll },
+  { symbol: 'PhMouseSimple', icon: PhMouseSimple },
+  { symbol: 'PhMusicNote', icon: PhMusicNote },
+  { symbol: 'PhMusicNoteSimple', icon: PhMusicNoteSimple },
+  { symbol: 'PhMusicNotes', icon: PhMusicNotes },
+  { symbol: 'PhMusicNotesMinus', icon: PhMusicNotesMinus },
+  { symbol: 'PhMusicNotesPlus', icon: PhMusicNotesPlus },
+  { symbol: 'PhMusicNotesSimple', icon: PhMusicNotesSimple },
+  { symbol: 'PhNavigationArrow', icon: PhNavigationArrow },
+  { symbol: 'PhNeedle', icon: PhNeedle },
+  { symbol: 'PhNetwork', icon: PhNetwork },
+  { symbol: 'PhNetworkSlash', icon: PhNetworkSlash },
+  { symbol: 'PhNetworkX', icon: PhNetworkX },
+  { symbol: 'PhNewspaper', icon: PhNewspaper },
+  { symbol: 'PhNewspaperClipping', icon: PhNewspaperClipping },
+  { symbol: 'PhNotEquals', icon: PhNotEquals },
+  { symbol: 'PhNotMemberOf', icon: PhNotMemberOf },
+  { symbol: 'PhNotSubsetOf', icon: PhNotSubsetOf },
+  { symbol: 'PhNotSupersetOf', icon: PhNotSupersetOf },
+  { symbol: 'PhNotches', icon: PhNotches },
+  { symbol: 'PhNote', icon: PhNote },
+  { symbol: 'PhNoteBlank', icon: PhNoteBlank },
+  { symbol: 'PhNotePencil', icon: PhNotePencil },
+  { symbol: 'PhNotebook', icon: PhNotebook },
+  { symbol: 'PhNotepad', icon: PhNotepad },
+  { symbol: 'PhNotification', icon: PhNotification },
+  { symbol: 'PhNotionLogo', icon: PhNotionLogo },
+  { symbol: 'PhNuclearPlant', icon: PhNuclearPlant },
+  { symbol: 'PhNumberCircleEight', icon: PhNumberCircleEight },
+  { symbol: 'PhNumberCircleFive', icon: PhNumberCircleFive },
+  { symbol: 'PhNumberCircleFour', icon: PhNumberCircleFour },
+  { symbol: 'PhNumberCircleNine', icon: PhNumberCircleNine },
+  { symbol: 'PhNumberCircleOne', icon: PhNumberCircleOne },
+  { symbol: 'PhNumberCircleSeven', icon: PhNumberCircleSeven },
+  { symbol: 'PhNumberCircleSix', icon: PhNumberCircleSix },
+  { symbol: 'PhNumberCircleThree', icon: PhNumberCircleThree },
+  { symbol: 'PhNumberCircleTwo', icon: PhNumberCircleTwo },
+  { symbol: 'PhNumberCircleZero', icon: PhNumberCircleZero },
+  { symbol: 'PhNumberEight', icon: PhNumberEight },
+  { symbol: 'PhNumberFive', icon: PhNumberFive },
+  { symbol: 'PhNumberFour', icon: PhNumberFour },
+  { symbol: 'PhNumberNine', icon: PhNumberNine },
+  { symbol: 'PhNumberOne', icon: PhNumberOne },
+  { symbol: 'PhNumberSeven', icon: PhNumberSeven },
+  { symbol: 'PhNumberSix', icon: PhNumberSix },
+  { symbol: 'PhNumberSquareEight', icon: PhNumberSquareEight },
+  { symbol: 'PhNumberSquareFive', icon: PhNumberSquareFive },
+  { symbol: 'PhNumberSquareFour', icon: PhNumberSquareFour },
+  { symbol: 'PhNumberSquareNine', icon: PhNumberSquareNine },
+  { symbol: 'PhNumberSquareOne', icon: PhNumberSquareOne },
+  { symbol: 'PhNumberSquareSeven', icon: PhNumberSquareSeven },
+  { symbol: 'PhNumberSquareSix', icon: PhNumberSquareSix },
+  { symbol: 'PhNumberSquareThree', icon: PhNumberSquareThree },
+  { symbol: 'PhNumberSquareTwo', icon: PhNumberSquareTwo },
+  { symbol: 'PhNumberSquareZero', icon: PhNumberSquareZero },
+  { symbol: 'PhNumberThree', icon: PhNumberThree },
+  { symbol: 'PhNumberTwo', icon: PhNumberTwo },
+  { symbol: 'PhNumberZero', icon: PhNumberZero },
+  { symbol: 'PhNumpad', icon: PhNumpad },
+  { symbol: 'PhNut', icon: PhNut },
+  { symbol: 'PhNyTimesLogo', icon: PhNyTimesLogo },
+  { symbol: 'PhOctagon', icon: PhOctagon },
+  { symbol: 'PhOfficeChair', icon: PhOfficeChair },
+  { symbol: 'PhOnigiri', icon: PhOnigiri },
+  { symbol: 'PhOpenAiLogo', icon: PhOpenAiLogo },
+  { symbol: 'PhOption', icon: PhOption },
+  { symbol: 'PhOrange', icon: PhOrange },
+  { symbol: 'PhOrangeSlice', icon: PhOrangeSlice },
+  { symbol: 'PhOven', icon: PhOven },
+  { symbol: 'PhPackage', icon: PhPackage },
+  { symbol: 'PhPaintBrush', icon: PhPaintBrush },
+  { symbol: 'PhPaintBrushBroad', icon: PhPaintBrushBroad },
+  { symbol: 'PhPaintBrushHousehold', icon: PhPaintBrushHousehold },
+  { symbol: 'PhPaintBucket', icon: PhPaintBucket },
+  { symbol: 'PhPaintRoller', icon: PhPaintRoller },
+  { symbol: 'PhPalette', icon: PhPalette },
+  { symbol: 'PhPanorama', icon: PhPanorama },
+  { symbol: 'PhPants', icon: PhPants },
+  { symbol: 'PhPaperPlane', icon: PhPaperPlane },
+  { symbol: 'PhPaperPlaneRight', icon: PhPaperPlaneRight },
+  { symbol: 'PhPaperPlaneTilt', icon: PhPaperPlaneTilt },
+  { symbol: 'PhPaperclip', icon: PhPaperclip },
+  { symbol: 'PhPaperclipHorizontal', icon: PhPaperclipHorizontal },
+  { symbol: 'PhParachute', icon: PhParachute },
+  { symbol: 'PhParagraph', icon: PhParagraph },
+  { symbol: 'PhParallelogram', icon: PhParallelogram },
+  { symbol: 'PhPark', icon: PhPark },
+  { symbol: 'PhPassword', icon: PhPassword },
+  { symbol: 'PhPath', icon: PhPath },
+  { symbol: 'PhPatreonLogo', icon: PhPatreonLogo },
+  { symbol: 'PhPause', icon: PhPause },
+  { symbol: 'PhPauseCircle', icon: PhPauseCircle },
+  { symbol: 'PhPawPrint', icon: PhPawPrint },
+  { symbol: 'PhPaypalLogo', icon: PhPaypalLogo },
+  { symbol: 'PhPeace', icon: PhPeace },
+  { symbol: 'PhPen', icon: PhPen },
+  { symbol: 'PhPenNib', icon: PhPenNib },
+  { symbol: 'PhPenNibStraight', icon: PhPenNibStraight },
+  { symbol: 'PhPencil', icon: PhPencil },
+  { symbol: 'PhPencilCircle', icon: PhPencilCircle },
+  { symbol: 'PhPencilLine', icon: PhPencilLine },
+  { symbol: 'PhPencilRuler', icon: PhPencilRuler },
+  { symbol: 'PhPencilSimple', icon: PhPencilSimple },
+  { symbol: 'PhPencilSimpleLine', icon: PhPencilSimpleLine },
+  { symbol: 'PhPencilSimpleSlash', icon: PhPencilSimpleSlash },
+  { symbol: 'PhPencilSlash', icon: PhPencilSlash },
+  { symbol: 'PhPentagon', icon: PhPentagon },
+  { symbol: 'PhPentagram', icon: PhPentagram },
+  { symbol: 'PhPepper', icon: PhPepper },
+  { symbol: 'PhPercent', icon: PhPercent },
+  { symbol: 'PhPerson', icon: PhPerson },
+  { symbol: 'PhPersonArmsSpread', icon: PhPersonArmsSpread },
+  { symbol: 'PhPersonSimple', icon: PhPersonSimple },
+  { symbol: 'PhPersonSimpleBike', icon: PhPersonSimpleBike },
+  { symbol: 'PhPersonSimpleCircle', icon: PhPersonSimpleCircle },
+  { symbol: 'PhPersonSimpleHike', icon: PhPersonSimpleHike },
+  { symbol: 'PhPersonSimpleRun', icon: PhPersonSimpleRun },
+  { symbol: 'PhPersonSimpleSki', icon: PhPersonSimpleSki },
+  { symbol: 'PhPersonSimpleSnowboard', icon: PhPersonSimpleSnowboard },
+  { symbol: 'PhPersonSimpleSwim', icon: PhPersonSimpleSwim },
+  { symbol: 'PhPersonSimpleTaiChi', icon: PhPersonSimpleTaiChi },
+  { symbol: 'PhPersonSimpleThrow', icon: PhPersonSimpleThrow },
+  { symbol: 'PhPersonSimpleWalk', icon: PhPersonSimpleWalk },
+  { symbol: 'PhPerspective', icon: PhPerspective },
+  { symbol: 'PhPhone', icon: PhPhone },
+  { symbol: 'PhPhoneCall', icon: PhPhoneCall },
+  { symbol: 'PhPhoneDisconnect', icon: PhPhoneDisconnect },
+  { symbol: 'PhPhoneIncoming', icon: PhPhoneIncoming },
+  { symbol: 'PhPhoneList', icon: PhPhoneList },
+  { symbol: 'PhPhoneOutgoing', icon: PhPhoneOutgoing },
+  { symbol: 'PhPhonePause', icon: PhPhonePause },
+  { symbol: 'PhPhonePlus', icon: PhPhonePlus },
+  { symbol: 'PhPhoneSlash', icon: PhPhoneSlash },
+  { symbol: 'PhPhoneTransfer', icon: PhPhoneTransfer },
+  { symbol: 'PhPhoneX', icon: PhPhoneX },
+  { symbol: 'PhPhosphorLogo', icon: PhPhosphorLogo },
+  { symbol: 'PhPi', icon: PhPi },
+  { symbol: 'PhPianoKeys', icon: PhPianoKeys },
+  { symbol: 'PhPicnicTable', icon: PhPicnicTable },
+  { symbol: 'PhPictureInPicture', icon: PhPictureInPicture },
+  { symbol: 'PhPiggyBank', icon: PhPiggyBank },
+  { symbol: 'PhPill', icon: PhPill },
+  { symbol: 'PhPingPong', icon: PhPingPong },
+  { symbol: 'PhPintGlass', icon: PhPintGlass },
+  { symbol: 'PhPinterestLogo', icon: PhPinterestLogo },
+  { symbol: 'PhPinwheel', icon: PhPinwheel },
+  { symbol: 'PhPipe', icon: PhPipe },
+  { symbol: 'PhPipeWrench', icon: PhPipeWrench },
+  { symbol: 'PhPixLogo', icon: PhPixLogo },
+  { symbol: 'PhPizza', icon: PhPizza },
+  { symbol: 'PhPlaceholder', icon: PhPlaceholder },
+  { symbol: 'PhPlanet', icon: PhPlanet },
+  { symbol: 'PhPlant', icon: PhPlant },
+  { symbol: 'PhPlay', icon: PhPlay },
+  { symbol: 'PhPlayCircle', icon: PhPlayCircle },
+  { symbol: 'PhPlayPause', icon: PhPlayPause },
+  { symbol: 'PhPlaylist', icon: PhPlaylist },
+  { symbol: 'PhPlug', icon: PhPlug },
+  { symbol: 'PhPlugCharging', icon: PhPlugCharging },
+  { symbol: 'PhPlugs', icon: PhPlugs },
+  { symbol: 'PhPlugsConnected', icon: PhPlugsConnected },
+  { symbol: 'PhPlus', icon: PhPlus },
+  { symbol: 'PhPlusCircle', icon: PhPlusCircle },
+  { symbol: 'PhPlusMinus', icon: PhPlusMinus },
+  { symbol: 'PhPlusSquare', icon: PhPlusSquare },
+  { symbol: 'PhPokerChip', icon: PhPokerChip },
+  { symbol: 'PhPoliceCar', icon: PhPoliceCar },
+  { symbol: 'PhPolygon', icon: PhPolygon },
+  { symbol: 'PhPopcorn', icon: PhPopcorn },
+  { symbol: 'PhPopsicle', icon: PhPopsicle },
+  { symbol: 'PhPottedPlant', icon: PhPottedPlant },
+  { symbol: 'PhPower', icon: PhPower },
+  { symbol: 'PhPrescription', icon: PhPrescription },
+  { symbol: 'PhPresentation', icon: PhPresentation },
+  { symbol: 'PhPresentationChart', icon: PhPresentationChart },
+  { symbol: 'PhPrinter', icon: PhPrinter },
+  { symbol: 'PhProhibit', icon: PhProhibit },
+  { symbol: 'PhProhibitInset', icon: PhProhibitInset },
+  { symbol: 'PhProjectorScreen', icon: PhProjectorScreen },
+  { symbol: 'PhProjectorScreenChart', icon: PhProjectorScreenChart },
+  { symbol: 'PhPulse', icon: PhPulse },
+  { symbol: 'PhPushPin', icon: PhPushPin },
+  { symbol: 'PhPushPinSimple', icon: PhPushPinSimple },
+  { symbol: 'PhPushPinSimpleSlash', icon: PhPushPinSimpleSlash },
+  { symbol: 'PhPushPinSlash', icon: PhPushPinSlash },
+  { symbol: 'PhPuzzlePiece', icon: PhPuzzlePiece },
+  { symbol: 'PhQrCode', icon: PhQrCode },
+  { symbol: 'PhQuestion', icon: PhQuestion },
+  { symbol: 'PhQuestionMark', icon: PhQuestionMark },
+  { symbol: 'PhQueue', icon: PhQueue },
+  { symbol: 'PhQuotes', icon: PhQuotes },
+  { symbol: 'PhRabbit', icon: PhRabbit },
+  { symbol: 'PhRacquet', icon: PhRacquet },
+  { symbol: 'PhRadical', icon: PhRadical },
+  { symbol: 'PhRadio', icon: PhRadio },
+  { symbol: 'PhRadioButton', icon: PhRadioButton },
+  { symbol: 'PhRadioactive', icon: PhRadioactive },
+  { symbol: 'PhRainbow', icon: PhRainbow },
+  { symbol: 'PhRainbowCloud', icon: PhRainbowCloud },
+  { symbol: 'PhRanking', icon: PhRanking },
+  { symbol: 'PhReadCvLogo', icon: PhReadCvLogo },
+  { symbol: 'PhReceipt', icon: PhReceipt },
+  { symbol: 'PhReceiptX', icon: PhReceiptX },
+  { symbol: 'PhRecord', icon: PhRecord },
+  { symbol: 'PhRectangle', icon: PhRectangle },
+  { symbol: 'PhRectangleDashed', icon: PhRectangleDashed },
+  { symbol: 'PhRecycle', icon: PhRecycle },
+  { symbol: 'PhRedditLogo', icon: PhRedditLogo },
+  { symbol: 'PhRepeat', icon: PhRepeat },
+  { symbol: 'PhRepeatOnce', icon: PhRepeatOnce },
+  { symbol: 'PhReplitLogo', icon: PhReplitLogo },
+  { symbol: 'PhResize', icon: PhResize },
+  { symbol: 'PhRewind', icon: PhRewind },
+  { symbol: 'PhRewindCircle', icon: PhRewindCircle },
+  { symbol: 'PhRoadHorizon', icon: PhRoadHorizon },
+  { symbol: 'PhRobot', icon: PhRobot },
+  { symbol: 'PhRocket', icon: PhRocket },
+  { symbol: 'PhRocketLaunch', icon: PhRocketLaunch },
+  { symbol: 'PhRows', icon: PhRows },
+  { symbol: 'PhRowsPlusBottom', icon: PhRowsPlusBottom },
+  { symbol: 'PhRowsPlusTop', icon: PhRowsPlusTop },
+  { symbol: 'PhRss', icon: PhRss },
+  { symbol: 'PhRssSimple', icon: PhRssSimple },
+  { symbol: 'PhRug', icon: PhRug },
+  { symbol: 'PhRuler', icon: PhRuler },
+  { symbol: 'PhSailboat', icon: PhSailboat },
+  { symbol: 'PhScales', icon: PhScales },
+  { symbol: 'PhScan', icon: PhScan },
+  { symbol: 'PhScanSmiley', icon: PhScanSmiley },
+  { symbol: 'PhScissors', icon: PhScissors },
+  { symbol: 'PhScooter', icon: PhScooter },
+  { symbol: 'PhScreencast', icon: PhScreencast },
+  { symbol: 'PhScrewdriver', icon: PhScrewdriver },
+  { symbol: 'PhScribble', icon: PhScribble },
+  { symbol: 'PhScribbleLoop', icon: PhScribbleLoop },
+  { symbol: 'PhScroll', icon: PhScroll },
+  { symbol: 'PhSeal', icon: PhSeal },
+  { symbol: 'PhSealCheck', icon: PhSealCheck },
+  { symbol: 'PhSealPercent', icon: PhSealPercent },
+  { symbol: 'PhSealQuestion', icon: PhSealQuestion },
+  { symbol: 'PhSealWarning', icon: PhSealWarning },
+  { symbol: 'PhSeat', icon: PhSeat },
+  { symbol: 'PhSeatbelt', icon: PhSeatbelt },
+  { symbol: 'PhSecurityCamera', icon: PhSecurityCamera },
+  { symbol: 'PhSelection', icon: PhSelection },
+  { symbol: 'PhSelectionAll', icon: PhSelectionAll },
+  { symbol: 'PhSelectionBackground', icon: PhSelectionBackground },
+  { symbol: 'PhSelectionForeground', icon: PhSelectionForeground },
+  { symbol: 'PhSelectionInverse', icon: PhSelectionInverse },
+  { symbol: 'PhSelectionPlus', icon: PhSelectionPlus },
+  { symbol: 'PhSelectionSlash', icon: PhSelectionSlash },
+  { symbol: 'PhShapes', icon: PhShapes },
+  { symbol: 'PhShare', icon: PhShare },
+  { symbol: 'PhShareFat', icon: PhShareFat },
+  { symbol: 'PhShareNetwork', icon: PhShareNetwork },
+  { symbol: 'PhShield', icon: PhShield },
+  { symbol: 'PhShieldCheck', icon: PhShieldCheck },
+  { symbol: 'PhShieldCheckered', icon: PhShieldCheckered },
+  { symbol: 'PhShieldChevron', icon: PhShieldChevron },
+  { symbol: 'PhShieldPlus', icon: PhShieldPlus },
+  { symbol: 'PhShieldSlash', icon: PhShieldSlash },
+  { symbol: 'PhShieldStar', icon: PhShieldStar },
+  { symbol: 'PhShieldWarning', icon: PhShieldWarning },
+  { symbol: 'PhShippingContainer', icon: PhShippingContainer },
+  { symbol: 'PhShirtFolded', icon: PhShirtFolded },
+  { symbol: 'PhShootingStar', icon: PhShootingStar },
+  { symbol: 'PhShoppingBag', icon: PhShoppingBag },
+  { symbol: 'PhShoppingBagOpen', icon: PhShoppingBagOpen },
+  { symbol: 'PhShoppingCart', icon: PhShoppingCart },
+  { symbol: 'PhShoppingCartSimple', icon: PhShoppingCartSimple },
+  { symbol: 'PhShovel', icon: PhShovel },
+  { symbol: 'PhShower', icon: PhShower },
+  { symbol: 'PhShrimp', icon: PhShrimp },
+  { symbol: 'PhShuffle', icon: PhShuffle },
+  { symbol: 'PhShuffleAngular', icon: PhShuffleAngular },
+  { symbol: 'PhShuffleSimple', icon: PhShuffleSimple },
+  { symbol: 'PhSidebar', icon: PhSidebar },
+  { symbol: 'PhSidebarSimple', icon: PhSidebarSimple },
+  { symbol: 'PhSigma', icon: PhSigma },
+  { symbol: 'PhSignIn', icon: PhSignIn },
+  { symbol: 'PhSignOut', icon: PhSignOut },
+  { symbol: 'PhSignature', icon: PhSignature },
+  { symbol: 'PhSignpost', icon: PhSignpost },
+  { symbol: 'PhSimCard', icon: PhSimCard },
+  { symbol: 'PhSiren', icon: PhSiren },
+  { symbol: 'PhSketchLogo', icon: PhSketchLogo },
+  { symbol: 'PhSkipBack', icon: PhSkipBack },
+  { symbol: 'PhSkipBackCircle', icon: PhSkipBackCircle },
+  { symbol: 'PhSkipForward', icon: PhSkipForward },
+  { symbol: 'PhSkipForwardCircle', icon: PhSkipForwardCircle },
+  { symbol: 'PhSkull', icon: PhSkull },
+  { symbol: 'PhSkypeLogo', icon: PhSkypeLogo },
+  { symbol: 'PhSlackLogo', icon: PhSlackLogo },
+  { symbol: 'PhSliders', icon: PhSliders },
+  { symbol: 'PhSlidersHorizontal', icon: PhSlidersHorizontal },
+  { symbol: 'PhSlideshow', icon: PhSlideshow },
+  { symbol: 'PhSmiley', icon: PhSmiley },
+  { symbol: 'PhSmileyAngry', icon: PhSmileyAngry },
+  { symbol: 'PhSmileyBlank', icon: PhSmileyBlank },
+  { symbol: 'PhSmileyMeh', icon: PhSmileyMeh },
+  { symbol: 'PhSmileyMelting', icon: PhSmileyMelting },
+  { symbol: 'PhSmileyNervous', icon: PhSmileyNervous },
+  { symbol: 'PhSmileySad', icon: PhSmileySad },
+  { symbol: 'PhSmileySticker', icon: PhSmileySticker },
+  { symbol: 'PhSmileyWink', icon: PhSmileyWink },
+  { symbol: 'PhSmileyXEyes', icon: PhSmileyXEyes },
+  { symbol: 'PhSnapchatLogo', icon: PhSnapchatLogo },
+  { symbol: 'PhSneaker', icon: PhSneaker },
+  { symbol: 'PhSneakerMove', icon: PhSneakerMove },
+  { symbol: 'PhSnowflake', icon: PhSnowflake },
+  { symbol: 'PhSoccerBall', icon: PhSoccerBall },
+  { symbol: 'PhSock', icon: PhSock },
+  { symbol: 'PhSolarPanel', icon: PhSolarPanel },
+  { symbol: 'PhSolarRoof', icon: PhSolarRoof },
+  { symbol: 'PhSortAscending', icon: PhSortAscending },
+  { symbol: 'PhSortDescending', icon: PhSortDescending },
+  { symbol: 'PhSoundcloudLogo', icon: PhSoundcloudLogo },
+  { symbol: 'PhSpade', icon: PhSpade },
+  { symbol: 'PhSparkle', icon: PhSparkle },
+  { symbol: 'PhSpeakerHifi', icon: PhSpeakerHifi },
+  { symbol: 'PhSpeakerHigh', icon: PhSpeakerHigh },
+  { symbol: 'PhSpeakerLow', icon: PhSpeakerLow },
+  { symbol: 'PhSpeakerNone', icon: PhSpeakerNone },
+  { symbol: 'PhSpeakerSimpleHigh', icon: PhSpeakerSimpleHigh },
+  { symbol: 'PhSpeakerSimpleLow', icon: PhSpeakerSimpleLow },
+  { symbol: 'PhSpeakerSimpleNone', icon: PhSpeakerSimpleNone },
+  { symbol: 'PhSpeakerSimpleSlash', icon: PhSpeakerSimpleSlash },
+  { symbol: 'PhSpeakerSimpleX', icon: PhSpeakerSimpleX },
+  { symbol: 'PhSpeakerSlash', icon: PhSpeakerSlash },
+  { symbol: 'PhSpeakerX', icon: PhSpeakerX },
+  { symbol: 'PhSpeedometer', icon: PhSpeedometer },
+  { symbol: 'PhSphere', icon: PhSphere },
+  { symbol: 'PhSpinner', icon: PhSpinner },
+  { symbol: 'PhSpinnerBall', icon: PhSpinnerBall },
+  { symbol: 'PhSpinnerGap', icon: PhSpinnerGap },
+  { symbol: 'PhSpiral', icon: PhSpiral },
+  { symbol: 'PhSplitHorizontal', icon: PhSplitHorizontal },
+  { symbol: 'PhSplitVertical', icon: PhSplitVertical },
+  { symbol: 'PhSpotifyLogo', icon: PhSpotifyLogo },
+  { symbol: 'PhSprayBottle', icon: PhSprayBottle },
+  { symbol: 'PhSquare', icon: PhSquare },
+  { symbol: 'PhSquareHalf', icon: PhSquareHalf },
+  { symbol: 'PhSquareHalfBottom', icon: PhSquareHalfBottom },
+  { symbol: 'PhSquareLogo', icon: PhSquareLogo },
+  { symbol: 'PhSquareSplitHorizontal', icon: PhSquareSplitHorizontal },
+  { symbol: 'PhSquareSplitVertical', icon: PhSquareSplitVertical },
+  { symbol: 'PhSquaresFour', icon: PhSquaresFour },
+  { symbol: 'PhStack', icon: PhStack },
+  { symbol: 'PhStackMinus', icon: PhStackMinus },
+  { symbol: 'PhStackOverflowLogo', icon: PhStackOverflowLogo },
+  { symbol: 'PhStackPlus', icon: PhStackPlus },
+  { symbol: 'PhStackSimple', icon: PhStackSimple },
+  { symbol: 'PhStairs', icon: PhStairs },
+  { symbol: 'PhStamp', icon: PhStamp },
+  { symbol: 'PhStandardDefinition', icon: PhStandardDefinition },
+  { symbol: 'PhStar', icon: PhStar },
+  { symbol: 'PhStarAndCrescent', icon: PhStarAndCrescent },
+  { symbol: 'PhStarFour', icon: PhStarFour },
+  { symbol: 'PhStarHalf', icon: PhStarHalf },
+  { symbol: 'PhStarOfDavid', icon: PhStarOfDavid },
+  { symbol: 'PhSteamLogo', icon: PhSteamLogo },
+  { symbol: 'PhSteeringWheel', icon: PhSteeringWheel },
+  { symbol: 'PhSteps', icon: PhSteps },
+  { symbol: 'PhStethoscope', icon: PhStethoscope },
+  { symbol: 'PhSticker', icon: PhSticker },
+  { symbol: 'PhStool', icon: PhStool },
+  { symbol: 'PhStop', icon: PhStop },
+  { symbol: 'PhStopCircle', icon: PhStopCircle },
+  { symbol: 'PhStorefront', icon: PhStorefront },
+  { symbol: 'PhStrategy', icon: PhStrategy },
+  { symbol: 'PhStripeLogo', icon: PhStripeLogo },
+  { symbol: 'PhStudent', icon: PhStudent },
+  { symbol: 'PhSubsetOf', icon: PhSubsetOf },
+  { symbol: 'PhSubsetProperOf', icon: PhSubsetProperOf },
+  { symbol: 'PhSubtitles', icon: PhSubtitles },
+  { symbol: 'PhSubtitlesSlash', icon: PhSubtitlesSlash },
+  { symbol: 'PhSubtract', icon: PhSubtract },
+  { symbol: 'PhSubtractSquare', icon: PhSubtractSquare },
+  { symbol: 'PhSubway', icon: PhSubway },
+  { symbol: 'PhSuitcase', icon: PhSuitcase },
+  { symbol: 'PhSuitcaseRolling', icon: PhSuitcaseRolling },
+  { symbol: 'PhSuitcaseSimple', icon: PhSuitcaseSimple },
+  { symbol: 'PhSun', icon: PhSun },
+  { symbol: 'PhSunDim', icon: PhSunDim },
+  { symbol: 'PhSunHorizon', icon: PhSunHorizon },
+  { symbol: 'PhSunglasses', icon: PhSunglasses },
+  { symbol: 'PhSupersetOf', icon: PhSupersetOf },
+  { symbol: 'PhSupersetProperOf', icon: PhSupersetProperOf },
+  { symbol: 'PhSwap', icon: PhSwap },
+  { symbol: 'PhSwatches', icon: PhSwatches },
+  { symbol: 'PhSwimmingPool', icon: PhSwimmingPool },
+  { symbol: 'PhSword', icon: PhSword },
+  { symbol: 'PhSynagogue', icon: PhSynagogue },
+  { symbol: 'PhSyringe', icon: PhSyringe },
+  { symbol: 'PhTShirt', icon: PhTShirt },
+  { symbol: 'PhTable', icon: PhTable },
+  { symbol: 'PhTabs', icon: PhTabs },
+  { symbol: 'PhTag', icon: PhTag },
+  { symbol: 'PhTagChevron', icon: PhTagChevron },
+  { symbol: 'PhTagSimple', icon: PhTagSimple },
+  { symbol: 'PhTarget', icon: PhTarget },
+  { symbol: 'PhTaxi', icon: PhTaxi },
+  { symbol: 'PhTeaBag', icon: PhTeaBag },
+  { symbol: 'PhTelegramLogo', icon: PhTelegramLogo },
+  { symbol: 'PhTelevision', icon: PhTelevision },
+  { symbol: 'PhTelevisionSimple', icon: PhTelevisionSimple },
+  { symbol: 'PhTennisBall', icon: PhTennisBall },
+  { symbol: 'PhTent', icon: PhTent },
+  { symbol: 'PhTerminal', icon: PhTerminal },
+  { symbol: 'PhTerminalWindow', icon: PhTerminalWindow },
+  { symbol: 'PhTestTube', icon: PhTestTube },
+  { symbol: 'PhTextAUnderline', icon: PhTextAUnderline },
+  { symbol: 'PhTextAa', icon: PhTextAa },
+  { symbol: 'PhTextAlignCenter', icon: PhTextAlignCenter },
+  { symbol: 'PhTextAlignJustify', icon: PhTextAlignJustify },
+  { symbol: 'PhTextAlignLeft', icon: PhTextAlignLeft },
+  { symbol: 'PhTextAlignRight', icon: PhTextAlignRight },
+  { symbol: 'PhTextB', icon: PhTextB },
+  { symbol: 'PhTextColumns', icon: PhTextColumns },
+  { symbol: 'PhTextH', icon: PhTextH },
+  { symbol: 'PhTextHFive', icon: PhTextHFive },
+  { symbol: 'PhTextHFour', icon: PhTextHFour },
+  { symbol: 'PhTextHOne', icon: PhTextHOne },
+  { symbol: 'PhTextHSix', icon: PhTextHSix },
+  { symbol: 'PhTextHThree', icon: PhTextHThree },
+  { symbol: 'PhTextHTwo', icon: PhTextHTwo },
+  { symbol: 'PhTextIndent', icon: PhTextIndent },
+  { symbol: 'PhTextItalic', icon: PhTextItalic },
+  { symbol: 'PhTextOutdent', icon: PhTextOutdent },
+  { symbol: 'PhTextStrikethrough', icon: PhTextStrikethrough },
+  { symbol: 'PhTextSubscript', icon: PhTextSubscript },
+  { symbol: 'PhTextSuperscript', icon: PhTextSuperscript },
+  { symbol: 'PhTextT', icon: PhTextT },
+  { symbol: 'PhTextTSlash', icon: PhTextTSlash },
+  { symbol: 'PhTextUnderline', icon: PhTextUnderline },
+  { symbol: 'PhTextbox', icon: PhTextbox },
+  { symbol: 'PhThermometer', icon: PhThermometer },
+  { symbol: 'PhThermometerCold', icon: PhThermometerCold },
+  { symbol: 'PhThermometerHot', icon: PhThermometerHot },
+  { symbol: 'PhThermometerSimple', icon: PhThermometerSimple },
+  { symbol: 'PhThreadsLogo', icon: PhThreadsLogo },
+  { symbol: 'PhThreeD', icon: PhThreeD },
+  { symbol: 'PhThumbsDown', icon: PhThumbsDown },
+  { symbol: 'PhThumbsUp', icon: PhThumbsUp },
+  { symbol: 'PhTicket', icon: PhTicket },
+  { symbol: 'PhTidalLogo', icon: PhTidalLogo },
+  { symbol: 'PhTiktokLogo', icon: PhTiktokLogo },
+  { symbol: 'PhTilde', icon: PhTilde },
+  { symbol: 'PhTimer', icon: PhTimer },
+  { symbol: 'PhTipJar', icon: PhTipJar },
+  { symbol: 'PhTipi', icon: PhTipi },
+  { symbol: 'PhTire', icon: PhTire },
+  { symbol: 'PhToggleLeft', icon: PhToggleLeft },
+  { symbol: 'PhToggleRight', icon: PhToggleRight },
+  { symbol: 'PhToilet', icon: PhToilet },
+  { symbol: 'PhToiletPaper', icon: PhToiletPaper },
+  { symbol: 'PhToolbox', icon: PhToolbox },
+  { symbol: 'PhTooth', icon: PhTooth },
+  { symbol: 'PhTornado', icon: PhTornado },
+  { symbol: 'PhTote', icon: PhTote },
+  { symbol: 'PhToteSimple', icon: PhToteSimple },
+  { symbol: 'PhTowel', icon: PhTowel },
+  { symbol: 'PhTractor', icon: PhTractor },
+  { symbol: 'PhTrademark', icon: PhTrademark },
+  { symbol: 'PhTrademarkRegistered', icon: PhTrademarkRegistered },
+  { symbol: 'PhTrafficCone', icon: PhTrafficCone },
+  { symbol: 'PhTrafficSign', icon: PhTrafficSign },
+  { symbol: 'PhTrafficSignal', icon: PhTrafficSignal },
+  { symbol: 'PhTrain', icon: PhTrain },
+  { symbol: 'PhTrainRegional', icon: PhTrainRegional },
+  { symbol: 'PhTrainSimple', icon: PhTrainSimple },
+  { symbol: 'PhTram', icon: PhTram },
+  { symbol: 'PhTranslate', icon: PhTranslate },
+  { symbol: 'PhTrash', icon: PhTrash },
+  { symbol: 'PhTrashSimple', icon: PhTrashSimple },
+  { symbol: 'PhTray', icon: PhTray },
+  { symbol: 'PhTrayArrowDown', icon: PhTrayArrowDown },
+  { symbol: 'PhTrayArrowUp', icon: PhTrayArrowUp },
+  { symbol: 'PhTreasureChest', icon: PhTreasureChest },
+  { symbol: 'PhTree', icon: PhTree },
+  { symbol: 'PhTreeEvergreen', icon: PhTreeEvergreen },
+  { symbol: 'PhTreePalm', icon: PhTreePalm },
+  { symbol: 'PhTreeStructure', icon: PhTreeStructure },
+  { symbol: 'PhTreeView', icon: PhTreeView },
+  { symbol: 'PhTrendDown', icon: PhTrendDown },
+  { symbol: 'PhTrendUp', icon: PhTrendUp },
+  { symbol: 'PhTriangle', icon: PhTriangle },
+  { symbol: 'PhTriangleDashed', icon: PhTriangleDashed },
+  { symbol: 'PhTrolley', icon: PhTrolley },
+  { symbol: 'PhTrolleySuitcase', icon: PhTrolleySuitcase },
+  { symbol: 'PhTrophy', icon: PhTrophy },
+  { symbol: 'PhTruck', icon: PhTruck },
+  { symbol: 'PhTruckTrailer', icon: PhTruckTrailer },
+  { symbol: 'PhTumblrLogo', icon: PhTumblrLogo },
+  { symbol: 'PhTwitchLogo', icon: PhTwitchLogo },
+  { symbol: 'PhTwitterLogo', icon: PhTwitterLogo },
+  { symbol: 'PhUmbrella', icon: PhUmbrella },
+  { symbol: 'PhUmbrellaSimple', icon: PhUmbrellaSimple },
+  { symbol: 'PhUnion', icon: PhUnion },
+  { symbol: 'PhUnite', icon: PhUnite },
+  { symbol: 'PhUniteSquare', icon: PhUniteSquare },
+  { symbol: 'PhUpload', icon: PhUpload },
+  { symbol: 'PhUploadSimple', icon: PhUploadSimple },
+  { symbol: 'PhUsb', icon: PhUsb },
+  { symbol: 'PhUser', icon: PhUser },
+  { symbol: 'PhUserCheck', icon: PhUserCheck },
+  { symbol: 'PhUserCircle', icon: PhUserCircle },
+  { symbol: 'PhUserCircleCheck', icon: PhUserCircleCheck },
+  { symbol: 'PhUserCircleDashed', icon: PhUserCircleDashed },
+  { symbol: 'PhUserCircleGear', icon: PhUserCircleGear },
+  { symbol: 'PhUserCircleMinus', icon: PhUserCircleMinus },
+  { symbol: 'PhUserCirclePlus', icon: PhUserCirclePlus },
+  { symbol: 'PhUserFocus', icon: PhUserFocus },
+  { symbol: 'PhUserGear', icon: PhUserGear },
+  { symbol: 'PhUserList', icon: PhUserList },
+  { symbol: 'PhUserMinus', icon: PhUserMinus },
+  { symbol: 'PhUserPlus', icon: PhUserPlus },
+  { symbol: 'PhUserRectangle', icon: PhUserRectangle },
+  { symbol: 'PhUserSound', icon: PhUserSound },
+  { symbol: 'PhUserSquare', icon: PhUserSquare },
+  { symbol: 'PhUserSwitch', icon: PhUserSwitch },
+  { symbol: 'PhUsers', icon: PhUsers },
+  { symbol: 'PhUsersFour', icon: PhUsersFour },
+  { symbol: 'PhUsersThree', icon: PhUsersThree },
+  { symbol: 'PhVan', icon: PhVan },
+  { symbol: 'PhVault', icon: PhVault },
+  { symbol: 'PhVectorThree', icon: PhVectorThree },
+  { symbol: 'PhVectorTwo', icon: PhVectorTwo },
+  { symbol: 'PhVibrate', icon: PhVibrate },
+  { symbol: 'PhVideo', icon: PhVideo },
+  { symbol: 'PhVideoCamera', icon: PhVideoCamera },
+  { symbol: 'PhVideoCameraSlash', icon: PhVideoCameraSlash },
+  { symbol: 'PhVideoConference', icon: PhVideoConference },
+  { symbol: 'PhVignette', icon: PhVignette },
+  { symbol: 'PhVinylRecord', icon: PhVinylRecord },
+  { symbol: 'PhVirtualReality', icon: PhVirtualReality },
+  { symbol: 'PhVirus', icon: PhVirus },
+  { symbol: 'PhVisor', icon: PhVisor },
+  { symbol: 'PhVoicemail', icon: PhVoicemail },
+  { symbol: 'PhVolleyball', icon: PhVolleyball },
+  { symbol: 'PhWall', icon: PhWall },
+  { symbol: 'PhWallet', icon: PhWallet },
+  { symbol: 'PhWarehouse', icon: PhWarehouse },
+  { symbol: 'PhWarning', icon: PhWarning },
+  { symbol: 'PhWarningCircle', icon: PhWarningCircle },
+  { symbol: 'PhWarningDiamond', icon: PhWarningDiamond },
+  { symbol: 'PhWarningOctagon', icon: PhWarningOctagon },
+  { symbol: 'PhWashingMachine', icon: PhWashingMachine },
+  { symbol: 'PhWatch', icon: PhWatch },
+  { symbol: 'PhWaveSawtooth', icon: PhWaveSawtooth },
+  { symbol: 'PhWaveSine', icon: PhWaveSine },
+  { symbol: 'PhWaveSquare', icon: PhWaveSquare },
+  { symbol: 'PhWaveTriangle', icon: PhWaveTriangle },
+  { symbol: 'PhWaveform', icon: PhWaveform },
+  { symbol: 'PhWaveformSlash', icon: PhWaveformSlash },
+  { symbol: 'PhWaves', icon: PhWaves },
+  { symbol: 'PhWebcam', icon: PhWebcam },
+  { symbol: 'PhWebcamSlash', icon: PhWebcamSlash },
+  { symbol: 'PhWebhooksLogo', icon: PhWebhooksLogo },
+  { symbol: 'PhWechatLogo', icon: PhWechatLogo },
+  { symbol: 'PhWhatsappLogo', icon: PhWhatsappLogo },
+  { symbol: 'PhWheelchair', icon: PhWheelchair },
+  { symbol: 'PhWheelchairMotion', icon: PhWheelchairMotion },
+  { symbol: 'PhWifiHigh', icon: PhWifiHigh },
+  { symbol: 'PhWifiLow', icon: PhWifiLow },
+  { symbol: 'PhWifiMedium', icon: PhWifiMedium },
+  { symbol: 'PhWifiNone', icon: PhWifiNone },
+  { symbol: 'PhWifiSlash', icon: PhWifiSlash },
+  { symbol: 'PhWifiX', icon: PhWifiX },
+  { symbol: 'PhWind', icon: PhWind },
+  { symbol: 'PhWindmill', icon: PhWindmill },
+  { symbol: 'PhWindowsLogo', icon: PhWindowsLogo },
+  { symbol: 'PhWine', icon: PhWine },
+  { symbol: 'PhWrench', icon: PhWrench },
+  { symbol: 'PhX', icon: PhX },
+  { symbol: 'PhXCircle', icon: PhXCircle },
+  { symbol: 'PhXLogo', icon: PhXLogo },
+  { symbol: 'PhXSquare', icon: PhXSquare },
+  { symbol: 'PhYarn', icon: PhYarn },
+  { symbol: 'PhYinYang', icon: PhYinYang },
+  { symbol: 'PhYoutubeLogo', icon: PhYoutubeLogo },
+]

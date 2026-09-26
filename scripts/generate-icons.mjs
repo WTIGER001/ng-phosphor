@@ -9,6 +9,7 @@ const weights = ['thin', 'light', 'regular', 'bold', 'fill', 'duotone']
 const check = process.argv.includes('--check')
 const names = (await readdir(resolve(core, 'assets/regular'))).filter(name => name.endsWith('.svg')).map(name => name.slice(0, -4)).sort()
 const exports = []
+const catalog = []
 const seen = new Set()
 
 async function output(file, content) {
@@ -42,8 +43,11 @@ for (const name of names) {
   const data = JSON.stringify({ name, weights: artwork }, null, 2)
   await output(resolve(generated, `${name}.ts`), `import type { PhosphorIcon } from '../icon.types'\n\nexport const ${symbol}: PhosphorIcon = ${data}\n`)
   exports.push(`export { ${symbol} } from './lib/icons/${name}'`)
+  catalog.push({ symbol, name })
 }
 
 const api = ["export { PhosphorIconComponent } from './lib/phosphor-icon.component'", "export type { PhosphorIcon, PhosphorPath, PhosphorWeight } from './lib/icon.types'", ...exports].join('\n') + '\n'
 await output(resolve(root, 'projects/ng-phosphor/src/public-api.ts'), api)
+const demoCatalog = `${catalog.map(item => `import { ${item.symbol} } from '../../ng-phosphor/src/lib/icons/${item.name}'`).join('\n')}\nimport type { GalleryIcon } from './gallery-icon'\n\nexport const iconCatalog: readonly GalleryIcon[] = [\n${catalog.map(item => `  { symbol: '${item.symbol}', icon: ${item.symbol} },`).join('\n')}\n]\n`
+await output(resolve(root, 'projects/demo/src/icon-catalog.ts'), demoCatalog)
 console.log(`${check ? 'Verified' : 'Generated'} ${names.length} icons in ${weights.length} weights`)
