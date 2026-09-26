@@ -15,7 +15,4 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npm run check:icons
-      - run: npm test
-      - run: npm run build
-      - run: npm run build:demo
+      - run: npm run release:check

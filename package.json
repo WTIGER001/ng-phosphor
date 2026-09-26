@@ -9,7 +9,9 @@
     "build:demo": "ng build demo",
     "start": "ng serve demo",
     "test": "ng test demo --watch=false",
-    "pack:lib": "npm run build && npm pack ./dist/ng-phosphor"
+    "pack:lib": "npm run release:check && npm pack ./dist/ng-phosphor",
+    "release:check": "npm run check:icons && npm test && npm run build && npm run build:demo && node scripts/check-package.mjs",
+    "publish:lib": "npm run release:check && npm publish ./dist/ng-phosphor --access public --registry=https://registry.npmjs.org/"
   },
   "dependencies": {
     "@angular/common": "22.2.0",

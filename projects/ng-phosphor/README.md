@@ -11,8 +11,8 @@ The icon artwork belongs to the Phosphor contributors and retains its original M
 
 ## Status
 
-Initial release preparation. The GitHub repository is public; the npm package is not published yet.
-The intended package name is `@wtiger001/ng-phosphor`. The command below applies after the first npm release.
+Version `0.1.0` is prepared for its first public npm release. The package is not published yet.
+The package name is `@wtiger001/ng-phosphor`. The installation command below applies after publication.
 
 ```sh
 npm install @wtiger001/ng-phosphor
@@ -160,14 +160,51 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow.
 
 ## Release
 
-Build and test before publishing. Publish the compiled package, not the workspace root.
-Once you have npm access to the `@wtiger001` scope:
+The workspace root is private. Only the compiled Angular package in `dist/ng-phosphor` is publishable.
+
+Check the complete release before publishing:
 
 ```sh
-npm publish ./dist/ng-phosphor --access public
+npm run release:check
 ```
 
-Publishing is manual. CI does not hold npm credentials or publish packages automatically.
+This verifies generated artwork, runs component and gallery tests, builds the library and demo,
+and checks the public package contents, exports, Angular partial compilation, and license attribution.
+
+Create a tarball for local consumer testing:
+
+```sh
+npm run pack:lib
+```
+
+For the first npm release, sign in with the account that owns the `@wtiger001` scope:
+
+```sh
+npm login --registry=https://registry.npmjs.org/
+npm whoami --registry=https://registry.npmjs.org/
+npm run publish:lib
+```
+
+The publish script repeats the checks and publishes version `0.1.0` publicly to npmjs.org.
+Complete npm's authentication or two-factor prompt if required.
+For an explicit one-time password, use the direct command after the checks:
+
+```sh
+npm publish ./dist/ng-phosphor --access public --registry=https://registry.npmjs.org/ --otp=YOUR_CODE
+```
+
+After publication, verify the registry version and tag the corresponding Git commit:
+
+```sh
+npm view @wtiger001/ng-phosphor@0.1.0 version --registry=https://registry.npmjs.org/
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+For later releases, update `projects/ng-phosphor/package.json` and repeat the release checks.
+Published name/version combinations cannot be reused.
+Publishing is manual. CI checks the release but does not hold npm credentials or publish automatically.
+See [npm's scoped public package guide](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages/).
 
 ## Thanks to Phosphor
 
