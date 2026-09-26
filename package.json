@@ -1,0 +1,36 @@
+{
+  "name": "ng-phosphor-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "generate:icons": "node scripts/generate-icons.mjs",
+    "check:icons": "node scripts/generate-icons.mjs --check",
+    "build": "ng build ng-phosphor",
+    "build:demo": "ng build demo",
+    "start": "ng serve demo",
+    "test": "ng test demo --watch=false",
+    "pack:lib": "npm run build && npm pack ./dist/ng-phosphor"
+  },
+  "dependencies": {
+    "@angular/common": "22.2.0",
+    "@angular/compiler": "22.2.0",
+    "@angular/core": "22.2.0",
+    "@angular/platform-browser": "22.2.0",
+    "rxjs": "~7.8.2",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@angular/build": "22.2.0",
+    "@angular/cli": "22.2.0",
+    "@angular/compiler-cli": "22.2.0",
+    "ng-packagr": "22.2.1",
+    "typescript": "~6.0.3",
+    "@phosphor-icons/core": "2.1.1",
+    "vitest": "^4.0.8",
+    "jsdom": "^27.0.0",
+    "@types/node": "^24.0.0"
+  },
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
+  }
+}
